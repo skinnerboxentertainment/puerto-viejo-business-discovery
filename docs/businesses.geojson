@@ -11,6 +11,7 @@
         ]
       },
       "properties": {
+        "id": "amimodo-beach-rooms",
         "business_name": "Amimodo Beach Rooms",
         "category": "hotel",
         "area": "Puerto Viejo",
@@ -36,6 +37,7 @@
         ]
       },
       "properties": {
+        "id": "black-bamboo",
         "business_name": "Black Bamboo",
         "category": "hotel",
         "area": "Puerto Viejo",
@@ -61,6 +63,7 @@
         ]
       },
       "properties": {
+        "id": "bungalows-calalú",
         "business_name": "Bungalows Calalú",
         "category": "hotel",
         "area": "Puerto Viejo",
@@ -86,6 +89,7 @@
         ]
       },
       "properties": {
+        "id": "cabinas-los-almendros",
         "business_name": "Cabinas Los Almendros",
         "category": "hotel",
         "area": "Puerto Viejo",
@@ -111,6 +115,7 @@
         ]
       },
       "properties": {
+        "id": "cabinas-guarana",
         "business_name": "Cabinas Guarana",
         "category": "hotel",
         "area": "Puerto Viejo",
@@ -136,6 +141,7 @@
         ]
       },
       "properties": {
+        "id": "cabinas-jacaranda",
         "business_name": "Cabinas Jacaranda",
         "category": "hotel",
         "area": "Puerto Viejo",
@@ -161,6 +167,7 @@
         ]
       },
       "properties": {
+        "id": "cabinas-lika",
         "business_name": "Cabinas Lika",
         "category": "hotel",
         "area": "Puerto Viejo",
@@ -186,6 +193,7 @@
         ]
       },
       "properties": {
+        "id": "cabinas-mitchaelles",
         "business_name": "Cabinas Mitchaelles",
         "category": "hotel",
         "area": "Puerto Viejo",
@@ -211,6 +219,7 @@
         ]
       },
       "properties": {
+        "id": "cabinas-monte-sol",
         "business_name": "Cabinas Monte Sol",
         "category": "hotel",
         "area": "Puerto Viejo",
@@ -236,6 +245,7 @@
         ]
       },
       "properties": {
+        "id": "cabinas-mor",
         "business_name": "Cabinas Mor",
         "category": "hotel",
         "area": "Puerto Viejo",
@@ -261,6 +271,7 @@
         ]
       },
       "properties": {
+        "id": "cabinas-popular",
         "business_name": "Cabinas Popular",
         "category": "hotel",
         "area": "Puerto Viejo",
@@ -286,6 +297,7 @@
         ]
       },
       "properties": {
+        "id": "cabinas-talamanca",
         "business_name": "Cabinas Talamanca",
         "category": "hotel",
         "area": "Puerto Viejo",
@@ -311,6 +323,7 @@
         ]
       },
       "properties": {
+        "id": "casa-ana-kimba",
         "business_name": "Casa Ana Kimba",
         "category": "hotel",
         "area": "Puerto Viejo",
@@ -336,6 +349,7 @@
         ]
       },
       "properties": {
+        "id": "casa-bohö",
         "business_name": "Casa Bohö",
         "category": "hotel",
         "area": "Puerto Viejo",
@@ -361,6 +375,7 @@
         ]
       },
       "properties": {
+        "id": "la-casa-de-rolando",
         "business_name": "La Casa de Rolando",
         "category": "hotel",
         "area": "Puerto Viejo",
@@ -386,6 +401,7 @@
         ]
       },
       "properties": {
+        "id": "casa-dolce-vita",
         "business_name": "Casa Dolce Vita",
         "category": "hotel",
         "area": "Puerto Viejo",
@@ -411,6 +427,7 @@
         ]
       },
       "properties": {
+        "id": "casitas-la-playa",
         "business_name": "Casitas La Playa",
         "category": "hotel",
         "area": "Puerto Viejo",
@@ -436,6 +453,7 @@
         ]
       },
       "properties": {
+        "id": "chinuk-boutique-hotel",
         "business_name": "Chinuk Boutique Hotel",
         "category": "hotel",
         "area": "Puerto Viejo",
@@ -461,6 +479,7 @@
         ]
       },
       "properties": {
+        "id": "conga-boutique-hotel",
         "business_name": "Conga Boutique Hotel",
         "category": "hotel",
         "area": "Puerto Viejo",
@@ -486,6 +505,7 @@
         ]
       },
       "properties": {
+        "id": "escape-caribeño",
         "business_name": "Escape Caribeño",
         "category": "hotel",
         "area": "Puerto Viejo",
@@ -511,6 +531,7 @@
         ]
       },
       "properties": {
+        "id": "exotic-lodge",
         "business_name": "Exotic Lodge",
         "category": "hotel",
         "area": "Puerto Viejo",
@@ -536,6 +557,7 @@
         ]
       },
       "properties": {
+        "id": "family-hotel",
         "business_name": "Family Hotel",
         "category": "hotel",
         "area": "Puerto Viejo",
@@ -561,6 +583,7 @@
         ]
       },
       "properties": {
+        "id": "hostal-cecilia",
         "business_name": "Hostal Cecilia",
         "category": "hotel",
         "area": "Puerto Viejo",
@@ -586,6 +609,7 @@
         ]
       },
       "properties": {
+        "id": "hotel-casa-vito",
         "business_name": "Hotel Casa Vito",
         "category": "hotel",
         "area": "Puerto Viejo",
@@ -611,6 +635,7 @@
         ]
       },
       "properties": {
+        "id": "hotel-infiniti",
         "business_name": "Hotel Infiniti",
         "category": "hotel",
         "area": "Puerto Viejo",
@@ -636,6 +661,7 @@
         ]
       },
       "properties": {
+        "id": "hotel-mandacarú",
         "business_name": "Hotel Mandacarú",
         "category": "hotel",
         "area": "Puerto Viejo",
@@ -661,6 +687,7 @@
         ]
       },
       "properties": {
+        "id": "hotel-pura-vida",
         "business_name": "Hotel Pura Vida",
         "category": "hotel",
         "area": "Puerto Viejo",
@@ -686,6 +713,7 @@
         ]
       },
       "properties": {
+        "id": "hotel-tropical",
         "business_name": "Hotel Tropical",
         "category": "hotel",
         "area": "Puerto Viejo",
@@ -711,6 +739,7 @@
         ]
       },
       "properties": {
+        "id": "indalo-hotel-boutique",
         "business_name": "Indalo Hotel Boutique",
         "category": "hotel",
         "area": "Puerto Viejo",
@@ -736,6 +765,7 @@
         ]
       },
       "properties": {
+        "id": "lizard-king-hotel",
         "business_name": "Lizard King Hotel",
         "category": "hotel",
         "area": "Puerto Viejo",
@@ -761,6 +791,7 @@
         ]
       },
       "properties": {
+        "id": "maritza-hotel",
         "business_name": "Maritza Hotel",
         "category": "hotel",
         "area": "Puerto Viejo",
@@ -786,6 +817,7 @@
         ]
       },
       "properties": {
+        "id": "namu-garden-hotel-and-spa",
         "business_name": "Namu Garden Hotel and Spa",
         "category": "hotel",
         "area": "Puerto Viejo",
@@ -811,6 +843,7 @@
         ]
       },
       "properties": {
+        "id": "olinca-boutique-hotel",
         "business_name": "Olinca Boutique Hotel",
         "category": "hotel",
         "area": "Puerto Viejo",
@@ -836,6 +869,7 @@
         ]
       },
       "properties": {
+        "id": "sueño-grande-bed-and-breakfast",
         "business_name": "Sueño Grande Bed and Breakfast",
         "category": "hotel",
         "area": "Puerto Viejo",
@@ -861,6 +895,7 @@
         ]
       },
       "properties": {
+        "id": "la-tica-y-la-gata",
         "business_name": "La Tica y La Gata",
         "category": "hotel",
         "area": "Puerto Viejo",
@@ -886,6 +921,7 @@
         ]
       },
       "properties": {
+        "id": "umami-hotel-garden-spa",
         "business_name": "Umami Hotel Garden Spa",
         "category": "hotel",
         "area": "Puerto Viejo",
@@ -911,6 +947,7 @@
         ]
       },
       "properties": {
+        "id": "yucca-beachfront-hotel",
         "business_name": "Yucca Beachfront Hotel",
         "category": "hotel",
         "area": "Puerto Viejo",
@@ -936,6 +973,7 @@
         ]
       },
       "properties": {
+        "id": "banana-azul-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Banana Azul - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "hotel",
         "area": "Playa Negra",
@@ -961,6 +999,7 @@
         ]
       },
       "properties": {
+        "id": "cabinas-kuákua-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Cabinas Kuákua - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "hotel",
         "area": "Playa Negra",
@@ -986,6 +1025,7 @@
         ]
       },
       "properties": {
+        "id": "casa-luce-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Casa Luce - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "hotel",
         "area": "Playa Negra",
@@ -1011,6 +1051,7 @@
         ]
       },
       "properties": {
+        "id": "casitas-las-flores-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Casitas Las Flores - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "hotel",
         "area": "Playa Negra",
@@ -1036,6 +1077,7 @@
         ]
       },
       "properties": {
+        "id": "hidden-jungle-beach-house-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Hidden Jungle Beach House - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "hotel",
         "area": "Playa Negra",
@@ -1061,6 +1103,7 @@
         ]
       },
       "properties": {
+        "id": "hotel-one-love-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Hotel One Love - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "hotel",
         "area": "Playa Negra",
@@ -1086,6 +1129,7 @@
         ]
       },
       "properties": {
+        "id": "iguana-lodge-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Iguana Lodge - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "hotel",
         "area": "Playa Negra",
@@ -1111,6 +1155,7 @@
         ]
       },
       "properties": {
+        "id": "kayas-place-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Kaya's Place - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "hotel",
         "area": "Playa Negra",
@@ -1136,6 +1181,7 @@
         ]
       },
       "properties": {
+        "id": "mecca-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Mecca - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "hotel",
         "area": "Playa Negra",
@@ -1161,6 +1207,7 @@
         ]
       },
       "properties": {
+        "id": "olivia-del-caribe-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Olivia del Caribe - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "hotel",
         "area": "Playa Negra",
@@ -1186,6 +1233,7 @@
         ]
       },
       "properties": {
+        "id": "perla-negra-beachfront-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Perla Negra Beachfront - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "hotel",
         "area": "Playa Negra",
@@ -1211,6 +1259,7 @@
         ]
       },
       "properties": {
+        "id": "la-prometida-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "La Prometida - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "hotel",
         "area": "Playa Negra",
@@ -1236,6 +1285,7 @@
         ]
       },
       "properties": {
+        "id": "saranda-hotel-boutique-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Saranda Hotel Boutique - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "hotel",
         "area": "Playa Negra",
@@ -1261,6 +1311,7 @@
         ]
       },
       "properties": {
+        "id": "sonora-jungle-retreat-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Sonora Jungle Retreat - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "hotel",
         "area": "Playa Negra",
@@ -1286,6 +1337,7 @@
         ]
       },
       "properties": {
+        "id": "sunshine-caribe-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Sunshine Caribe - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "hotel",
         "area": "Playa Negra",
@@ -1311,6 +1363,7 @@
         ]
       },
       "properties": {
+        "id": "villas-allen-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Villas Allen - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "hotel",
         "area": "Playa Negra",
@@ -1336,6 +1389,7 @@
         ]
       },
       "properties": {
+        "id": "azania-bungalows-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Azania Bungalows - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "hotel",
         "area": "Cocles",
@@ -1361,6 +1415,7 @@
         ]
       },
       "properties": {
+        "id": "bambutel-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Bambutel - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "hotel",
         "area": "Cocles",
@@ -1386,6 +1441,7 @@
         ]
       },
       "properties": {
+        "id": "cabañas-cocles-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Cabañas Cocles - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "hotel",
         "area": "Cocles",
@@ -1411,6 +1467,7 @@
         ]
       },
       "properties": {
+        "id": "cabinas-ole-caribe-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Cabinas Ole Caribe - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "hotel",
         "area": "Cocles",
@@ -1436,6 +1493,7 @@
         ]
       },
       "properties": {
+        "id": "caribe-town-resort-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Caribe Town Resort - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "hotel",
         "area": "Cocles",
@@ -1461,6 +1519,7 @@
         ]
       },
       "properties": {
+        "id": "cariblue-beach-and-jungle-resort-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Cariblue Beach and Jungle Resort - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "hotel",
         "area": "Cocles",
@@ -1486,6 +1545,7 @@
         ]
       },
       "properties": {
+        "id": "colina-secreta-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Colina Secreta - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "hotel",
         "area": "Cocles",
@@ -1511,6 +1571,7 @@
         ]
       },
       "properties": {
+        "id": "la-costa-de-papito-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "La Costa de Papito - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "hotel",
         "area": "Cocles",
@@ -1536,6 +1597,7 @@
         ]
       },
       "properties": {
+        "id": "los-delfines-lodge-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Los Delfines Lodge - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "hotel",
         "area": "Cocles",
@@ -1561,6 +1623,7 @@
         ]
       },
       "properties": {
+        "id": "hotel-bugabutik-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Hotel Bugabutik - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "hotel",
         "area": "Cocles",
@@ -1586,6 +1649,7 @@
         ]
       },
       "properties": {
+        "id": "la-isla-inn-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "La Isla Inn - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "hotel",
         "area": "Cocles",
@@ -1611,6 +1675,7 @@
         ]
       },
       "properties": {
+        "id": "lanna-ban-hotel-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Lanna Ban Hotel - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "hotel",
         "area": "Cocles",
@@ -1636,6 +1701,7 @@
         ]
       },
       "properties": {
+        "id": "le-caméléon-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Le Caméléon - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "hotel",
         "area": "Cocles",
@@ -1661,6 +1727,7 @@
         ]
       },
       "properties": {
+        "id": "la-magia-bungalows-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "La Magia Bungalows - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "hotel",
         "area": "Cocles",
@@ -1686,6 +1753,7 @@
         ]
       },
       "properties": {
+        "id": "la-paz-del-caribe-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "La Paz del Caribe - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "hotel",
         "area": "Cocles",
@@ -1711,6 +1779,7 @@
         ]
       },
       "properties": {
+        "id": "physis-caribbean-bed-and-breakfast-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Physis Caribbean Bed & Breakfast - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "hotel",
         "area": "Cocles",
@@ -1736,6 +1805,7 @@
         ]
       },
       "properties": {
+        "id": "pipa-lodge-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Pipa Lodge - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "hotel",
         "area": "Cocles",
@@ -1761,6 +1831,7 @@
         ]
       },
       "properties": {
+        "id": "relax-natural-village-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Relax Natural Village - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "hotel",
         "area": "Cocles",
@@ -1786,6 +1857,7 @@
         ]
       },
       "properties": {
+        "id": "satta-lodge-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Satta Lodge - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "hotel",
         "area": "Cocles",
@@ -1811,6 +1883,7 @@
         ]
       },
       "properties": {
+        "id": "casa-merlin-lodge-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "Casa Merlin Lodge - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "hotel",
         "area": "Playa Chiquita",
@@ -1836,6 +1909,7 @@
         ]
       },
       "properties": {
+        "id": "casitas-mar-y-luz-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "Casitas Mar y Luz - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "hotel",
         "area": "Playa Chiquita",
@@ -1861,6 +1935,7 @@
         ]
       },
       "properties": {
+        "id": "green-jungle-house-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "Green Jungle House - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "hotel",
         "area": "Playa Chiquita",
@@ -1886,6 +1961,7 @@
         ]
       },
       "properties": {
+        "id": "hotel-aguas-claras-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "Hotel Aguas Claras - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "hotel",
         "area": "Playa Chiquita",
@@ -1911,6 +1987,7 @@
         ]
       },
       "properties": {
+        "id": "hotel-kasha-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "Hotel Kasha - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "hotel",
         "area": "Playa Chiquita",
@@ -1936,6 +2013,7 @@
         ]
       },
       "properties": {
+        "id": "jaguar-inn-bungalows-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "Jaguar Inn Bungalows - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "hotel",
         "area": "Playa Chiquita",
@@ -1961,6 +2039,7 @@
         ]
       },
       "properties": {
+        "id": "la-kukula-lodge-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "La Kukula Lodge - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "hotel",
         "area": "Playa Chiquita",
@@ -1986,6 +2065,7 @@
         ]
       },
       "properties": {
+        "id": "mar-verde-lodge-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "Mar Verde Lodge - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "hotel",
         "area": "Playa Chiquita",
@@ -2011,6 +2091,7 @@
         ]
       },
       "properties": {
+        "id": "namuwoki-lodge-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "Namuwoki Lodge - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "hotel",
         "area": "Playa Chiquita",
@@ -2036,6 +2117,7 @@
         ]
       },
       "properties": {
+        "id": "el-nido-jungle-lodge-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "El Nido Jungle Lodge - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "hotel",
         "area": "Playa Chiquita",
@@ -2061,6 +2143,7 @@
         ]
       },
       "properties": {
+        "id": "shawandha-lodge-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "Shawandha Lodge - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "hotel",
         "area": "Playa Chiquita",
@@ -2086,6 +2169,7 @@
         ]
       },
       "properties": {
+        "id": "tierra-de-suenos-lodge-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "Tierra de Suenos Lodge - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "hotel",
         "area": "Playa Chiquita",
@@ -2111,6 +2195,7 @@
         ]
       },
       "properties": {
+        "id": "tree-house-lodge-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "Tree House Lodge - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "hotel",
         "area": "Playa Chiquita",
@@ -2136,6 +2221,7 @@
         ]
       },
       "properties": {
+        "id": "villas-del-caribe-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "Villas del Caribe - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "hotel",
         "area": "Playa Chiquita",
@@ -2161,6 +2247,7 @@
         ]
       },
       "properties": {
+        "id": "awa-beach-boutique-hotel-playa-punta-uva-puerto-viejo-limón-costa-rica",
         "business_name": "Awa Beach Boutique Hotel - Playa Punta Uva, Puerto Viejo, Limón, Costa Rica",
         "category": "hotel",
         "area": "Punta Uva",
@@ -2186,6 +2273,7 @@
         ]
       },
       "properties": {
+        "id": "la-ceiba-nature-reserve-playa-punta-uva-puerto-viejo-limón-costa-rica",
         "business_name": "La Ceiba Nature Reserve - Playa Punta Uva, Puerto Viejo, Limón, Costa Rica",
         "category": "hotel",
         "area": "Punta Uva",
@@ -2211,6 +2299,7 @@
         ]
       },
       "properties": {
+        "id": "pachamama-jungle-river-lodge-playa-punta-uva-puerto-viejo-limón-costa-rica",
         "business_name": "Pachamama Jungle River Lodge - Playa Punta Uva, Puerto Viejo, Limón, Costa Rica",
         "category": "hotel",
         "area": "Punta Uva",
@@ -2236,6 +2325,7 @@
         ]
       },
       "properties": {
+        "id": "cabinas-kinawe-hone-creek-limón-costa-rica",
         "business_name": "Cabinas Kinawe - Hone Creek, Limón, Costa Rica",
         "category": "hotel",
         "area": "Hone Creek",
@@ -2261,6 +2351,7 @@
         ]
       },
       "properties": {
+        "id": "casa-conley-del-mar-hone-creek-limón-costa-rica",
         "business_name": "Casa Conley Del Mar - Hone Creek, Limón, Costa Rica",
         "category": "hotel",
         "area": "Hone Creek",
@@ -2286,6 +2377,7 @@
         ]
       },
       "properties": {
+        "id": "hotel-hawa-hone-creek-limón-costa-rica",
         "business_name": "Hotel Hawa - Hone Creek, Limón, Costa Rica",
         "category": "hotel",
         "area": "Hone Creek",
@@ -2311,6 +2403,7 @@
         ]
       },
       "properties": {
+        "id": "orgánico-punta-riel-hone-creek-limón-costa-rica",
         "business_name": "Orgánico Punta Riel - Hone Creek, Limón, Costa Rica",
         "category": "hotel",
         "area": "Hone Creek",
@@ -2336,6 +2429,7 @@
         ]
       },
       "properties": {
+        "id": "rancho-tranquilo-hone-creek-limón-costa-rica",
         "business_name": "Rancho Tranquilo - Hone Creek, Limón, Costa Rica",
         "category": "hotel",
         "area": "Hone Creek",
@@ -2361,6 +2455,7 @@
         ]
       },
       "properties": {
+        "id": "samasati-yoga-and-wellness-retreat-hone-creek-limón-costa-rica",
         "business_name": "Samasati Yoga and Wellness Retreat - Hone Creek, Limón, Costa Rica",
         "category": "hotel",
         "area": "Hone Creek",
@@ -2386,6 +2481,7 @@
         ]
       },
       "properties": {
+        "id": "villa-mena-apartments-hone-creek-limón-costa-rica",
         "business_name": "Villa Mena Apartments - Hone Creek, Limón, Costa Rica",
         "category": "hotel",
         "area": "Hone Creek",
@@ -2411,6 +2507,7 @@
         ]
       },
       "properties": {
+        "id": "casa-wolaba",
         "business_name": "Casa Wolaba",
         "category": "hostel",
         "area": "Puerto Viejo",
@@ -2436,6 +2533,7 @@
         ]
       },
       "properties": {
+        "id": "el-clan-hostel",
         "business_name": "El Clan Hostel",
         "category": "hostel",
         "area": "Puerto Viejo",
@@ -2461,6 +2559,7 @@
         ]
       },
       "properties": {
+        "id": "hotel-and-hostel-agapi",
         "business_name": "Hotel and Hostel Agapi",
         "category": "hostel",
         "area": "Puerto Viejo",
@@ -2486,6 +2585,7 @@
         ]
       },
       "properties": {
+        "id": "hotel-puerto-viejo",
         "business_name": "Hotel Puerto Viejo",
         "category": "hostel",
         "area": "Puerto Viejo",
@@ -2511,6 +2611,7 @@
         ]
       },
       "properties": {
+        "id": "kalunay-hostel",
         "business_name": "Kalunay Hostel",
         "category": "hostel",
         "area": "Puerto Viejo",
@@ -2536,6 +2637,7 @@
         ]
       },
       "properties": {
+        "id": "oasis-beachfront-hostel",
         "business_name": "Oasis Beachfront Hostel",
         "category": "hostel",
         "area": "Puerto Viejo",
@@ -2561,6 +2663,7 @@
         ]
       },
       "properties": {
+        "id": "pagalu-hostel",
         "business_name": "Pagalu Hostel",
         "category": "hostel",
         "area": "Puerto Viejo",
@@ -2586,6 +2689,7 @@
         ]
       },
       "properties": {
+        "id": "rocking-js-hostel",
         "business_name": "Rocking J's Hostel",
         "category": "hostel",
         "area": "Puerto Viejo",
@@ -2611,6 +2715,7 @@
         ]
       },
       "properties": {
+        "id": "roots-family-hostel",
         "business_name": "Roots Family Hostel",
         "category": "hostel",
         "area": "Puerto Viejo",
@@ -2636,6 +2741,7 @@
         ]
       },
       "properties": {
+        "id": "la-ruka-hostel",
         "business_name": "La Ruka Hostel",
         "category": "hostel",
         "area": "Puerto Viejo",
@@ -2661,6 +2767,7 @@
         ]
       },
       "properties": {
+        "id": "soul-rebel-hostel",
         "business_name": "Soul Rebel Hostel",
         "category": "hostel",
         "area": "Puerto Viejo",
@@ -2686,6 +2793,7 @@
         ]
       },
       "properties": {
+        "id": "la-tribu",
         "business_name": "La Tribu",
         "category": "hostel",
         "area": "Puerto Viejo",
@@ -2711,6 +2819,7 @@
         ]
       },
       "properties": {
+        "id": "tasty-dayz-hostel-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Tasty Dayz Hostel - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "hostel",
         "area": "Cocles",
@@ -2736,6 +2845,7 @@
         ]
       },
       "properties": {
+        "id": "yuyo-huelal-totga-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Yuyo Huelal Totga - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "hostel",
         "area": "Cocles",
@@ -2761,6 +2871,7 @@
         ]
       },
       "properties": {
+        "id": "madre-selva-jungle-hostel-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Madre Selva Jungle Hostel - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "hostel",
         "area": "Cocles",
@@ -2786,6 +2897,7 @@
         ]
       },
       "properties": {
+        "id": "playa-506-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Playa 506 - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "hostel",
         "area": "Cocles",
@@ -2811,6 +2923,7 @@
         ]
       },
       "properties": {
+        "id": "smile-jungle-hostel-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Smile Jungle Hostel - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "hostel",
         "area": "Cocles",
@@ -2836,6 +2949,7 @@
         ]
       },
       "properties": {
+        "id": "douglasville-guesthouse",
         "business_name": "Douglasville Guesthouse",
         "category": "vacation_rental",
         "area": "Puerto Viejo",
@@ -2861,6 +2975,7 @@
         ]
       },
       "properties": {
+        "id": "caribbean-comfort",
         "business_name": "Caribbean Comfort",
         "category": "vacation_rental",
         "area": "Puerto Viejo",
@@ -2886,6 +3001,7 @@
         ]
       },
       "properties": {
+        "id": "casa-arlecchino",
         "business_name": "Casa Arlecchino",
         "category": "vacation_rental",
         "area": "Puerto Viejo",
@@ -2911,6 +3027,7 @@
         ]
       },
       "properties": {
+        "id": "casa-black-chaini",
         "business_name": "Casa Black Chaini",
         "category": "vacation_rental",
         "area": "Puerto Viejo",
@@ -2936,6 +3053,7 @@
         ]
       },
       "properties": {
+        "id": "casa-kinkaju",
         "business_name": "Casa Kinkaju",
         "category": "vacation_rental",
         "area": "Puerto Viejo",
@@ -2961,6 +3079,7 @@
         ]
       },
       "properties": {
+        "id": "coconut-grove-apartamentos",
         "business_name": "Coconut Grove Apartamentos",
         "category": "vacation_rental",
         "area": "Puerto Viejo",
@@ -2986,6 +3105,7 @@
         ]
       },
       "properties": {
+        "id": "colibri-ecolodge",
         "business_name": "Colibri Ecolodge",
         "category": "vacation_rental",
         "area": "Puerto Viejo",
@@ -3011,6 +3131,7 @@
         ]
       },
       "properties": {
+        "id": "estrellas-cabinas",
         "business_name": "Estrellas Cabinas",
         "category": "vacation_rental",
         "area": "Puerto Viejo",
@@ -3036,6 +3157,7 @@
         ]
       },
       "properties": {
+        "id": "casa-roble-de-playa-negra-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Casa Roble de Playa Negra - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Negra",
@@ -3061,6 +3183,7 @@
         ]
       },
       "properties": {
+        "id": "villa-abejita-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Villa Abejita - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Negra",
@@ -3086,6 +3209,7 @@
         ]
       },
       "properties": {
+        "id": "villa-del-mito-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Villa del Mito - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Negra",
@@ -3111,6 +3235,7 @@
         ]
       },
       "properties": {
+        "id": "magic-moon-beach-house-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Magic Moon Beach House - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Negra",
@@ -3136,6 +3261,7 @@
         ]
       },
       "properties": {
+        "id": "be-my-guest-cabinas-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Be My Guest Cabinas - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Negra",
@@ -3161,6 +3287,7 @@
         ]
       },
       "properties": {
+        "id": "blessed-house-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Blessed House - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Negra",
@@ -3186,6 +3313,7 @@
         ]
       },
       "properties": {
+        "id": "blossom-paradise-retreat-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Blossom Paradise Retreat - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Negra",
@@ -3211,6 +3339,7 @@
         ]
       },
       "properties": {
+        "id": "cabinas-cable-talamanca-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Cabinas Cable Talamanca - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Negra",
@@ -3236,6 +3365,7 @@
         ]
       },
       "properties": {
+        "id": "caripro-apartments-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Caripro Apartments - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Negra",
@@ -3261,6 +3391,7 @@
         ]
       },
       "properties": {
+        "id": "casa-corazon-del-mar-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Casa Corazon del Mar - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Negra",
@@ -3286,6 +3417,7 @@
         ]
       },
       "properties": {
+        "id": "casa-galim-beach-house-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Casa Galim Beach House - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Negra",
@@ -3311,6 +3443,7 @@
         ]
       },
       "properties": {
+        "id": "casa-jeffrey-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Casa Jeffrey - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Negra",
@@ -3336,6 +3469,7 @@
         ]
       },
       "properties": {
+        "id": "casa-luna-beach-house-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Casa Luna Beach House - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Negra",
@@ -3361,6 +3495,7 @@
         ]
       },
       "properties": {
+        "id": "casa-ocelote-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Casa Ocelote - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Negra",
@@ -3386,6 +3521,7 @@
         ]
       },
       "properties": {
+        "id": "casa-selva-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Casa Selva - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Negra",
@@ -3411,6 +3547,7 @@
         ]
       },
       "properties": {
+        "id": "casa-theia-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Casa Theia - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Negra",
@@ -3436,6 +3573,7 @@
         ]
       },
       "properties": {
+        "id": "casita-kreyol-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Casita Kreyol - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Negra",
@@ -3461,6 +3599,7 @@
         ]
       },
       "properties": {
+        "id": "las-casitas-de-playa-negra-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Las Casitas de Playa Negra - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Negra",
@@ -3486,6 +3625,7 @@
         ]
       },
       "properties": {
+        "id": "casitas-joanna-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Casitas Joanna - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Negra",
@@ -3511,6 +3651,7 @@
         ]
       },
       "properties": {
+        "id": "chimuri-beach-retreat-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Chimuri Beach Retreat - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Negra",
@@ -3536,6 +3677,7 @@
         ]
       },
       "properties": {
+        "id": "escondido-retreat-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Escondido Retreat - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Negra",
@@ -3561,6 +3703,7 @@
         ]
       },
       "properties": {
+        "id": "evia-life-resort-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Evia Life Resort - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Negra",
@@ -3586,6 +3729,7 @@
         ]
       },
       "properties": {
+        "id": "el-jardin-de-playa-negra-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "El Jardin de Playa Negra - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Negra",
@@ -3611,6 +3755,7 @@
         ]
       },
       "properties": {
+        "id": "the-mimosas-container-homes-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "The Mimosas Container Homes - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Negra",
@@ -3636,6 +3781,7 @@
         ]
       },
       "properties": {
+        "id": "puerto-viejo-club-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Puerto Viejo Club - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Negra",
@@ -3661,6 +3807,7 @@
         ]
       },
       "properties": {
+        "id": "sloth-house-2-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Sloth House 2 - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Negra",
@@ -3686,6 +3833,7 @@
         ]
       },
       "properties": {
+        "id": "villa-aragon-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Villa Aragon - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Negra",
@@ -3711,6 +3859,7 @@
         ]
       },
       "properties": {
+        "id": "villa-wolaba-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Villa Wolaba - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Negra",
@@ -3736,6 +3885,7 @@
         ]
       },
       "properties": {
+        "id": "villas-ande-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Villas Ande - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Negra",
@@ -3761,6 +3911,7 @@
         ]
       },
       "properties": {
+        "id": "villas-banana-verde-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Villas Banana Verde - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Negra",
@@ -3786,6 +3937,7 @@
         ]
       },
       "properties": {
+        "id": "villas-de-la-luz-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Villas de la Luz - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Negra",
@@ -3811,6 +3963,7 @@
         ]
       },
       "properties": {
+        "id": "villas-luna-africana-by-palmer-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Villas Luna Africana by Palmer - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Negra",
@@ -3836,6 +3989,7 @@
         ]
       },
       "properties": {
+        "id": "villas-mapache-del-caribe-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Villas Mapache del Caribe - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Negra",
@@ -3861,6 +4015,7 @@
         ]
       },
       "properties": {
+        "id": "villas-piña-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Villas Piña - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Negra",
@@ -3886,6 +4041,7 @@
         ]
       },
       "properties": {
+        "id": "villas-ríos-del-caribe-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Villas Ríos del Caribe - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Negra",
@@ -3911,6 +4067,7 @@
         ]
       },
       "properties": {
+        "id": "villas-roca-del-caribe-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Villas Roca del Caribe - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Negra",
@@ -3936,6 +4093,7 @@
         ]
       },
       "properties": {
+        "id": "villas-serenidad-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Villas Serenidad - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Negra",
@@ -3961,6 +4119,7 @@
         ]
       },
       "properties": {
+        "id": "yoshis-on-the-beach-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Yoshi's on the Beach - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Negra",
@@ -3986,6 +4145,7 @@
         ]
       },
       "properties": {
+        "id": "geckoes-lodge-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Geckoes Lodge - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Cocles",
@@ -4011,6 +4171,7 @@
         ]
       },
       "properties": {
+        "id": "alloro-jungle-villas-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Alloro Jungle Villas - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Cocles",
@@ -4036,6 +4197,7 @@
         ]
       },
       "properties": {
+        "id": "arococles-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "AroCocles - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Cocles",
@@ -4061,6 +4223,7 @@
         ]
       },
       "properties": {
+        "id": "azania-oasis-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Azania Oasis - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Cocles",
@@ -4086,6 +4249,7 @@
         ]
       },
       "properties": {
+        "id": "casa-ackee-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Casa Ackee - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Cocles",
@@ -4111,6 +4275,7 @@
         ]
       },
       "properties": {
+        "id": "casa-eden-jungle-apartments-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Casa Eden Jungle Apartments - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Cocles",
@@ -4136,6 +4301,7 @@
         ]
       },
       "properties": {
+        "id": "casa-margarita-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Casa Margarita - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Cocles",
@@ -4161,6 +4327,7 @@
         ]
       },
       "properties": {
+        "id": "casa-mariposa-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Casa Mariposa - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Cocles",
@@ -4186,6 +4353,7 @@
         ]
       },
       "properties": {
+        "id": "casa-modí-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Casa Modí - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Cocles",
@@ -4211,6 +4379,7 @@
         ]
       },
       "properties": {
+        "id": "la-casita-de-cocles-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "La Casita de Cocles - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Cocles",
@@ -4236,6 +4405,7 @@
         ]
       },
       "properties": {
+        "id": "los-continentes-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Los Continentes - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Cocles",
@@ -4261,6 +4431,7 @@
         ]
       },
       "properties": {
+        "id": "danos-cabano-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Dano's Cabano - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Cocles",
@@ -4286,6 +4457,7 @@
         ]
       },
       "properties": {
+        "id": "david-valley-houses-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "David Valley Houses - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Cocles",
@@ -4311,6 +4483,7 @@
         ]
       },
       "properties": {
+        "id": "la-finca-chica-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "La Finca Chica - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Cocles",
@@ -4336,6 +4509,7 @@
         ]
       },
       "properties": {
+        "id": "finca-valeria-treehouses-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Finca Valeria Treehouses - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Cocles",
@@ -4361,6 +4535,7 @@
         ]
       },
       "properties": {
+        "id": "flor-del-caribe-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Flor del Caribe - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Cocles",
@@ -4386,6 +4561,7 @@
         ]
       },
       "properties": {
+        "id": "habitat-vacation-rentals-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Habitat Vacation Rentals - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Cocles",
@@ -4411,6 +4587,7 @@
         ]
       },
       "properties": {
+        "id": "oceans-breeze-apartment-and-rooms-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Ocean's Breeze Apartment and Rooms - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Cocles",
@@ -4436,6 +4613,7 @@
         ]
       },
       "properties": {
+        "id": "las-palomas-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Las Palomas - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Cocles",
@@ -4461,6 +4639,7 @@
         ]
       },
       "properties": {
+        "id": "la-perla-del-caribe-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "La Perla del Caribe - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Cocles",
@@ -4486,6 +4665,7 @@
         ]
       },
       "properties": {
+        "id": "terrazas-del-caribe-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Terrazas del Caribe - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Cocles",
@@ -4511,6 +4691,7 @@
         ]
       },
       "properties": {
+        "id": "treevana-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Treevana - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Cocles",
@@ -4536,6 +4717,7 @@
         ]
       },
       "properties": {
+        "id": "el-tucán-feliz-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "El Tucán Feliz - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Cocles",
@@ -4561,6 +4743,7 @@
         ]
       },
       "properties": {
+        "id": "villa-aurora-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Villa Aurora - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Cocles",
@@ -4586,6 +4769,7 @@
         ]
       },
       "properties": {
+        "id": "villa-elita-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Villa Elita - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Cocles",
@@ -4611,6 +4795,7 @@
         ]
       },
       "properties": {
+        "id": "villa-laurel-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Villa Laurel - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Cocles",
@@ -4636,6 +4821,7 @@
         ]
       },
       "properties": {
+        "id": "villa-rameen-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Villa Rameen - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Cocles",
@@ -4661,6 +4847,7 @@
         ]
       },
       "properties": {
+        "id": "villas-lomas-del-caribe-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Villas Lomas del Caribe - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Cocles",
@@ -4686,6 +4873,7 @@
         ]
       },
       "properties": {
+        "id": "aloki-village-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "Aloki Village - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Chiquita",
@@ -4711,6 +4899,7 @@
         ]
       },
       "properties": {
+        "id": "anglers-lair-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "Angler's Lair - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Chiquita",
@@ -4736,6 +4925,7 @@
         ]
       },
       "properties": {
+        "id": "caribbean-courtyard-villa-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "Caribbean Courtyard Villa - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Chiquita",
@@ -4761,6 +4951,7 @@
         ]
       },
       "properties": {
+        "id": "casa-ambar-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "Casa Ambar - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Chiquita",
@@ -4786,6 +4977,7 @@
         ]
       },
       "properties": {
+        "id": "casa-jungle-love-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "Casa Jungle Love - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Chiquita",
@@ -4811,6 +5003,7 @@
         ]
       },
       "properties": {
+        "id": "casa-moabi-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "Casa Moabi - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Chiquita",
@@ -4836,6 +5029,7 @@
         ]
       },
       "properties": {
+        "id": "casa-osos-caribeños-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "Casa Osos Caribeños - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Chiquita",
@@ -4861,6 +5055,7 @@
         ]
       },
       "properties": {
+        "id": "casas-del-caribe-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "Casas del Caribe - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Chiquita",
@@ -4886,6 +5081,7 @@
         ]
       },
       "properties": {
+        "id": "casas-la-selvatica-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "Casas La Selvatica - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Chiquita",
@@ -4911,6 +5107,7 @@
         ]
       },
       "properties": {
+        "id": "chiquita-escondida-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "Chiquita Escondida - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Chiquita",
@@ -4936,6 +5133,7 @@
         ]
       },
       "properties": {
+        "id": "luna-caribeña-village-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "Luna Caribeña Village - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Chiquita",
@@ -4961,6 +5159,7 @@
         ]
       },
       "properties": {
+        "id": "pura-bali-villas-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "Pura Bali Villas - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Chiquita",
@@ -4986,6 +5185,7 @@
         ]
       },
       "properties": {
+        "id": "tres-lodge-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "Tres Lodge - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Chiquita",
@@ -5011,6 +5211,7 @@
         ]
       },
       "properties": {
+        "id": "up-house-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "Up! House - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Chiquita",
@@ -5036,6 +5237,7 @@
         ]
       },
       "properties": {
+        "id": "uva-blue-jungle-villas-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "Uva Blue Jungle Villas - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Chiquita",
@@ -5061,6 +5263,7 @@
         ]
       },
       "properties": {
+        "id": "villa-cabú-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "Villa Cabú - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Chiquita",
@@ -5086,6 +5289,7 @@
         ]
       },
       "properties": {
+        "id": "villa-casa-azul-y-arena-blanca-apartamentos-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "Villa Casa Azul y Arena Blanca Apartamentos - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Chiquita",
@@ -5111,6 +5315,7 @@
         ]
       },
       "properties": {
+        "id": "villa-del-mar-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "Villa del Mar - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Playa Chiquita",
@@ -5136,6 +5341,7 @@
         ]
       },
       "properties": {
+        "id": "big-tree-wildlife-refuge-playa-punta-uva-puerto-viejo-limón-costa-rica",
         "business_name": "Big Tree Wildlife Refuge - Playa Punta Uva, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Punta Uva",
@@ -5161,6 +5367,7 @@
         ]
       },
       "properties": {
+        "id": "bungalows-punta-uva-playa-punta-uva-puerto-viejo-limón-costa-rica",
         "business_name": "Bungalows Punta Uva - Playa Punta Uva, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Punta Uva",
@@ -5186,6 +5393,7 @@
         ]
       },
       "properties": {
+        "id": "casa-cielo-playa-punta-uva-puerto-viejo-limón-costa-rica",
         "business_name": "Casa Cielo - Playa Punta Uva, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Punta Uva",
@@ -5211,6 +5419,7 @@
         ]
       },
       "properties": {
+        "id": "casa-de-la-musa-playa-punta-uva-puerto-viejo-limón-costa-rica",
         "business_name": "Casa de la Musa - Playa Punta Uva, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Punta Uva",
@@ -5236,6 +5445,7 @@
         ]
       },
       "properties": {
+        "id": "casa-de-la-trepada-playa-punta-uva-puerto-viejo-limón-costa-rica",
         "business_name": "Casa De La Trepada - Playa Punta Uva, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Punta Uva",
@@ -5261,6 +5471,7 @@
         ]
       },
       "properties": {
+        "id": "casa-matix-playa-punta-uva-puerto-viejo-limón-costa-rica",
         "business_name": "Casa Matix - Playa Punta Uva, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Punta Uva",
@@ -5286,6 +5497,7 @@
         ]
       },
       "properties": {
+        "id": "casa-viva-playa-punta-uva-puerto-viejo-limón-costa-rica",
         "business_name": "Casa Viva - Playa Punta Uva, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Punta Uva",
@@ -5311,6 +5523,7 @@
         ]
       },
       "properties": {
+        "id": "dragonfly-beach-retreat-playa-punta-uva-puerto-viejo-limón-costa-rica",
         "business_name": "Dragonfly Beach Retreat - Playa Punta Uva, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Punta Uva",
@@ -5336,6 +5549,7 @@
         ]
       },
       "properties": {
+        "id": "ginger-and-cacao-playa-punta-uva-puerto-viejo-limón-costa-rica",
         "business_name": "Ginger and Cacao - Playa Punta Uva, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Punta Uva",
@@ -5361,6 +5575,7 @@
         ]
       },
       "properties": {
+        "id": "olguitas-place-playa-punta-uva-puerto-viejo-limón-costa-rica",
         "business_name": "Olguita's Place - Playa Punta Uva, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Punta Uva",
@@ -5386,6 +5601,7 @@
         ]
       },
       "properties": {
+        "id": "our-beachfront-bungalow-playa-punta-uva-puerto-viejo-limón-costa-rica",
         "business_name": "Our Beachfront Bungalow - Playa Punta Uva, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Punta Uva",
@@ -5411,6 +5627,7 @@
         ]
       },
       "properties": {
+        "id": "los-proyectos-moderno-playa-punta-uva-puerto-viejo-limón-costa-rica",
         "business_name": "Los Proyectos Moderno - Playa Punta Uva, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Punta Uva",
@@ -5436,6 +5653,7 @@
         ]
       },
       "properties": {
+        "id": "villa-soleil-et-paquerette-playa-punta-uva-puerto-viejo-limón-costa-rica",
         "business_name": "Villa Soleil et Paquerette - Playa Punta Uva, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Punta Uva",
@@ -5461,6 +5679,7 @@
         ]
       },
       "properties": {
+        "id": "villas-itaita-playa-punta-uva-puerto-viejo-limón-costa-rica",
         "business_name": "Villas Itaita - Playa Punta Uva, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Punta Uva",
@@ -5486,6 +5705,7 @@
         ]
       },
       "properties": {
+        "id": "wabi-sabi-playa-punta-uva-puerto-viejo-limón-costa-rica",
         "business_name": "Wabi Sabi - Playa Punta Uva, Puerto Viejo, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Punta Uva",
@@ -5511,6 +5731,7 @@
         ]
       },
       "properties": {
+        "id": "finca-don-litos-hone-creek-limón-costa-rica",
         "business_name": "Finca Don Litos - Hone Creek, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Hone Creek",
@@ -5536,6 +5757,7 @@
         ]
       },
       "properties": {
+        "id": "villas-diwo-hone-creek-limón-costa-rica",
         "business_name": "Villas Diwo - Hone Creek, Limón, Costa Rica",
         "category": "vacation_rental",
         "area": "Hone Creek",
@@ -5561,6 +5783,7 @@
         ]
       },
       "properties": {
+        "id": "gigi-o-restaurant",
         "business_name": "Gigi O Restaurant",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -5586,6 +5809,7 @@
         ]
       },
       "properties": {
+        "id": "tasty-waves-cantina-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Tasty Waves Cantina - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "restaurant",
         "area": "Cocles",
@@ -5611,6 +5835,7 @@
         ]
       },
       "properties": {
+        "id": "amimodo-restaurant",
         "business_name": "Amimodo Restaurant",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -5636,6 +5861,7 @@
         ]
       },
       "properties": {
+        "id": "arrecife-hotel-y-restaurante-playa-punta-uva-puerto-viejo-limón-costa-rica",
         "business_name": "Arrecife Hotel y Restaurante - Playa Punta Uva, Puerto Viejo, Limón, Costa Rica",
         "category": "restaurant",
         "area": "Punta Uva",
@@ -5661,6 +5887,7 @@
         ]
       },
       "properties": {
+        "id": "azul-bar-and-grill-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Azul Bar and Grill - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "restaurant",
         "area": "Playa Negra",
@@ -5686,6 +5913,7 @@
         ]
       },
       "properties": {
+        "id": "beach-break-restaurant-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Beach Break Restaurant - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "restaurant",
         "area": "Cocles",
@@ -5711,6 +5939,7 @@
         ]
       },
       "properties": {
+        "id": "cacao-huasi",
         "business_name": "Cacao Huasi",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -5736,6 +5965,7 @@
         ]
       },
       "properties": {
+        "id": "café-gustitos",
         "business_name": "Café Gustitos",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -5761,6 +5991,7 @@
         ]
       },
       "properties": {
+        "id": "cafe-rico",
         "business_name": "Cafe Rico",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -5786,6 +6017,7 @@
         ]
       },
       "properties": {
+        "id": "cafe-viejo",
         "business_name": "Cafe Viejo",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -5811,6 +6043,7 @@
         ]
       },
       "properties": {
+        "id": "casa-rio-restaurant-and-bar-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Casa Rio Restaurant & Bar - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "restaurant",
         "area": "Cocles",
@@ -5836,6 +6069,7 @@
         ]
       },
       "properties": {
+        "id": "la-casita-de-monli",
         "business_name": "La Casita de Monli",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -5861,6 +6095,7 @@
         ]
       },
       "properties": {
+        "id": "chaman-mercadito",
         "business_name": "Chaman Mercadito",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -5886,6 +6121,7 @@
         ]
       },
       "properties": {
+        "id": "el-chante-de-moncho-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "El Chante de Moncho - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "restaurant",
         "area": "Cocles",
@@ -5911,6 +6147,7 @@
         ]
       },
       "properties": {
+        "id": "chile-rojo",
         "business_name": "Chile Rojo",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -5936,6 +6173,7 @@
         ]
       },
       "properties": {
+        "id": "chill-and-cheese-snackbar",
         "business_name": "Chill and Cheese Snackbar",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -5961,6 +6199,7 @@
         ]
       },
       "properties": {
+        "id": "cocomar-comida-caribeña",
         "business_name": "Cocomar Comida Caribeña",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -5986,6 +6225,7 @@
         ]
       },
       "properties": {
+        "id": "como-en-la-gloria",
         "business_name": "Como en la Gloria",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -6011,6 +6251,7 @@
         ]
       },
       "properties": {
+        "id": "de-gustibus-bakery",
         "business_name": "De Gustibus Bakery",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -6036,6 +6277,7 @@
         ]
       },
       "properties": {
+        "id": "la-esquina-boruca-pizzeria",
         "business_name": "La Esquina Boruca Pizzeria",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -6061,6 +6303,7 @@
         ]
       },
       "properties": {
+        "id": "gigi-beach-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Gigi Beach - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "restaurant",
         "area": "Cocles",
@@ -6086,6 +6329,7 @@
         ]
       },
       "properties": {
+        "id": "grow-beachfront-restaurant",
         "business_name": "Grow Beachfront Restaurant",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -6111,6 +6355,7 @@
         ]
       },
       "properties": {
+        "id": "gypsea-café-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "GypSea Café - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "restaurant",
         "area": "Playa Chiquita",
@@ -6136,6 +6381,7 @@
         ]
       },
       "properties": {
+        "id": "hot-rocks",
         "business_name": "Hot Rocks",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -6161,6 +6407,7 @@
         ]
       },
       "properties": {
+        "id": "il-fiore-rosso-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Il Fiore Rosso - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "restaurant",
         "area": "Cocles",
@@ -6186,6 +6433,7 @@
         ]
       },
       "properties": {
+        "id": "island-city-wingz-n-tingz",
         "business_name": "Island City Wingz N Tingz",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -6211,6 +6459,7 @@
         ]
       },
       "properties": {
+        "id": "joe-snack-point",
         "business_name": "Joe Snack Point",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -6236,6 +6485,7 @@
         ]
       },
       "properties": {
+        "id": "koki-beach",
         "business_name": "KOKi Beach",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -6261,6 +6511,7 @@
         ]
       },
       "properties": {
+        "id": "la-leyenda-de-lantico-forno-en-el-establo-de-bruce-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "La Leyenda de L'Antico Forno en El Establo de Bruce - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "restaurant",
         "area": "Playa Chiquita",
@@ -6286,6 +6537,7 @@
         ]
       },
       "properties": {
+        "id": "lidias-place",
         "business_name": "Lidia's Place",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -6311,6 +6563,7 @@
         ]
       },
       "properties": {
+        "id": "lizzie-1872-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Lizzie 1872 - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "restaurant",
         "area": "Cocles",
@@ -6336,6 +6589,7 @@
         ]
       },
       "properties": {
+        "id": "madre-tierra",
         "business_name": "Madre Tierra",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -6361,6 +6615,7 @@
         ]
       },
       "properties": {
+        "id": "mcclouds-munchies",
         "business_name": "McCloud's Munchies",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -6386,6 +6641,7 @@
         ]
       },
       "properties": {
+        "id": "mixta-comida-y-cócteles-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "Mixta Comida y Cócteles - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "restaurant",
         "area": "Playa Chiquita",
@@ -6411,6 +6667,7 @@
         ]
       },
       "properties": {
+        "id": "nanku",
         "business_name": "Nanku",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -6436,6 +6693,7 @@
         ]
       },
       "properties": {
+        "id": "la-nena-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "La Nena - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "restaurant",
         "area": "Cocles",
@@ -6461,6 +6719,7 @@
         ]
       },
       "properties": {
+        "id": "otra-vez-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "Otra Vez - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "restaurant",
         "area": "Playa Chiquita",
@@ -6486,6 +6745,7 @@
         ]
       },
       "properties": {
+        "id": "el-pampa-asador-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "El Pampa Asador - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "restaurant",
         "area": "Playa Negra",
@@ -6511,6 +6771,7 @@
         ]
       },
       "properties": {
+        "id": "la-parada-cafeteria",
         "business_name": "La Parada Cafeteria",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -6536,6 +6797,7 @@
         ]
       },
       "properties": {
+        "id": "paradise-comida-caribeña",
         "business_name": "Paradise Comida Caribeña",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -6561,6 +6823,7 @@
         ]
       },
       "properties": {
+        "id": "pecora-nera-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Pecora Nera - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "restaurant",
         "area": "Cocles",
@@ -6586,6 +6849,7 @@
         ]
       },
       "properties": {
+        "id": "pizzeria-pulcinella-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "Pizzeria Pulcinella - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "restaurant",
         "area": "Playa Chiquita",
@@ -6611,6 +6875,7 @@
         ]
       },
       "properties": {
+        "id": "the-point-smash-burgers",
         "business_name": "The Point Smash Burgers",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -6636,6 +6901,7 @@
         ]
       },
       "properties": {
+        "id": "port-vell",
         "business_name": "Port Vell",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -6661,6 +6927,7 @@
         ]
       },
       "properties": {
+        "id": "puerto-pirata",
         "business_name": "Puerto Pirata",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -6686,6 +6953,7 @@
         ]
       },
       "properties": {
+        "id": "pura-gula-restaurant-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "Pura Gula Restaurant - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "restaurant",
         "area": "Playa Chiquita",
@@ -6711,6 +6979,7 @@
         ]
       },
       "properties": {
+        "id": "que-quilombo-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "Que Quilombo - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "restaurant",
         "area": "Playa Chiquita",
@@ -6736,6 +7005,7 @@
         ]
       },
       "properties": {
+        "id": "el-refugio-grill-playa-punta-uva-puerto-viejo-limón-costa-rica",
         "business_name": "El Refugio Grill - Playa Punta Uva, Puerto Viejo, Limón, Costa Rica",
         "category": "restaurant",
         "area": "Punta Uva",
@@ -6761,6 +7031,7 @@
         ]
       },
       "properties": {
+        "id": "reggae-chill-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Reggae Chill - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "restaurant",
         "area": "Cocles",
@@ -6786,6 +7057,7 @@
         ]
       },
       "properties": {
+        "id": "restaurante-bar-tamara",
         "business_name": "Restaurante Bar Tamara",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -6811,6 +7083,7 @@
         ]
       },
       "properties": {
+        "id": "restaurante-nema",
         "business_name": "Restaurante Nema",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -6836,6 +7109,7 @@
         ]
       },
       "properties": {
+        "id": "restaurante-riquísimo",
         "business_name": "Restaurante Riquísimo",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -6861,6 +7135,7 @@
         ]
       },
       "properties": {
+        "id": "el-rincon-porteño-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "El Rincon Porteño - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "restaurant",
         "area": "Playa Chiquita",
@@ -6886,6 +7161,7 @@
         ]
       },
       "properties": {
+        "id": "roly-caribbean-food",
         "business_name": "Roly Caribbean Food",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -6911,6 +7187,7 @@
         ]
       },
       "properties": {
+        "id": "la-ruedita-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "La Ruedita - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "restaurant",
         "area": "Playa Chiquita",
@@ -6936,6 +7213,7 @@
         ]
       },
       "properties": {
+        "id": "el-sabor-tico",
         "business_name": "El Sabor Tico",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -6961,6 +7239,7 @@
         ]
       },
       "properties": {
+        "id": "samurai-fusion",
         "business_name": "Samurai Fusion",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -6986,6 +7265,7 @@
         ]
       },
       "properties": {
+        "id": "selvins-restaurant-and-cabinas-playa-punta-uva-puerto-viejo-limón-costa-rica",
         "business_name": "Selvin's Restaurant and Cabinas - Playa Punta Uva, Puerto Viejo, Limón, Costa Rica",
         "category": "restaurant",
         "area": "Punta Uva",
@@ -7011,6 +7291,7 @@
         ]
       },
       "properties": {
+        "id": "el-sendero-beach-club",
         "business_name": "El Sendero Beach Club",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -7036,6 +7317,7 @@
         ]
       },
       "properties": {
+        "id": "soca-restaurant",
         "business_name": "SOCA Restaurant",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -7061,6 +7343,7 @@
         ]
       },
       "properties": {
+        "id": "soda-playa-chiquita-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "Soda Playa Chiquita - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "restaurant",
         "area": "Playa Chiquita",
@@ -7086,6 +7369,7 @@
         ]
       },
       "properties": {
+        "id": "soda-shekiná",
         "business_name": "Soda Shekiná",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -7111,6 +7395,7 @@
         ]
       },
       "properties": {
+        "id": "el-sol-del-caribe-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "El Sol del Caribe - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "restaurant",
         "area": "Cocles",
@@ -7136,6 +7421,7 @@
         ]
       },
       "properties": {
+        "id": "soulsurfer",
         "business_name": "Soulsurfer",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -7161,6 +7447,7 @@
         ]
       },
       "properties": {
+        "id": "spicy-coconut-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "Spicy Coconut - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "restaurant",
         "area": "Playa Chiquita",
@@ -7186,6 +7473,7 @@
         ]
       },
       "properties": {
+        "id": "stashus-con-fusion",
         "business_name": "Stashu's Con Fusion",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -7211,6 +7499,7 @@
         ]
       },
       "properties": {
+        "id": "sushi-wave-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Sushi Wave - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "restaurant",
         "area": "Cocles",
@@ -7236,6 +7525,7 @@
         ]
       },
       "properties": {
+        "id": "todo-es-posible",
         "business_name": "Todo Es Posible",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -7261,6 +7551,7 @@
         ]
       },
       "properties": {
+        "id": "zaika-bar-and-grill-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Zaika Bar & Grill - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "restaurant",
         "area": "Cocles",
@@ -7286,6 +7577,7 @@
         ]
       },
       "properties": {
+        "id": "clan-vibes-club",
         "business_name": "Clan Vibes Club",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -7311,6 +7603,7 @@
         ]
       },
       "properties": {
+        "id": "da-lime-beach-club-and-restaurant-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "Da Lime Beach Club and Restaurant - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "restaurant",
         "area": "Playa Chiquita",
@@ -7336,6 +7629,7 @@
         ]
       },
       "properties": {
+        "id": "green-jaguar-irish-gastro-pub",
         "business_name": "Green Jaguar Irish Gastro Pub",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -7361,6 +7655,7 @@
         ]
       },
       "properties": {
+        "id": "johnnys-place",
         "business_name": "Johnny's Place",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -7386,6 +7681,7 @@
         ]
       },
       "properties": {
+        "id": "playa-negra-brewing-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Playa Negra Brewing - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "restaurant",
         "area": "Playa Negra",
@@ -7411,6 +7707,7 @@
         ]
       },
       "properties": {
+        "id": "salsa-brava-beach-bar",
         "business_name": "Salsa Brava Beach Bar",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -7436,6 +7733,7 @@
         ]
       },
       "properties": {
+        "id": "7-ice-creams",
         "business_name": "7 Ice Creams",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -7461,6 +7759,7 @@
         ]
       },
       "properties": {
+        "id": "baya-baya-café-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Baya Baya Café - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "restaurant",
         "area": "Cocles",
@@ -7486,6 +7785,7 @@
         ]
       },
       "properties": {
+        "id": "bloom-cafe-and-donas",
         "business_name": "Bloom Cafe & Donas",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -7511,6 +7811,7 @@
         ]
       },
       "properties": {
+        "id": "boa-coworking",
         "business_name": "BOA Coworking",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -7536,6 +7837,7 @@
         ]
       },
       "properties": {
+        "id": "bread-and-chocolate",
         "business_name": "Bread and Chocolate",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -7561,6 +7863,7 @@
         ]
       },
       "properties": {
+        "id": "bread-what-what",
         "business_name": "Bread What What",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -7586,6 +7889,7 @@
         ]
       },
       "properties": {
+        "id": "café-del-mar-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Café del Mar - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "restaurant",
         "area": "Cocles",
@@ -7611,6 +7915,7 @@
         ]
       },
       "properties": {
+        "id": "calipso",
         "business_name": "Calipso",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -7636,6 +7941,7 @@
         ]
       },
       "properties": {
+        "id": "caribeans-coffee-and-chocolate-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Caribeans Coffee and Chocolate - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "restaurant",
         "area": "Cocles",
@@ -7661,6 +7967,7 @@
         ]
       },
       "properties": {
+        "id": "como-en-mi-casa-art-cafe",
         "business_name": "Como En Mi Casa Art Cafe",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -7686,6 +7993,7 @@
         ]
       },
       "properties": {
+        "id": "gelateria-deelite",
         "business_name": "Gelateria Deelite",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -7711,6 +8019,7 @@
         ]
       },
       "properties": {
+        "id": "iriria-specialty-coffee-shop",
         "business_name": "Iriria Specialty Coffee Shop",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -7736,6 +8045,7 @@
         ]
       },
       "properties": {
+        "id": "juice-for-life-wolaba",
         "business_name": "Juice for Life Wolaba",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -7761,6 +8071,7 @@
         ]
       },
       "properties": {
+        "id": "lulus-place",
         "business_name": "Lulu's Place",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -7786,6 +8097,7 @@
         ]
       },
       "properties": {
+        "id": "ocho-nani",
         "business_name": "Ocho Nani",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -7811,6 +8123,7 @@
         ]
       },
       "properties": {
+        "id": "pan-pay",
         "business_name": "Pan Pay",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -7836,6 +8149,7 @@
         ]
       },
       "properties": {
+        "id": "pidiendo-cacao",
         "business_name": "Pidiendo Cacao",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -7861,6 +8175,7 @@
         ]
       },
       "properties": {
+        "id": "sweet-moments",
         "business_name": "Sweet Moments",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -7886,6 +8201,7 @@
         ]
       },
       "properties": {
+        "id": "aloe-boutique",
         "business_name": "Aloe Boutique",
         "category": "shopping",
         "area": "Puerto Viejo",
@@ -7911,6 +8227,7 @@
         ]
       },
       "properties": {
+        "id": "bambu-store",
         "business_name": "Bambu Store",
         "category": "shopping",
         "area": "Puerto Viejo",
@@ -7936,6 +8253,7 @@
         ]
       },
       "properties": {
+        "id": "cantik-at-home",
         "business_name": "Cantik at Home",
         "category": "shopping",
         "area": "Puerto Viejo",
@@ -7961,6 +8279,7 @@
         ]
       },
       "properties": {
+        "id": "casa-mandala-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "Casa Mandala - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "shopping",
         "area": "Playa Chiquita",
@@ -7986,6 +8305,7 @@
         ]
       },
       "properties": {
+        "id": "ditown-shop",
         "business_name": "DiTown Shop",
         "category": "shopping",
         "area": "Puerto Viejo",
@@ -8011,6 +8331,7 @@
         ]
       },
       "properties": {
+        "id": "luna-may",
         "business_name": "Luna May",
         "category": "shopping",
         "area": "Puerto Viejo",
@@ -8036,6 +8357,7 @@
         ]
       },
       "properties": {
+        "id": "marea-santa",
         "business_name": "Marea Santa",
         "category": "shopping",
         "area": "Puerto Viejo",
@@ -8061,6 +8383,7 @@
         ]
       },
       "properties": {
+        "id": "naturama-store",
         "business_name": "Naturama Store",
         "category": "shopping",
         "area": "Puerto Viejo",
@@ -8086,6 +8409,7 @@
         ]
       },
       "properties": {
+        "id": "passion-fruit-store",
         "business_name": "Passion Fruit Store",
         "category": "shopping",
         "area": "Puerto Viejo",
@@ -8111,6 +8435,7 @@
         ]
       },
       "properties": {
+        "id": "reggaeland",
         "business_name": "Reggaeland",
         "category": "shopping",
         "area": "Puerto Viejo",
@@ -8136,6 +8461,7 @@
         ]
       },
       "properties": {
+        "id": "samoa-boutique",
         "business_name": "Samoa Boutique",
         "category": "shopping",
         "area": "Puerto Viejo",
@@ -8161,6 +8487,7 @@
         ]
       },
       "properties": {
+        "id": "tienda-caribe",
         "business_name": "Tienda Caribe",
         "category": "shopping",
         "area": "Puerto Viejo",
@@ -8186,6 +8513,7 @@
         ]
       },
       "properties": {
+        "id": "almacen-san-francisco-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Almacen San Francisco - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "shopping",
         "area": "Playa Negra",
@@ -8211,6 +8539,7 @@
         ]
       },
       "properties": {
+        "id": "colono-hone-creek-hone-creek-limón-costa-rica",
         "business_name": "Colono Hone Creek - Hone Creek, Limón, Costa Rica",
         "category": "shopping",
         "area": "Hone Creek",
@@ -8236,6 +8565,7 @@
         ]
       },
       "properties": {
+        "id": "ferrecocles-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "FerreCocles - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "shopping",
         "area": "Cocles",
@@ -8261,6 +8591,7 @@
         ]
       },
       "properties": {
+        "id": "cervecera-tierra-y-libertad-hone-creek-limón-costa-rica",
         "business_name": "Cervecera Tierra y Libertad - Hone Creek, Limón, Costa Rica",
         "category": "shopping",
         "area": "Hone Creek",
@@ -8286,6 +8617,7 @@
         ]
       },
       "properties": {
+        "id": "red-monkey-liquor-store",
         "business_name": "Red Monkey Liquor Store",
         "category": "shopping",
         "area": "Puerto Viejo",
@@ -8311,6 +8643,7 @@
         ]
       },
       "properties": {
+        "id": "electro-office",
         "business_name": "Electro Office",
         "category": "shopping",
         "area": "Puerto Viejo",
@@ -8336,6 +8669,7 @@
         ]
       },
       "properties": {
+        "id": "flor-de-china-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Flor de China - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "shopping",
         "area": "Playa Negra",
@@ -8361,6 +8695,7 @@
         ]
       },
       "properties": {
+        "id": "librería-caribe",
         "business_name": "Librería Caribe",
         "category": "shopping",
         "area": "Puerto Viejo",
@@ -8386,6 +8721,7 @@
         ]
       },
       "properties": {
+        "id": "farmacia-don-manuel-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Farmacia Don Manuel - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "shopping",
         "area": "Cocles",
@@ -8411,6 +8747,7 @@
         ]
       },
       "properties": {
+        "id": "la-pitaya",
         "business_name": "La Pitaya",
         "category": "shopping",
         "area": "Puerto Viejo",
@@ -8436,6 +8773,7 @@
         ]
       },
       "properties": {
+        "id": "tienda-del-mar",
         "business_name": "Tienda del Mar",
         "category": "shopping",
         "area": "Puerto Viejo",
@@ -8461,6 +8799,7 @@
         ]
       },
       "properties": {
+        "id": "wanderlust",
         "business_name": "Wanderlust",
         "category": "shopping",
         "area": "Puerto Viejo",
@@ -8486,6 +8825,7 @@
         ]
       },
       "properties": {
+        "id": "puerto-viejo-farmers-and-artisans-market",
         "business_name": "Puerto Viejo Farmers and Artisans Market",
         "category": "shopping",
         "area": "Puerto Viejo",
@@ -8511,6 +8851,7 @@
         ]
       },
       "properties": {
+        "id": "bio-mercado-puerto-viejo",
         "business_name": "Bio Mercado Puerto Viejo",
         "category": "shopping",
         "area": "Puerto Viejo",
@@ -8536,6 +8877,7 @@
         ]
       },
       "properties": {
+        "id": "centro-de-carnes-canada",
         "business_name": "Centro de Carnes Canada",
         "category": "shopping",
         "area": "Puerto Viejo",
@@ -8561,6 +8903,7 @@
         ]
       },
       "properties": {
+        "id": "el-diamante",
         "business_name": "El Diamante",
         "category": "shopping",
         "area": "Puerto Viejo",
@@ -8586,6 +8929,7 @@
         ]
       },
       "properties": {
+        "id": "el-duende-gourmet-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "El Duende Gourmet - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "shopping",
         "area": "Playa Chiquita",
@@ -8611,6 +8955,7 @@
         ]
       },
       "properties": {
+        "id": "mariscos-mopri",
         "business_name": "Mariscos Mopri",
         "category": "shopping",
         "area": "Puerto Viejo",
@@ -8636,6 +8981,7 @@
         ]
       },
       "properties": {
+        "id": "mercadito-puerto-viejo",
         "business_name": "Mercadito Puerto Viejo",
         "category": "shopping",
         "area": "Puerto Viejo",
@@ -8661,6 +9007,7 @@
         ]
       },
       "properties": {
+        "id": "namú-ecotienda-orgánica",
         "business_name": "Namú Ecotienda Orgánica",
         "category": "shopping",
         "area": "Puerto Viejo",
@@ -8686,6 +9033,7 @@
         ]
       },
       "properties": {
+        "id": "super-banana-gourmet-market-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Super Banana Gourmet Market - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "shopping",
         "area": "Playa Negra",
@@ -8711,6 +9059,7 @@
         ]
       },
       "properties": {
+        "id": "super-negro-cocles-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Super Negro Cocles - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "shopping",
         "area": "Cocles",
@@ -8736,6 +9085,7 @@
         ]
       },
       "properties": {
+        "id": "super-negro-hone-creek-hone-creek-limón-costa-rica",
         "business_name": "Super Negro Hone Creek - Hone Creek, Limón, Costa Rica",
         "category": "shopping",
         "area": "Hone Creek",
@@ -8761,6 +9111,7 @@
         ]
       },
       "properties": {
+        "id": "value-mart-puerto-viejo",
         "business_name": "Value Mart Puerto Viejo",
         "category": "shopping",
         "area": "Puerto Viejo",
@@ -8786,6 +9137,7 @@
         ]
       },
       "properties": {
+        "id": "automotriz-danny",
         "business_name": "Automotriz Danny",
         "category": "services",
         "area": "Puerto Viejo",
@@ -8811,6 +9163,7 @@
         ]
       },
       "properties": {
+        "id": "ecolavacar-del-caribe-hone-creek-limón-costa-rica",
         "business_name": "Ecolavacar del Caribe - Hone Creek, Limón, Costa Rica",
         "category": "services",
         "area": "Hone Creek",
@@ -8836,6 +9189,7 @@
         ]
       },
       "properties": {
+        "id": "casa-de-la-cultura",
         "business_name": "Casa de la Cultura",
         "category": "services",
         "area": "Puerto Viejo",
@@ -8861,6 +9215,7 @@
         ]
       },
       "properties": {
+        "id": "la-casa-del-coral-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "La Casa del Coral - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "services",
         "area": "Cocles",
@@ -8886,6 +9241,7 @@
         ]
       },
       "properties": {
+        "id": "chamber-of-tourism-and-commerce-caribe-sur-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Chamber of Tourism and Commerce Caribe Sur - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "services",
         "area": "Playa Negra",
@@ -8911,6 +9267,7 @@
         ]
       },
       "properties": {
+        "id": "el-puente-the-bridge-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "El Puente-The Bridge - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "services",
         "area": "Playa Negra",
@@ -8936,6 +9293,7 @@
         ]
       },
       "properties": {
+        "id": "caribe-dental",
         "business_name": "Caribe Dental",
         "category": "services",
         "area": "Puerto Viejo",
@@ -8961,6 +9319,7 @@
         ]
       },
       "properties": {
+        "id": "centro-médico-aruma",
         "business_name": "Centro Médico Aruma",
         "category": "services",
         "area": "Puerto Viejo",
@@ -8986,6 +9345,7 @@
         ]
       },
       "properties": {
+        "id": "clínica-de-especialidades-médicas-san-gabriel",
         "business_name": "Clínica de Especialidades Médicas San Gabriel",
         "category": "services",
         "area": "Puerto Viejo",
@@ -9011,6 +9371,7 @@
         ]
       },
       "properties": {
+        "id": "clínica-dental-yani",
         "business_name": "Clínica Dental Yani",
         "category": "services",
         "area": "Puerto Viejo",
@@ -9036,6 +9397,7 @@
         ]
       },
       "properties": {
+        "id": "hone-creek-clinic-hone-creek-limón-costa-rica",
         "business_name": "Hone Creek Clinic - Hone Creek, Limón, Costa Rica",
         "category": "services",
         "area": "Hone Creek",
@@ -9061,6 +9423,7 @@
         ]
       },
       "properties": {
+        "id": "laboratorio-bioclinic",
         "business_name": "Laboratorio Bioclinic",
         "category": "services",
         "area": "Puerto Viejo",
@@ -9086,6 +9449,7 @@
         ]
       },
       "properties": {
+        "id": "laboratorio-clínico-leysa-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Laboratorio Clínico Leysa - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "services",
         "area": "Playa Negra",
@@ -9111,6 +9475,7 @@
         ]
       },
       "properties": {
+        "id": "lavandería-la-estrella",
         "business_name": "Lavandería La Estrella",
         "category": "services",
         "area": "Puerto Viejo",
@@ -9136,6 +9501,7 @@
         ]
       },
       "properties": {
+        "id": "washboard",
         "business_name": "Washboard",
         "category": "services",
         "area": "Puerto Viejo",
@@ -9161,6 +9527,7 @@
         ]
       },
       "properties": {
+        "id": "we-do-laundry-hone-creek-limón-costa-rica",
         "business_name": "We Do Laundry - Hone Creek, Limón, Costa Rica",
         "category": "services",
         "area": "Hone Creek",
@@ -9186,6 +9553,7 @@
         ]
       },
       "properties": {
+        "id": "aloha-skincare-and-wellness",
         "business_name": "Aloha Skincare and Wellness",
         "category": "services",
         "area": "Puerto Viejo",
@@ -9211,6 +9579,7 @@
         ]
       },
       "properties": {
+        "id": "ambar-tattoo-space",
         "business_name": "Ambar Tattoo Space",
         "category": "services",
         "area": "Puerto Viejo",
@@ -9236,6 +9605,7 @@
         ]
       },
       "properties": {
+        "id": "caribe-love-tattoo",
         "business_name": "Caribe Love Tattoo",
         "category": "services",
         "area": "Puerto Viejo",
@@ -9261,6 +9631,7 @@
         ]
       },
       "properties": {
+        "id": "cosmos-puerto-viejo-tattoo",
         "business_name": "Cosmos Puerto Viejo Tattoo",
         "category": "services",
         "area": "Puerto Viejo",
@@ -9286,6 +9657,7 @@
         ]
       },
       "properties": {
+        "id": "earth-to-skin",
         "business_name": "Earth to Skin",
         "category": "services",
         "area": "Puerto Viejo",
@@ -9311,6 +9683,7 @@
         ]
       },
       "properties": {
+        "id": "indulgence-spa-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Indulgence Spa - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "services",
         "area": "Cocles",
@@ -9336,6 +9709,7 @@
         ]
       },
       "properties": {
+        "id": "kona-wellness-shala-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Kona Wellness Shala - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "services",
         "area": "Cocles",
@@ -9361,6 +9735,7 @@
         ]
       },
       "properties": {
+        "id": "mendez-barber-shop",
         "business_name": "Mendez Barber Shop",
         "category": "services",
         "area": "Puerto Viejo",
@@ -9386,6 +9761,7 @@
         ]
       },
       "properties": {
+        "id": "octo-salon-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "Octo Salon - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "services",
         "area": "Playa Chiquita",
@@ -9411,6 +9787,7 @@
         ]
       },
       "properties": {
+        "id": "old-harbour-gym",
         "business_name": "Old Harbour Gym",
         "category": "services",
         "area": "Puerto Viejo",
@@ -9436,6 +9813,7 @@
         ]
       },
       "properties": {
+        "id": "pure-jungle-spa",
         "business_name": "Pure Jungle Spa",
         "category": "services",
         "area": "Puerto Viejo",
@@ -9461,6 +9839,7 @@
         ]
       },
       "properties": {
+        "id": "pure-love-liberation-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Pure Love Liberation - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "services",
         "area": "Cocles",
@@ -9486,6 +9865,7 @@
         ]
       },
       "properties": {
+        "id": "surya-spa-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Surya Spa - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "services",
         "area": "Cocles",
@@ -9511,6 +9891,7 @@
         ]
       },
       "properties": {
+        "id": "svastha-yoga-and-ayurveda-café",
         "business_name": "Svastha Yoga & Ayurveda Café",
         "category": "services",
         "area": "Puerto Viejo",
@@ -9536,6 +9917,7 @@
         ]
       },
       "properties": {
+        "id": "la-tinta-tropical",
         "business_name": "La Tinta Tropical",
         "category": "services",
         "area": "Puerto Viejo",
@@ -9561,6 +9943,7 @@
         ]
       },
       "properties": {
+        "id": "volair-dance-studio",
         "business_name": "Vol'Air Dance Studio",
         "category": "services",
         "area": "Puerto Viejo",
@@ -9586,6 +9969,7 @@
         ]
       },
       "properties": {
+        "id": "puerto-viejo-dogs",
         "business_name": "Puerto Viejo Dogs",
         "category": "services",
         "area": "Puerto Viejo",
@@ -9611,6 +9995,7 @@
         ]
       },
       "properties": {
+        "id": "central-de-mascotas",
         "business_name": "Central de Mascotas",
         "category": "services",
         "area": "Puerto Viejo",
@@ -9636,6 +10021,7 @@
         ]
       },
       "properties": {
+        "id": "clínica-veterinaria-arroyo-y-solano",
         "business_name": "Clínica Veterinaria Arroyo y Solano",
         "category": "services",
         "area": "Puerto Viejo",
@@ -9661,6 +10047,7 @@
         ]
       },
       "properties": {
+        "id": "clinica-veterinaria-green-vet-hone-creek-limón-costa-rica",
         "business_name": "Clinica Veterinaria Green Vet - Hone Creek, Limón, Costa Rica",
         "category": "services",
         "area": "Hone Creek",
@@ -9686,6 +10073,7 @@
         ]
       },
       "properties": {
+        "id": "ciclo-tuanis",
         "business_name": "Ciclo Tuanis",
         "category": "services",
         "area": "Puerto Viejo",
@@ -9711,6 +10099,7 @@
         ]
       },
       "properties": {
+        "id": "puerto-viejo-bike-rentals",
         "business_name": "Puerto Viejo Bike Rentals",
         "category": "services",
         "area": "Puerto Viejo",
@@ -9736,6 +10125,7 @@
         ]
       },
       "properties": {
+        "id": "pura-ride-by-ciclo-cocles-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Pura Ride by Ciclo Cocles - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "services",
         "area": "Cocles",
@@ -9761,6 +10151,7 @@
         ]
       },
       "properties": {
+        "id": "cerrajería-paris",
         "business_name": "Cerrajería Paris",
         "category": "services",
         "area": "Puerto Viejo",
@@ -9786,6 +10177,7 @@
         ]
       },
       "properties": {
+        "id": "pc-caribe-soluciones-informáticas",
         "business_name": "PC Caribe Soluciones Informáticas",
         "category": "services",
         "area": "Puerto Viejo",
@@ -9811,6 +10203,7 @@
         ]
       },
       "properties": {
+        "id": "centro-educativo-playa-chiquita-punta-uva-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "Centro Educativo Playa Chiquita Punta Uva - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "services",
         "area": "Playa Chiquita",
@@ -9836,6 +10229,7 @@
         ]
       },
       "properties": {
+        "id": "proyecto-educativo-semillas-de-paz-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "Proyecto Educativo Semillas de Paz - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "services",
         "area": "Playa Chiquita",
@@ -9861,6 +10255,7 @@
         ]
       },
       "properties": {
+        "id": "eñe-spanish-teachers",
         "business_name": "Eñe Spanish Teachers",
         "category": "services",
         "area": "Puerto Viejo",
@@ -9886,6 +10281,7 @@
         ]
       },
       "properties": {
+        "id": "spanish-by-the-sea",
         "business_name": "Spanish by the Sea",
         "category": "services",
         "area": "Puerto Viejo",
@@ -9911,6 +10307,7 @@
         ]
       },
       "properties": {
+        "id": "spanish-school-pura-vida",
         "business_name": "Spanish School Pura Vida",
         "category": "services",
         "area": "Puerto Viejo",
@@ -9936,6 +10333,7 @@
         ]
       },
       "properties": {
+        "id": "veronicas-place-cooking-class-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Veronica's Place Cooking Class - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "services",
         "area": "Cocles",
@@ -9961,6 +10359,7 @@
         ]
       },
       "properties": {
+        "id": "correos-de-cr-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Correos de CR - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "services",
         "area": "Playa Negra",
@@ -9986,6 +10385,7 @@
         ]
       },
       "properties": {
+        "id": "elena-de-luca-studio",
         "business_name": "Elena De Luca Studio",
         "category": "services",
         "area": "Puerto Viejo",
@@ -10011,6 +10411,7 @@
         ]
       },
       "properties": {
+        "id": "puerto-viejo-multicentro",
         "business_name": "Puerto Viejo Multicentro",
         "category": "services",
         "area": "Puerto Viejo",
@@ -10036,6 +10437,7 @@
         ]
       },
       "properties": {
+        "id": "sea-breeze-events",
         "business_name": "Sea Breeze Events",
         "category": "services",
         "area": "Puerto Viejo",
@@ -10061,6 +10463,7 @@
         ]
       },
       "properties": {
+        "id": "black-shack-surf-school-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Black Shack Surf School - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "services",
         "area": "Cocles",
@@ -10086,6 +10489,7 @@
         ]
       },
       "properties": {
+        "id": "surf-meds-caribe-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Surf Meds Caribe - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "services",
         "area": "Cocles",
@@ -10111,6 +10515,7 @@
         ]
       },
       "properties": {
+        "id": "surf-the-jungle-surf-school-adventures",
         "business_name": "Surf the Jungle Surf School Adventures",
         "category": "services",
         "area": "Puerto Viejo",
@@ -10136,6 +10541,7 @@
         ]
       },
       "properties": {
+        "id": "tico-surf-and-skate-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Tico Surf and Skate - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "services",
         "area": "Cocles",
@@ -10161,6 +10567,7 @@
         ]
       },
       "properties": {
+        "id": "cacao-trails-bole-hone-creek-limón-costa-rica",
         "business_name": "Cacao Trails Bole - Hone Creek, Limón, Costa Rica",
         "category": "tour_company",
         "area": "Hone Creek",
@@ -10186,6 +10593,7 @@
         ]
       },
       "properties": {
+        "id": "caribe-horse-riding-club-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Caribe Horse Riding Club - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "tour_company",
         "area": "Cocles",
@@ -10211,6 +10619,7 @@
         ]
       },
       "properties": {
+        "id": "ceibo-adventure-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "Ceibo Adventure - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "tour_company",
         "area": "Playa Chiquita",
@@ -10236,6 +10645,7 @@
         ]
       },
       "properties": {
+        "id": "exploradores-outdoors",
         "business_name": "Exploradores Outdoors",
         "category": "tour_company",
         "area": "Puerto Viejo",
@@ -10261,6 +10671,7 @@
         ]
       },
       "properties": {
+        "id": "finca-la-isla-botanical-garden-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Finca La Isla Botanical Garden - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "tour_company",
         "area": "Playa Negra",
@@ -10286,6 +10697,7 @@
         ]
       },
       "properties": {
+        "id": "finca-tierra-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Finca Tierra - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "tour_company",
         "area": "Cocles",
@@ -10311,6 +10723,7 @@
         ]
       },
       "properties": {
+        "id": "green-water-sup-tours-playa-punta-uva-puerto-viejo-limón-costa-rica",
         "business_name": "Green Water SUP Tours - Playa Punta Uva, Puerto Viejo, Limón, Costa Rica",
         "category": "tour_company",
         "area": "Punta Uva",
@@ -10336,6 +10749,7 @@
         ]
       },
       "properties": {
+        "id": "hidden-garden-ethnobotanical-sanctuary",
         "business_name": "Hidden Garden Ethnobotanical Sanctuary",
         "category": "tour_company",
         "area": "Puerto Viejo",
@@ -10361,6 +10775,7 @@
         ]
       },
       "properties": {
+        "id": "jaguar-rescue-center-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "Jaguar Rescue Center - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "tour_company",
         "area": "Playa Chiquita",
@@ -10386,6 +10801,7 @@
         ]
       },
       "properties": {
+        "id": "kinkaju-tours-hone-creek-limón-costa-rica",
         "business_name": "Kinkaju Tours - Hone Creek, Limón, Costa Rica",
         "category": "tour_company",
         "area": "Hone Creek",
@@ -10411,6 +10827,7 @@
         ]
       },
       "properties": {
+        "id": "punta-uva-dive-center-playa-punta-uva-puerto-viejo-limón-costa-rica",
         "business_name": "Punta Uva Dive Center - Playa Punta Uva, Puerto Viejo, Limón, Costa Rica",
         "category": "tour_company",
         "area": "Punta Uva",
@@ -10436,6 +10853,7 @@
         ]
       },
       "properties": {
+        "id": "ride-the-rainforest-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "Ride the Rainforest - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "tour_company",
         "area": "Playa Chiquita",
@@ -10461,6 +10879,7 @@
         ]
       },
       "properties": {
+        "id": "talamanca-chocolate-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Talamanca Chocolate - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "tour_company",
         "area": "Playa Negra",
@@ -10486,6 +10905,7 @@
         ]
       },
       "properties": {
+        "id": "adobe-easycar-rent-a-car",
         "business_name": "Adobe EasyCar Rent a Car",
         "category": "tour_company",
         "area": "Puerto Viejo",
@@ -10511,6 +10931,7 @@
         ]
       },
       "properties": {
+        "id": "alamo-enterprise-car-rental",
         "business_name": "Alamo Enterprise Car Rental",
         "category": "tour_company",
         "area": "Puerto Viejo",
@@ -10536,6 +10957,7 @@
         ]
       },
       "properties": {
+        "id": "caribe-shuttle",
         "business_name": "Caribe Shuttle",
         "category": "tour_company",
         "area": "Puerto Viejo",
@@ -10561,6 +10983,7 @@
         ]
       },
       "properties": {
+        "id": "interbus-office",
         "business_name": "Interbus office",
         "category": "tour_company",
         "area": "Puerto Viejo",
@@ -10586,6 +11009,7 @@
         ]
       },
       "properties": {
+        "id": "puerto-viejo-golf-carts",
         "business_name": "Puerto Viejo Golf Carts",
         "category": "tour_company",
         "area": "Puerto Viejo",
@@ -10611,6 +11035,7 @@
         ]
       },
       "properties": {
+        "id": "atec",
         "business_name": "ATEC",
         "category": "tour_company",
         "area": "Puerto Viejo",
@@ -10636,6 +11061,7 @@
         ]
       },
       "properties": {
+        "id": "best-travel-puerto-viejo",
         "business_name": "Best Travel Puerto Viejo",
         "category": "tour_company",
         "area": "Puerto Viejo",
@@ -10661,6 +11087,7 @@
         ]
       },
       "properties": {
+        "id": "caribe-fun-tours-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Caribe Fun Tours - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "tour_company",
         "area": "Playa Negra",
@@ -10686,6 +11113,7 @@
         ]
       },
       "properties": {
+        "id": "gecko-trail-costa-rica",
         "business_name": "Gecko Trail Costa Rica",
         "category": "tour_company",
         "area": "Puerto Viejo",
@@ -10711,6 +11139,7 @@
         ]
       },
       "properties": {
+        "id": "caribe-sur-real-estate",
         "business_name": "Caribe Sur Real Estate",
         "category": "real_estate",
         "area": "Puerto Viejo",
@@ -10736,6 +11165,7 @@
         ]
       },
       "properties": {
+        "id": "century-21-caribe-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "Century 21 Caribe - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "real_estate",
         "area": "Playa Chiquita",
@@ -10761,6 +11191,7 @@
         ]
       },
       "properties": {
+        "id": "coldwell-banker-caribe",
         "business_name": "Coldwell Banker Caribe",
         "category": "real_estate",
         "area": "Puerto Viejo",
@@ -10786,6 +11217,7 @@
         ]
       },
       "properties": {
+        "id": "rise-puerto-viejo",
         "business_name": "RISE Puerto Viejo",
         "category": "real_estate",
         "area": "Puerto Viejo",
@@ -10811,6 +11243,7 @@
         ]
       },
       "properties": {
+        "id": "green-property-management-playa-chiquita-puerto-viejo-limón-costa-rica",
         "business_name": "Green Property Management - Playa Chiquita, Puerto Viejo, Limón, Costa Rica",
         "category": "real_estate",
         "area": "Playa Chiquita",
@@ -10836,6 +11269,7 @@
         ]
       },
       "properties": {
+        "id": "farmacia-caribe",
         "business_name": "Farmacia Caribe",
         "category": "shopping",
         "area": "Puerto Viejo",
@@ -10861,6 +11295,7 @@
         ]
       },
       "properties": {
+        "id": "puerto-viejo-pharmacy",
         "business_name": "Puerto Viejo Pharmacy",
         "category": "shopping",
         "area": "Puerto Viejo",
@@ -10886,6 +11321,7 @@
         ]
       },
       "properties": {
+        "id": "mega-super",
         "business_name": "Mega Super",
         "category": "shopping",
         "area": "Puerto Viejo",
@@ -10911,6 +11347,7 @@
         ]
       },
       "properties": {
+        "id": "old-harbour-supermarket",
         "business_name": "Old Harbour Supermarket",
         "category": "shopping",
         "area": "Puerto Viejo",
@@ -10936,6 +11373,7 @@
         ]
       },
       "properties": {
+        "id": "pali-supermarket-hone-creek-limón-costa-rica",
         "business_name": "Pali Supermarket - Hone Creek, Limón, Costa Rica",
         "category": "shopping",
         "area": "Hone Creek",
@@ -10961,6 +11399,7 @@
         ]
       },
       "properties": {
+        "id": "super-cocles-playa-cocles-puerto-viejo-limón-costa-rica",
         "business_name": "Super Cocles - Playa Cocles, Puerto Viejo, Limón, Costa Rica",
         "category": "shopping",
         "area": "Cocles",
@@ -10986,6 +11425,7 @@
         ]
       },
       "properties": {
+        "id": "super-punta-uva-playa-punta-uva-puerto-viejo-limón-costa-rica",
         "business_name": "Super Punta Uva - Playa Punta Uva, Puerto Viejo, Limón, Costa Rica",
         "category": "shopping",
         "area": "Punta Uva",
@@ -11011,6 +11451,7 @@
         ]
       },
       "properties": {
+        "id": "super-sk-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Super SK - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "shopping",
         "area": "Playa Negra",
@@ -11036,6 +11477,7 @@
         ]
       },
       "properties": {
+        "id": "servicentro-hone-creek-hone-creek-limón-costa-rica",
         "business_name": "Servicentro Hone Creek - Hone Creek, Limón, Costa Rica",
         "category": "services",
         "area": "Hone Creek",
@@ -11061,6 +11503,7 @@
         ]
       },
       "properties": {
+        "id": "alcoholics-anonymous",
         "business_name": "Alcoholics Anonymous",
         "category": "services",
         "area": "Puerto Viejo",
@@ -11086,6 +11529,7 @@
         ]
       },
       "properties": {
+        "id": "catholic-church",
         "business_name": "Catholic Church",
         "category": "services",
         "area": "Puerto Viejo",
@@ -11111,6 +11555,7 @@
         ]
       },
       "properties": {
+        "id": "puerto-viejo-police-station-playa-negra-puerto-viejo-limón-costa-rica",
         "business_name": "Puerto Viejo Police Station - Playa Negra, Puerto Viejo, Limón, Costa Rica",
         "category": "services",
         "area": "Playa Negra",
@@ -11136,6 +11581,7 @@
         ]
       },
       "properties": {
+        "id": "puerto-viejo-police-town-station",
         "business_name": "Puerto Viejo Police Town Station",
         "category": "services",
         "area": "Puerto Viejo",
@@ -11161,6 +11607,7 @@
         ]
       },
       "properties": {
+        "id": "bac-credomatic-atm",
         "business_name": "BAC Credomatic ATM",
         "category": "services",
         "area": "Puerto Viejo",
@@ -11186,6 +11633,7 @@
         ]
       },
       "properties": {
+        "id": "banco-de-costa-rica-puerto-viejo",
         "business_name": "Banco de Costa Rica Puerto Viejo",
         "category": "services",
         "area": "Puerto Viejo",
@@ -11211,6 +11659,7 @@
         ]
       },
       "properties": {
+        "id": "banco-nacional",
         "business_name": "Banco Nacional",
         "category": "services",
         "area": "Puerto Viejo",
@@ -11236,6 +11685,7 @@
         ]
       },
       "properties": {
+        "id": "main-bus-stop",
         "business_name": "Main Bus Stop",
         "category": "tour_company",
         "area": "Puerto Viejo",
@@ -11261,6 +11711,7 @@
         ]
       },
       "properties": {
+        "id": "watuza",
         "business_name": "Watuza",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -11286,6 +11737,7 @@
         ]
       },
       "properties": {
+        "id": "el-faro-13",
         "business_name": "El Faro 13",
         "category": "hostel",
         "area": "Puerto Viejo",
@@ -11311,6 +11763,7 @@
         ]
       },
       "properties": {
+        "id": "hotel-los-sueños",
         "business_name": "Hotel Los Sueños",
         "category": "hostel",
         "area": "Puerto Viejo",
@@ -11336,6 +11789,7 @@
         ]
       },
       "properties": {
+        "id": "villa-bukë",
         "business_name": "Villa Bukë",
         "category": "hostel",
         "area": "Playa Negra",
@@ -11361,6 +11815,7 @@
         ]
       },
       "properties": {
+        "id": "beach-hut",
         "business_name": "Beach Hut",
         "category": "hotel",
         "area": "Puerto Viejo",
@@ -11386,6 +11841,7 @@
         ]
       },
       "properties": {
+        "id": "cabinas-el-tesoro",
         "business_name": "Cabinas El Tesoro",
         "category": "hotel",
         "area": "Cocles",
@@ -11411,6 +11867,7 @@
         ]
       },
       "properties": {
+        "id": "cabinas-orange-green",
         "business_name": "Cabinas Orange Green",
         "category": "hotel",
         "area": "Puerto Viejo",
@@ -11436,6 +11893,7 @@
         ]
       },
       "properties": {
+        "id": "cabinas-wray",
         "business_name": "Cabinas Wray",
         "category": "hotel",
         "area": "Puerto Viejo",
@@ -11461,6 +11919,7 @@
         ]
       },
       "properties": {
+        "id": "casa-badawi",
         "business_name": "Casa Badawi",
         "category": "hotel",
         "area": "Puerto Viejo",
@@ -11486,6 +11945,7 @@
         ]
       },
       "properties": {
+        "id": "casa-trinidad",
         "business_name": "Casa Trinidad",
         "category": "hotel",
         "area": "Puerto Viejo",
@@ -11511,6 +11971,7 @@
         ]
       },
       "properties": {
+        "id": "casa-tuareg",
         "business_name": "Casa Tuareg",
         "category": "hotel",
         "area": "Puerto Viejo",
@@ -11536,6 +11997,7 @@
         ]
       },
       "properties": {
+        "id": "harmony-mini-casa-rodante-by-aptos-casa-caribe",
         "business_name": "Harmony: Mini Casa Rodante by Aptos Casa Caribe",
         "category": "hotel",
         "area": "Puerto Viejo",
@@ -11561,6 +12023,7 @@
         ]
       },
       "properties": {
+        "id": "hotel-cariblue",
         "business_name": "Hotel Cariblue",
         "category": "hotel",
         "area": "Cocles",
@@ -11586,6 +12049,7 @@
         ]
       },
       "properties": {
+        "id": "hotel-posada-nena",
         "business_name": "Hotel Posada Nena",
         "category": "hotel",
         "area": "Puerto Viejo",
@@ -11611,6 +12075,7 @@
         ]
       },
       "properties": {
+        "id": "hotel-sunshine-caribe",
         "business_name": "Hotel Sunshine Caribe",
         "category": "hotel",
         "area": "Puerto Viejo",
@@ -11636,6 +12101,7 @@
         ]
       },
       "properties": {
+        "id": "lapalapa-beach-front-hotel",
         "business_name": "Lapalapa Beach Front Hotel",
         "category": "hotel",
         "area": "Cocles",
@@ -11661,6 +12127,7 @@
         ]
       },
       "properties": {
+        "id": "las-mariposas",
         "business_name": "Las Mariposas",
         "category": "hotel",
         "area": "Playa Chiquita",
@@ -11686,6 +12153,7 @@
         ]
       },
       "properties": {
+        "id": "le-cameleon-boutique-hotel",
         "business_name": "Le Cameleon Boutique Hotel",
         "category": "hotel",
         "area": "Cocles",
@@ -11711,6 +12179,7 @@
         ]
       },
       "properties": {
+        "id": "paulas-and-daniels-homestay",
         "business_name": "Paula's and Daniel's Homestay",
         "category": "hotel",
         "area": "Puerto Viejo",
@@ -11736,6 +12205,7 @@
         ]
       },
       "properties": {
+        "id": "totem-hotel-resort-and-restaurant",
         "business_name": "Totem Hotel Resort & Restaurant",
         "category": "hotel",
         "area": "Cocles",
@@ -11761,6 +12231,7 @@
         ]
       },
       "properties": {
+        "id": "vista-verde",
         "business_name": "Vista Verde",
         "category": "hotel",
         "area": "Puerto Viejo",
@@ -11786,6 +12257,7 @@
         ]
       },
       "properties": {
+        "id": "café-rico",
         "business_name": "Café Rico",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -11811,6 +12283,7 @@
         ]
       },
       "properties": {
+        "id": "chili-rojo",
         "business_name": "Chili Rojo",
         "category": "restaurant",
         "area": "Puerto Viejo",
@@ -11836,6 +12309,7 @@
         ]
       },
       "properties": {
+        "id": "restaurante-cariblue",
         "business_name": "Restaurante Cariblue",
         "category": "restaurant",
         "area": "Cocles",
@@ -11861,6 +12335,7 @@
         ]
       },
       "properties": {
+        "id": "río-negro",
         "business_name": "Río Negro",
         "category": "restaurant",
         "area": "Cocles",
@@ -11886,6 +12361,7 @@
         ]
       },
       "properties": {
+        "id": "jungle-air-parapente",
         "business_name": "Jungle Air Parapente",
         "category": "shopping",
         "area": "Puerto Viejo",
@@ -11911,6 +12387,7 @@
         ]
       },
       "properties": {
+        "id": "panadería-francés",
         "business_name": "Panadería Francés",
         "category": "shopping",
         "area": "Cocles",
@@ -11936,6 +12413,7 @@
         ]
       },
       "properties": {
+        "id": "ecotourism-and-conservation-association-of-talamanca",
         "business_name": "Ecotourism and Conservation Association of Talamanca",
         "category": "tour_company",
         "area": "Puerto Viejo",
@@ -11961,6 +12439,7 @@
         ]
       },
       "properties": {
+        "id": "refugio-de-animales-jaguar",
         "business_name": "Refugio de animales Jaguar",
         "category": "tour_company",
         "area": "Cocles",
@@ -11986,6 +12465,7 @@
         ]
       },
       "properties": {
+        "id": "hotel-villas-y-glamping-ma",
         "business_name": "Hotel Villas y Glamping M&A",
         "category": "vacation_rental",
         "area": "Cocles",
@@ -12011,6 +12491,7 @@
         ]
       },
       "properties": {
+        "id": "yerbas-concepto-culinario",
         "business_name": "Yerbas Concepto Culinario",
         "category": "restaurant",
         "area": "Puerto Viejo",

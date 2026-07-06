@@ -134,7 +134,7 @@ fetch('metrics.json').then(r=>r.json()).then(m=>{ document.getElementById('mapCa
 <div class="card" id="areaCard">
 <h2>Areas &mdash; Business Distribution</h2>
 <table id="areaTable">
-<tr><th>Area</th><th>Total</th><th>With Instagram</th><th>Area</th></tr>
+<tr><th>Area</th><th>Total</th><th>With Instagram</th><th>Distance</th></tr>
 <tr><td colspan="4" style="text-align:center;color:#95a5a6;">Loading...</td></tr>
 </table>
 </div>
@@ -171,24 +171,13 @@ fetch('businesses.json').then(r=>r.json()).then(function(data) {
     if (b.instagram_handle) areaIG[a] = (areaIG[a] || 0) + 1;
   });
   var areaRows = Object.keys(areaCounts).sort().map(function(a) {
-    return '<tr><td><strong>' + a + '</strong></td><td>' + areaCounts[a] + '</td><td>' + (areaIG[a] || 0) + '</td><td>' + a + '</td></tr>';
+    return '<tr><td><strong>' + a + '</strong></td><td>' + areaCounts[a] + '</td><td>' + (areaIG[a] || 0) + '</td></tr>';
   }).join('');
-  document.querySelector('#areaTable').innerHTML = '<tr><th>Area</th><th>Total</th><th>With Instagram</th><th>Area</th></tr>' + areaRows;
+  document.querySelector('#areaTable').innerHTML = '<tr><th>Area</th><th>Total</th><th>With Instagram</th></tr>' + areaRows;
 }).catch(function(){ location.reload(); });
 </script>
 
-<div class="card">
-<h2>Areas &mdash; Business Distribution</h2>
-<table>
-<tr><th>Area</th><th>Total</th><th>With Instagram</th><th>Distance from Origin</th></tr>
-<tr><td><strong>Cocles</strong></td><td>84</td><td>56</td><td>1.6 km</td></tr>
-<tr><td><strong>Hone Creek</strong></td><td>20</td><td>9</td><td>7.6 km</td></tr>
-<tr><td><strong>Playa Chiquita</strong></td><td>54</td><td>36</td><td>2.8 km</td></tr>
-<tr><td><strong>Playa Negra</strong></td><td>69</td><td>48</td><td>1.4 km</td></tr>
-<tr><td><strong>Puerto Viejo</strong></td><td>199</td><td>136</td><td>0.0 km</td></tr>
-<tr><td><strong>Punta Uva</strong></td><td>24</td><td>15</td><td>4.1 km</td></tr>
-</table>
-</div>
+
 
 <div class="card" id="qualityCard">
 <h2>Data Quality</h2>
@@ -223,7 +212,8 @@ fetch('businesses.json').then(function(r){return r.json();}).then(function(data)
   var sampleRows = data.slice(0, 20).map(function(b) {
     return '<tr><td>' + (b.business_name || '') + '</td><td>' + (b.category || '') + '</td><td>' + (b.area || '') + '</td><td>' + (b.instagram_handle ? '<span class="ig-badge ig-yes">Yes</span>' : '<span class="ig-badge ig-no">No</span>') + '</td><td>' + (b.phone || '') + '</td></tr>';
   }).join('');
-  document.getElementById('sampleTable').innerHTML = '<tr><th>Name</th><th>Category</th><th>Area</th><th>IG</th><th>Phone</th></tr>' + sampleRows;
+  var st = document.getElementById('sampleTable');
+  if (st) st.innerHTML = '<tr><th>Name</th><th>Category</th><th>Area</th><th>IG</th><th>Phone</th></tr>' + sampleRows;
 });
 var catColors = {"hotel": "#e74c3c", "hostel": "#e67e22", "vacation_rental": "#f39c12", "restaurant": "#2ecc71", "shopping": "#3498db", "services": "#9b59b6", "tour_company": "#1abc9c", "real_estate": "#34495e"};
 var map = L.map('map').setView([9.6554, -82.7533], 12);

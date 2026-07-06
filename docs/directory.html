@@ -172,13 +172,54 @@ fetch('businesses.json')
 
 function init() {
   populateFilters();
+
+  // Read URL params
+  var params = new URLSearchParams(window.location.search);
+  var urlQ = params.get('q') || '';
+  var urlArea = params.get('area') || '';
+  var urlCat = params.get('category') || '';
+  var urlData = params.get('filter') || '';
+  var urlId = params.get('id') || '';
+
+  if (urlQ) document.getElementById('searchInput').value = urlQ;
+  if (urlArea) document.getElementById('areaFilter').value = urlArea;
+  if (urlData) document.getElementById('dataFilter').value = urlData;
+  if (urlCat) {
+    document.querySelectorAll('#categoryPills .pill').forEach(function(p) {
+      p.classList.toggle('active', p.dataset.cat === urlCat);
+    });
+  }
+
   updateStats(businesses);
-  applyFilters();
   initMap();
-  document.getElementById('searchInput').addEventListener('input', function() { displayCount = 100; applyFilters(); scrollResults(); });
-  document.getElementById('areaFilter').addEventListener('change', function() { displayCount = 100; applyFilters(); scrollResults(); });
-  document.getElementById('dataFilter').addEventListener('change', function() { displayCount = 100; applyFilters(); scrollResults(); });
-  document.getElementById('showMore').addEventListener('click', function() { displayCount += 100; renderCards(getFiltered()); });
+  applyFilters();
+
+  // If ?id= is set, scroll to and highlight that business
+  if (urlId) {
+    var target = businesses.find(function(b) { return b.id === urlId; });
+    if (target && target.latitude && target.longitude) {
+      setTimeout(function() { focusMap(parseFloat(target.latitude), parseFloat(target.longitude), null); }, 500);
+    }
+  }
+
+  document.getElementById('searchInput').addEventListener('input', function() { displayCount = 100; applyFilters(); scrollResults(); updateUrl(); });
+  document.getElementById('areaFilter').addEventListener('change', function() { displayCount = 100; applyFilters(); scrollResults(); updateUrl(); });
+  document.getElementById('dataFilter').addEventListener('change', function() { displayCount = 100; applyFilters(); scrollResults(); updateUrl(); });
+  document.getElementById('showMore').addEventListener('click', function() { displayCount += 100; renderCards(getFiltered()); updateResultCount(); });
+}
+
+function updateUrl() {
+  var q = document.getElementById('searchInput').value.trim();
+  var area = document.getElementById('areaFilter').value;
+  var df = document.getElementById('dataFilter').value;
+  var cat = document.querySelector('#categoryPills .pill.active')?.dataset.cat || '';
+  var params = [];
+  if (q) params.push('q=' + encodeURIComponent(q));
+  if (area) params.push('area=' + encodeURIComponent(area));
+  if (df) params.push('filter=' + encodeURIComponent(df));
+  if (cat) params.push('category=' + encodeURIComponent(cat));
+  var newUrl = window.location.pathname + (params.length ? '?' + params.join('&') : '');
+  window.history.replaceState({}, '', newUrl);
 }
 
 function updateStats(items) {
@@ -201,9 +242,9 @@ function populateFilters() {
     const s = document.createElement('span');
     s.className = 'pill'; s.dataset.cat = c;
     s.textContent = CAT_LABELS[c] || c;
-    s.addEventListener('click', () => {
-      document.querySelectorAll('#categoryPills .pill').forEach(p => p.classList.remove('active'));
-      s.classList.add('active'); applyFilters();
+    s.addEventListener('click', function() {
+      document.querySelectorAll('#categoryPills .pill').forEach(function(p) { p.classList.remove('active'); });
+      s.classList.add('active'); applyFilters(); updateUrl();
     });
     pills.appendChild(s);
   });
@@ -236,15 +277,24 @@ function getFiltered() {
   });
 }
 
+function updateResultCount() {
+  var total = businesses.length;
+  var showing = displayCount;
+  var filtered = getFiltered().length;
+  var el = document.getElementById('resultCount');
+  if (!el) return;
+  if (filtered === 0) { el.textContent = 'No businesses match your filters.'; return; }
+  el.textContent = filtered + ' of ' + total + ' businesses — showing first ' + Math.min(showing, filtered);
+}
+
 function applyFilters() {
   displayCount = 100;
   document.getElementById('showMore').style.display = 'none';
   const filtered = getFiltered();
   renderCards(filtered);
   updateMarkers(filtered);
-  document.getElementById('resultCount').textContent = `${filtered.length} of ${businesses.length} businesses — showing first ${Math.min(displayCount, filtered.length)}`;
+  updateResultCount();
   if (filtered.length > 100) document.getElementById('showMore').style.display = 'block';
-  if (filtered.length === 0) document.getElementById('resultCount').textContent = `No businesses match your filters.`;
 }
 
 function scrollResults() {
@@ -279,7 +329,7 @@ function renderCards(items) {
         ${b.whatsapp ? `<span class="field">💬 <span class="badge badge-wa">WA</span></span>` : ''}
         ${web ? `<span class="field">🌐 <a href="${escHtml(web)}" target="_blank">web</a></span>` : ''}
       </div>
-      ${hasCoords ? `<button class="view-map-btn" onclick="event.stopPropagation(); focusMap(${b.latitude},${b.longitude},this)">📍 View on map</button>` : `<span class="no-coords">📍 No coordinates</span>`}
+      ${hasCoords ? `<button class="view-map-btn" onclick="event.stopPropagation(); focusMap(${b.latitude},${b.longitude},this.closest('.card'))">📍 View on map</button>` : `<span class="no-coords">📍 No coordinates</span>`}
     </div>`;
   }).join('');
 }
@@ -303,8 +353,16 @@ function updateMarkers(items) {
     const lat = parseFloat(b.latitude), lon = parseFloat(b.longitude);
     if (!lat || !lon) return;
     const color = CAT_COLORS[b.category] || '#95a5a6';
-    const m = L.circleMarker([lat, lon], { radius: 5, fillColor: color, color: '#fff', weight: 1.5, fillOpacity: 0.8 })
-      .bindPopup(`<strong>${escHtml(b.business_name || '?')}</strong><br>${escHtml(CAT_LABELS[b.category] || b.category)}${b.area ? '<br>📍 ' + escHtml(b.area) : ''}${b.instagram_handle ? '<br>📷 @' + escHtml(b.instagram_handle) : ''}${(b.normalized_phone || b.phone) ? '<br>📞 ' + escHtml(b.normalized_phone || b.phone) : ''}`);
+    var bizId = b.id || '';
+    var name = escHtml(b.business_name || '?');
+    var cat = escHtml(CAT_LABELS[b.category] || b.category);
+    var area = b.area ? '<br>📍 ' + escHtml(b.area) : '';
+    var ig = b.instagram_handle ? '<br>📷 @' + escHtml(b.instagram_handle) : '';
+    var phone = (b.normalized_phone || b.phone) ? '<br>📞 ' + escHtml(b.normalized_phone || b.phone) : '';
+    var dirLink = bizId ? '<br><a href="directory.html?id=' + encodeURIComponent(bizId) + '" style="color:#3498db;">📂 Open in Directory</a>' : '';
+    var gapLink = lat && lon ? '<br><a href="gapmap.html#cell?lat=' + lat + '&lon=' + lon + '" style="color:#e67e22;">🗺️ View on Gap Map</a>' : '';
+    var m = L.circleMarker([lat, lon], { radius: 5, fillColor: color, color: '#fff', weight: 1.5, fillOpacity: 0.8 })
+      .bindPopup('<strong>' + name + '</strong><br>' + cat + area + ig + phone + dirLink + gapLink);
     markers.push(m);
     m.addTo(map);
   });

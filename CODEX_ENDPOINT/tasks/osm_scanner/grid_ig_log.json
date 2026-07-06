@@ -1,0 +1,41 @@
+[
+  {
+    "business": "Abba Home",
+    "strategy": "ddg",
+    "found": "abbahome_puertoviejo"
+  },
+  {
+    "business": "ALMA Masajes",
+    "strategy": "ddg",
+    "found": "alma.masajes.spa"
+  },
+  {
+    "business": "Da Lime Beach Club & Restaurant at Hotel Aguas Claras",
+    "strategy": "website",
+    "found": "hotelaguasclaras"
+  },
+  {
+    "business": "Abba Home",
+    "handle": "abbahome_puertoviejo",
+    "working": true,
+    "reason": "confirmed"
+  },
+  {
+    "business": "ALMA Masajes",
+    "handle": "alma.masajes.spa",
+    "working": true,
+    "reason": "confirmed"
+  },
+  {
+    "business": "Da Lime Beach Club & Restaurant at Hotel Aguas Claras",
+    "handle": "hotelaguasclaras",
+    "working": true,
+    "reason": "confirmed"
+  },
+  {
+    "business": "Douglas Ville guest house",
+    "handle": "douglasguesthouse",
+    "working": true,
+    "reason": "confirmed"
+  }
+]

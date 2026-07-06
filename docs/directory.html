@@ -175,10 +175,10 @@ function init() {
   updateStats(businesses);
   applyFilters();
   initMap();
-  document.getElementById('searchInput').addEventListener('input', applyFilters);
-  document.getElementById('areaFilter').addEventListener('change', applyFilters);
-  document.getElementById('dataFilter').addEventListener('change', applyFilters);
-  document.getElementById('showMore').addEventListener('click', () => { displayCount += 100; renderCards(getFiltered()); });
+  document.getElementById('searchInput').addEventListener('input', function() { displayCount = 100; applyFilters(); scrollResults(); });
+  document.getElementById('areaFilter').addEventListener('change', function() { displayCount = 100; applyFilters(); scrollResults(); });
+  document.getElementById('dataFilter').addEventListener('change', function() { displayCount = 100; applyFilters(); scrollResults(); });
+  document.getElementById('showMore').addEventListener('click', function() { displayCount += 100; renderCards(getFiltered()); });
 }
 
 function updateStats(items) {
@@ -242,8 +242,14 @@ function applyFilters() {
   const filtered = getFiltered();
   renderCards(filtered);
   updateMarkers(filtered);
-  document.getElementById('resultCount').textContent = `${filtered.length} of ${businesses.length} businesses`;
+  document.getElementById('resultCount').textContent = `${filtered.length} of ${businesses.length} businesses — showing first ${Math.min(displayCount, filtered.length)}`;
   if (filtered.length > 100) document.getElementById('showMore').style.display = 'block';
+  if (filtered.length === 0) document.getElementById('resultCount').textContent = `No businesses match your filters.`;
+}
+
+function scrollResults() {
+  const top = document.getElementById('resultCount');
+  if (top) top.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 }
 
 function renderCards(items) {

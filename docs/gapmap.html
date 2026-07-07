@@ -57,7 +57,7 @@ body { font-family: sans-serif; background: #1a1a2e; color: #eee; }
 </div>
 </div>
 
-<div class="info" id="info">Click a grid cell to see its businesses.</div>
+<div class="info" id="info">Click any business dot for details, or click a grid cell to see all businesses in that quadrant.</div>
 
 <div style="display:flex; gap:10px; height: calc(100vh - 140px);">
 <div id="map" style="flex:1; height:100%;"></div>
@@ -133,12 +133,8 @@ function updateMarkers(items) {
 
     const m = L.circleMarker([lat, lon], {
       radius: size, fillColor: color, color: '#fff', weight: 1, fillOpacity: opacity
-    }).bindPopup(
-      `<strong>${esc(b.business_name || '?')}</strong><br>` +
-      `${b.category || ''} · ${b.area || ''}` +
-      (b.instagram_handle ? `<br>📷 @${esc(b.instagram_handle)}` : '<br><span style="color:#e74c3c">No Instagram</span>') +
-      (b.distance_km ? `<br>📏 ${parseFloat(b.distance_km).toFixed(1)} km` : '')
-    );
+    });
+    m.on('click', function() { showBusinessDetail(b); });
     markers.push(m);
     m.addTo(map);
   });
@@ -250,6 +246,28 @@ function toggleFilters() {
 function toggleRadius() {
   if (radiusCircle._map) map.removeLayer(radiusCircle);
   else radiusCircle.addTo(map);
+}
+
+function showBusinessDetail(b) {
+  var panel = document.getElementById('cellPanel');
+  panel.style.display = 'block';
+  document.getElementById('cellTitle').innerHTML = esc(b.business_name || '?');
+  var dirLink = b.id ? ' <a href="directory.html?id=' + encodeURIComponent(b.id) + '" style="color:#3498db;text-decoration:none;" title="Open in Directory">📂 View in Directory</a>' : '';
+  var html = '';
+  html += '<div style="margin-bottom:8px;">' + dirLink + '</div>';
+  if (b.category) html += '<div><strong>Category:</strong> ' + esc(b.category) + '</div>';
+  if (b.area) html += '<div><strong>Area:</strong> ' + esc(b.area) + '</div>';
+  if (b.phone) html += '<div><strong>Phone:</strong> <a href="tel:' + esc(b.phone) + '" style="color:#2ecc71;">' + esc(b.phone) + '</a></div>';
+  if (b.website) html += '<div><strong>Website:</strong> <a href="' + esc(b.website) + '" target="_blank" style="color:#3498db;">' + esc(b.website.replace(/^https?:\/\//,'').slice(0,30)) + '</a></div>';
+  if (b.distance_km && b.distance_km > 0) html += '<div><strong>Distance:</strong> ' + parseFloat(b.distance_km).toFixed(1) + ' km from center</div>';
+  if (b.instagram_url) html += '<div><strong>Instagram:</strong> <a href="' + esc(b.instagram_url) + '" target="_blank" style="color:#e1306c;">@' + esc(b.instagram_handle || '') + '</a></div>';
+  else if (b.instagram_handle) html += '<div><strong>Instagram:</strong> @' + esc(b.instagram_handle) + '</div>';
+  if (b.facebook_url) html += '<div><strong>Facebook:</strong> <a href="' + esc(b.facebook_url) + '" target="_blank" style="color:#1877f2;">View Page</a></div>';
+  if (b.whatsapp) html += '<div><strong>WhatsApp:</strong> <a href="https://wa.me/' + esc(b.whatsapp.replace(/[^0-9]/g,'')) + '" target="_blank" style="color:#25D366;">' + esc(b.whatsapp) + '</a></div>';
+  if (b.email) html += '<div><strong>Email:</strong> <a href="mailto:' + esc(b.email) + '" style="color:#3498db;">' + esc(b.email) + '</a></div>';
+  if (b.google_maps_cid) html += '<div style="margin-top:6px;font-size:10px;color:#666;">CID: ' + esc(b.google_maps_cid) + '</div>';
+  document.getElementById('cellStats').innerHTML = '';
+  document.getElementById('cellBusinesses').innerHTML = html;
 }
 
 function showCell(biz, id, total, igCount) {

@@ -3,6 +3,10 @@
 **750 businesses within 5 km of Puerto Viejo de Talamanca, Costa Rica.**  
 A verified, multi-source local business directory with Instagram handles, phone numbers, WhatsApp, Booking.com links, Facebook pages, Google Maps CIDs, and geographic coordinates.
 
+👉 **[Browse the Interactive Directory](https://skinnerboxentertainment.github.io/puerto-viejo-business-discovery/directory.html)** — search, filter, and explore every business on a map
+🗺️ **[Gap Scanner Map](https://skinnerboxentertainment.github.io/puerto-viejo-business-discovery/gapmap.html)** — visual grid analysis of coverage by zone
+📊 **[Full Report](https://skinnerboxentertainment.github.io/puerto-viejo-business-discovery/report.html)** — aggregate stats, charts, and enrichment breakdown
+
 ---
 
 ## Dataset

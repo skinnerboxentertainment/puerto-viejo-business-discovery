@@ -258,7 +258,8 @@ function showCell(biz, id, total, igCount) {
   document.getElementById('cellTitle').textContent = 'Cell ' + id + ' — ' + total + ' businesses';
   document.getElementById('cellStats').innerHTML = '<div style="display:flex;gap:10px;margin-bottom:6px;"><span>📷 ' + igCount + ' with IG</span><span style="color:#e74c3c;">❌ ' + (total - igCount) + ' without</span></div>';
   document.getElementById('cellBusinesses').innerHTML = biz.map(function(b) {
-    return '<div style="padding:4px 0;border-bottom:1px solid #0f3460;"><div style="font-weight:500;">' + esc(b.business_name || '?') + '</div><div style="font-size:11px;color:#888;">' + (b.category || '') + (b.area ? ' · ' + b.area : '') + (b.instagram_handle ? ' · 📷 @' + esc(b.instagram_handle) : '') + '</div></div>';
+    var dirLink = b.id ? ' <a href="directory.html?id=' + encodeURIComponent(b.id) + '" style="color:#3498db;text-decoration:none;" title="Open in Directory">📂</a>' : '';
+    return '<div style="padding:4px 0;border-bottom:1px solid #0f3460;"><div style="font-weight:500;">' + esc(b.business_name || '?') + dirLink + '</div><div style="font-size:11px;color:#888;">' + (b.category || '') + (b.area ? ' · ' + b.area : '') + (b.instagram_handle ? ' · 📷 @' + esc(b.instagram_handle) : '') + '</div></div>';
   }).join('') || '<div style="color:#888;">No businesses with coordinates in this cell.</div>';
 }
 

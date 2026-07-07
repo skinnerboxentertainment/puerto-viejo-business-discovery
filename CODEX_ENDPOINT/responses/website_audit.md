@@ -1,5 +1,41 @@
 # UI/UX Audit & Redesign Proposal — Puerto Viejo Business Discovery
 
+## Reprocessed Assessment — Current Deployment
+
+I revisited the live GitHub Pages site and reread the current `docs/index.html`, `docs/directory.html`, `docs/report.html`, and `docs/gapmap.html` source after the latest updates. The site is now substantially healthier than the earlier audit state.
+
+Current status:
+
+- Landing page now has the right public shape: current metrics, map preview, source badges, and clear CTAs.
+- Directory search/filtering now works. Searching `Black Bamboo` returned one matching card and updated the URL to `directory.html?q=Black%20Bamboo`.
+- Directory now has URL state for query, area, category, and filter. This is an important step toward deep linking.
+- Report now uses current metrics and dynamic `businesses.json`/`metrics.json` driven tables. The stale 450-record report content has largely been removed.
+- Gap Map now has navigation, a 481 mapped count, clickable count badges/cells, and a side panel showing cell businesses plus Instagram/no-Instagram counts.
+- Console was clean in the latest live verification.
+
+Remaining high-value shortcomings:
+
+- The UI still lacks a canonical business detail model. A business appears in Directory cards, Directory map popups, Report map markers, Gap Map cells, and CSV, but those views do not yet feel like different surfaces of the same entity.
+- `directory.html?id=...` support exists in code, but the data needs confirmed stable `id` values everywhere and the UI needs visible "copy/open/share this business" affordances.
+- Gap Map cell panel lists businesses but does not link each listed business back to `directory.html?id=...` or `directory.html?q=...`.
+- Report map popups still show basic business facts but do not link to Directory, Gap Map, or enrichment workflows.
+- Directory cards are compact and functional, but they do not expose Facebook, Google CID, coordinate status, evidence/screenshot status, or enrichment completeness as first-class signals.
+- On mobile-width layouts, Directory map falls below the first 100 results. The desktop split layout is good, but mobile needs a sticky map toggle or "Map/List" segmented control.
+- Category taxonomy still exposes raw category values where they exist. Normalization is improved compared with earlier screenshots, but this should become a data-build step rather than a per-page UI workaround.
+
+Recommended next layer:
+
+Add a shared "business intelligence" interaction model:
+
+1. Every record gets a stable `id`/slug in `businesses.json`, `businesses.geojson`, and CSV.
+2. Directory, Report, and Gap Map all link to `directory.html?id=<id>`.
+3. Directory opens a business detail drawer for `?id=`.
+4. Map popups include `Open in Directory`, `View Gap Cell`, and key enrichment status.
+5. Gap Map cell rows link each business to Directory and optionally show missing-field badges.
+6. Report tables link category/area rows into filtered Directory views, for example `directory.html?area=Cocles` or `directory.html?category=restaurant&filter=noig`.
+
+This would move the site from "static pages showing the same dataset" to a coherent, enriched exploration tool.
+
 ## Rendered visual inspection addendum
 
 I opened the live GitHub Pages site in the in-app browser and visually inspected the rendered landing page, directory, report, and gap map.

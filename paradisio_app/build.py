@@ -12,6 +12,21 @@ TEMPLATES_DIR = BASE_DIR / "templates"
 STATIC_DIR = BASE_DIR / "static"
 OUTPUT_DIR = Path(__file__).resolve().parent.parent / "docs" / "paradisio_app"
 CSV_PATH = BASE_DIR.parent / "pv_master_unified.csv"
+MAPS_ENRICH_PATH = OUTPUT_DIR / "data" / "maps_enrich.json"
+
+
+def load_maps_enrich():
+    path = MAPS_ENRICH_PATH
+    if not path.exists():
+        return {}
+    with open(path, encoding="utf-8") as f:
+        records = json.load(f)
+    lookup = {}
+    for r in records:
+        if r["success"] and r["data"]:
+            cid = r["cid"]
+            lookup[cid] = r["data"]
+    return lookup
 
 WHATSAPP_TEMPLATE = "Hola {name}, vi su pagina en Paradisio. Estan abiertos hoy? Me gustaria saber mas sobre sus servicios. Gracias."
 
@@ -226,10 +241,22 @@ def get_secondary_links(row):
     return links
 
 
+MAPS_CACHE = None
+
+
+def maps_data(cid):
+    global MAPS_CACHE
+    if MAPS_CACHE is None:
+        MAPS_CACHE = load_maps_enrich()
+    return MAPS_CACHE.get(cid, {})
+
+
 def build_business(row):
     name = clean_display_name(row.get("business_name", "").strip(), row.get("area", "").strip())
     area = row.get("area", "").strip()
     slug = slugify(row.get("business_name", "").strip(), area)
+    cid = row.get("google_maps_cid", "").strip()
+    enrich = maps_data(cid)
     business = {
         "id": compute_id(row),
         "slug": slug,
@@ -265,6 +292,12 @@ def build_business(row):
         "description": row.get("description_full", "").strip()[:500],
         "verified_date": row.get("verified_date", "").strip(),
         "claim": {"status": "unclaimed"},
+        "rating": enrich.get("rating"),
+        "maps_address": enrich.get("address"),
+        "check_in": enrich.get("check_in"),
+        "check_out": enrich.get("check_out"),
+        "amenities": enrich.get("amenities", []),
+        "prices": enrich.get("prices", [])[:3],
     }
     return business
 
@@ -347,6 +380,57 @@ const AREAS = {areas_json};
 </html>"""
 
 
+def rating_html(biz):
+    r = biz.get("rating")
+    if r is None:
+        return ""
+    full = int(r)
+    half = "&#189;" if r % 1 >= 0.3 else ""
+    stars = "&#9733;" * full + half
+    return f'<div class="biz-rating">{stars} {r}</div>'
+
+
+def biz_addr(biz):
+    a = biz.get("maps_address")
+    return f'<div class="biz-addr">{a}</div>' if a else ""
+
+
+def clean_time(t):
+    return t.replace("?", "").replace("\u202f", " ") if t else ""
+
+def biz_hours(biz):
+    ci = clean_time(biz.get("check_in"))
+    co = clean_time(biz.get("check_out"))
+    if ci and co:
+        return f'<div class="biz-hours">Check-in {ci} / Check-out {co}</div>'
+    if ci:
+        return f'<div class="biz-hours">Check-in {ci}</div>'
+    if co:
+        return f'<div class="biz-hours">Check-out {co}</div>'
+    return ""
+
+
+def biz_amenities(biz):
+    am = biz.get("amenities", [])
+    if not am:
+        return ""
+    # Filter out Maps UI noise and deduplicate
+    noise = {"restaurantes", "hoteles", "bares", "cafes", "farmacias", "estacionamientos",
+             "cosas que hacer", "guardado", "recientes", "transporte publico", "cajeros automaticos"}
+    filtered = []
+    seen = set()
+    for a in am:
+        key = a.lower().strip()
+        if key in noise or key in seen:
+            continue
+        seen.add(key)
+        filtered.append(a)
+    if not filtered:
+        return ""
+    chips = " ".join(f'<span class="amenity-chip">{a}</span>' for a in filtered[:6])
+    return f'<div class="amenities">{chips}</div>'
+
+
 def render_business_html(biz):
     pc = biz["primary_contact"]
     sl = biz["secondary_links"]
@@ -420,6 +504,10 @@ document.addEventListener('DOMContentLoaded', function() {{
 <span class="biz-status status-{biz["status"]}">{biz["status"].title()}</span>
 </div>
 <div class="badge-row">{badges_html}</div>
+{rating_html(biz)}
+{biz_addr(biz)}
+{biz_hours(biz)}
+{biz_amenities(biz)}
 </header>
 {inline_cta}
 <div class="biz-content">

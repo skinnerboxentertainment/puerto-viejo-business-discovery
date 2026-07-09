@@ -3,6 +3,13 @@ html { font-size: 16px; -webkit-text-size-adjust: 100%; }
 body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f3ef; color: #1a1a1a; line-height: 1.5; padding-bottom: 0; }
 .container { max-width: 900px; margin: 0 auto; padding: 12px; }
 
+/* Site nav */
+.site-nav { background: #1a3a2a; padding: 10px 16px; display: flex; gap: 4px; flex-wrap: wrap; }
+.site-nav a { color: #bdc3c7; text-decoration: none; font-size: 0.82rem; padding: 6px 14px; border-radius: 6px; }
+.site-nav a:hover { color: #fff; background: rgba(255,255,255,0.1); }
+.site-nav a.nav-active { color: #fff; background: rgba(255,255,255,0.15); font-weight: 600; }
+@media (max-width: 380px) { .site-nav a { font-size: 0.78rem; padding: 6px 10px; } }
+
 /* Header */
 .header { padding: 20px 0 12px; }
 .header h1 { font-size: 1.6rem; font-weight: 700; letter-spacing: -0.5px; color: #1a3a2a; }
@@ -168,3 +175,25 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-
 @media (min-width: 900px) {
   .header h1 { font-size: 2.2rem; }
 }
+
+/* Classifieds */
+.cl-cat-nav { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.cat-link { font-size: 0.82rem; padding: 6px 12px; border: 1px solid #ddd; border-radius: 6px; text-decoration: none; color: #1a3a2a; background: #fff; }
+.cat-link:hover { background: #eef5ef; }
+.cl-cat-heading { font-size: 1.1rem; color: #1a3a2a; margin: 20px 0 8px; padding-bottom: 4px; border-bottom: 2px solid #e0e0e0; }
+.cl-grid { display: flex; flex-direction: column; gap: 6px; }
+.cl-card { background: #fff; border-radius: 8px; padding: 12px 14px; text-decoration: none; color: inherit; box-shadow: 0 1px 3px rgba(0,0,0,0.04); }
+.cl-card:active { background: #f0f0f0; }
+.cl-title { font-size: 0.95rem; font-weight: 600; color: #1a1a1a; }
+.cl-meta { font-size: 0.78rem; color: #666; margin-top: 1px; }
+.cl-summary { font-size: 0.82rem; color: #444; margin-top: 4px; line-height: 1.4; }
+.cl-tags { display: flex; flex-wrap: wrap; gap: 3px; margin-top: 4px; }
+.cl-date { font-size: 0.7rem; color: #999; margin-top: 4px; }
+.cl-price { font-size: 1.05rem; font-weight: 600; color: #075e54; margin: 4px 0; }
+.cl-body { font-size: 0.9rem; color: #444; line-height: 1.6; margin: 8px 0; }
+.cl-listing h1 { font-size: 1.3rem; margin-bottom: 4px; }
+.post-ad-box { text-align: center; margin: 24px 0; padding: 20px; background: #f0f7f4; border-radius: 10px; }
+.post-ad-box p { margin-bottom: 10px; font-size: 0.9rem; }
+.post-ad-btn { display: inline-block; padding: 12px 24px; font-size: 0.95rem; font-weight: 600; color: #fff; background: #075e54; border-radius: 8px; text-decoration: none; }
+.post-ad-btn:active { background: #054d44; }
+

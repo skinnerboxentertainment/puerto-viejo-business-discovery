@@ -13,6 +13,30 @@ STATIC_DIR = BASE_DIR / "static"
 OUTPUT_DIR = Path(__file__).resolve().parent.parent / "docs" / "paradisio_app"
 CSV_PATH = BASE_DIR.parent / "pv_master_unified.csv"
 MAPS_ENRICH_PATH = OUTPUT_DIR / "data" / "maps_enrich.json"
+CLASSIFIEDS_PATH = BASE_DIR / "data" / "classifieds.json"
+
+
+def load_classifieds():
+    if not CLASSIFIEDS_PATH.exists():
+        return []
+    with open(CLASSIFIEDS_PATH, encoding="utf-8") as f:
+        data = json.load(f)
+    for ad in data:
+        ad.setdefault("area", "Unknown")
+    return data
+
+
+NAV_PAGES = {"directory": "Directory", "classifieds": "Classifieds", "post": "Post Ad"}
+
+
+def nav_html(current, depth=0):
+    prefix = "../" if depth > 0 else ""
+    links = ""
+    for key, label in NAV_PAGES.items():
+        href = {"directory": f"{prefix}index.html", "classifieds": f"{prefix}classifieds/index.html", "post": "mailto:paradisio@example.com?subject=Post%20ad&body=Category:%0ATitle:%0APrice:%0AArea:%0AContact:%0ADescription:"}.get(key, "#")
+        active = "nav-active" if key == current else ""
+        links += f'<a href="{href}" class="{active}">{label}</a>'
+    return f'<nav class="site-nav">{links}</nav>'
 
 
 def load_maps_enrich():
@@ -313,6 +337,8 @@ def render_index_html(businesses, metrics):
     categories_json = json.dumps(metrics["categories"])
     areas_json = json.dumps(metrics["areas"])
 
+    nav = nav_html("directory", depth=0)
+
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -326,6 +352,7 @@ def render_index_html(businesses, metrics):
 <script data-goatcounter="https://paradisio.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
 <body>
+{nav}
 <div class="container">
 <header class="header">
 <h1>Paradisio</h1>
@@ -443,6 +470,7 @@ def biz_amenities(biz):
 
 
 def render_business_html(biz):
+    nav = nav_html("directory", depth=1)
     pc = biz["primary_contact"]
     sl = biz["secondary_links"]
     badges_html = " ".join(f'<span class="badge badge-{b.lower().replace(" ","-")}">{b}</span>' for b in biz["badges"])
@@ -510,6 +538,7 @@ document.addEventListener('DOMContentLoaded', function() {{
 <script data-goatcounter="https://paradisio.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
 <body>
+{nav}
 <div class="container">
 <header class="header biz-header">
 <a href="../index.html" class="back-link">&larr; Back to directory</a>
@@ -551,9 +580,143 @@ document.addEventListener('DOMContentLoaded', function() {{
 </html>"""
 
 
+CAT_LABELS = {
+    "rooms-for-rent": "Rooms for Rent", "jobs": "Jobs", "gigs": "Gigs",
+    "for-sale": "For Sale", "services": "Services", "events": "Events",
+    "rideshare": "Rideshare", "lost-found": "Lost & Found",
+}
+
+
+def classifieds_url(ad):
+    return f"../classifieds/{ad['slug']}.html"
+
+
+def render_classifieds_index(ads):
+    nav = nav_html("classifieds", depth=1)
+    categories = {}
+    for ad in ads:
+        cat = ad["category"]
+        categories.setdefault(cat, []).append(ad)
+    cats_json = json.dumps({k: len(v) for k, v in categories.items()})
+    ads_json = json.dumps(ads, ensure_ascii=False)
+
+    cat_links = "".join(
+        f'<a href="#cat-{cat}" class="cat-link">{CAT_LABELS.get(cat, cat)} ({len(items)})</a>'
+        for cat, items in sorted(categories.items())
+    )
+    cat_sections = ""
+    for cat, items in sorted(categories.items()):
+        cards = "".join(
+            f'<a href="{classifieds_url(ad)}" class="cl-card">'
+            f'<div class="cl-title">{ad["title"]}</div>'
+            f'<div class="cl-meta">{ad.get("area","")} · {ad.get("price","")}</div>'
+            f'<div class="cl-summary">{ad["summary"][:120]}</div>'
+            f'<div class="cl-date">{ad["posted_date"]}</div>'
+            f"</a>"
+            for ad in items
+        )
+        cat_sections += f'<h2 id="cat-{cat}" class="cl-cat-heading">{CAT_LABELS.get(cat, cat)} ({len(items)})</h2><div class="cl-grid">{cards}</div>'
+
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Classifieds — Paradisio Puerto Viejo</title>
+<link rel="stylesheet" href="../static/styles.css">
+<script data-goatcounter="https://paradisio.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+{nav}
+<div class="container">
+<header class="header">
+<h1>Classifieds</h1>
+<p class="subtitle">Puerto Viejo community board · {len(ads)} active listings</p>
+<div class="stats-bar">
+<span class="stat"><strong>{len(ads)}</strong> listings</span>
+<span class="stat"><strong>{len(categories)}</strong> categories</span>
+</div>
+</header>
+<div class="controls">
+<input type="text" id="cl-search" class="search-input" placeholder="Search classifieds..." autofocus>
+<div class="cl-cat-nav">{cat_links}</div>
+<div id="cl-count" class="stats-line"></div>
+</div>
+<div id="cl-results" class="cl-all">{cat_sections}</div>
+<div class="post-ad-box">
+<p><strong>Got something to sell, rent, or share?</strong></p>
+<a href="mailto:paradisio@example.com?subject=Post%20classified&body=Category:%0ATitle:%0APrice:%0AArea:%0AContact:%0ADescription:" class="post-ad-btn">Post a free ad →</a>
+</div>
+<footer class="footer">
+<p><a href="../index.html">Business Directory</a> · <a href="mailto:paradisio@example.com?subject=Post%20classified">Post an ad</a></p>
+</footer>
+</div>
+<script>
+const CLASSIFIEDS = {ads_json};
+const CL_CATEGORIES = {cats_json};
+</script>
+<script src="../static/classifieds.js"></script>
+</body>
+</html>"""
+
+
+def render_classified_listing(ad):
+    nav = nav_html("classifieds", depth=1)
+    cat_label = CAT_LABELS.get(ad["category"], ad["category"])
+    contact_lines = []
+    c = ad.get("contact", {})
+    if c.get("whatsapp"):
+        contact_lines.append(f'<a href="https://wa.me/{c["whatsapp"].lstrip("+")}" class="secondary-link" target="_blank">WhatsApp</a>')
+    if c.get("phone"):
+        contact_lines.append(f'<a href="tel:{c["phone"]}" class="secondary-link">Call {c["phone"]}</a>')
+    if c.get("instagram"):
+        contact_lines.append(f'<a href="https://instagram.com/{c["instagram"]}" class="secondary-link" target="_blank">@{c["instagram"]}</a>')
+    if c.get("email"):
+        contact_lines.append(f'<a href="mailto:{c["email"]}" class="secondary-link">Email</a>')
+
+    tags = " ".join(f'<span class="channel-tag">{t}</span>' for t in ad.get("tags", []))
+    contacts_html = " ".join(contact_lines) if contact_lines else '<span class="no-contact">Reply to this ad to inquire</span>'
+
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{ad["title"]} — Paradisio Classifieds</title>
+<link rel="stylesheet" href="../static/styles.css">
+<script data-goatcounter="https://paradisio.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+{nav}
+<div class="container">
+<a href="../classifieds/index.html" class="back-link">&larr; Classifieds</a>
+<article class="cl-listing">
+<h1>{ad["title"]}</h1>
+<div class="biz-meta">
+<span class="biz-category">{cat_label}</span>
+<span class="biz-area">{ad.get("area", "")}</span>
+</div>
+<div class="cl-price">{ad.get("price", "") or "Free"}</div>
+<div class="cl-date">Posted {ad["posted_date"]}</div>
+<p class="cl-body">{ad["summary"]}</p>
+{("<div class='cl-tags'>" + tags + "</div>") if ad.get("tags") else ""}
+<div class="biz-claim">
+<p><strong>Contact</strong></p>
+<div class="biz-links">{contacts_html}</div>
+</div>
+</article>
+<footer class="footer">
+<p><a href="../classifieds/index.html">&larr; All classifieds</a> · <a href="../index.html">Business Directory</a></p>
+</footer>
+</div>
+</body>
+</html>"""
+
+
 def main():
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    (OUTPUT_DIR / "businesses").mkdir(parents=True, exist_ok=True)
+    biz_dir = OUTPUT_DIR / "businesses"
+    biz_dir.mkdir(parents=True, exist_ok=True)
     (OUTPUT_DIR / "data").mkdir(parents=True, exist_ok=True)
     (OUTPUT_DIR / "static").mkdir(parents=True, exist_ok=True)
 
@@ -618,13 +781,32 @@ def main():
         f.write(index_html)
     print(f"  index.html — entry point")
 
+    # Classifieds
+    classifieds = load_classifieds()
+    if classifieds:
+        cl_dir = OUTPUT_DIR / "classifieds"
+        cl_dir.mkdir(parents=True, exist_ok=True)
+        cl_idx = render_classifieds_index(classifieds)
+        with open(cl_dir / "index.html", "w", encoding="utf-8") as f:
+            f.write(cl_idx)
+        for ad in classifieds:
+            html = render_classified_listing(ad)
+            with open(cl_dir / f"{ad['slug']}.html", "w", encoding="utf-8") as f:
+                f.write(html)
+        print(f"  classifieds/ — {len(classifieds)} listings + index")
+    else:
+        print(f"  classifieds — no data (create paradisio_app/data/classifieds.json)")
+
     static_src = STATIC_DIR / "app.js"
     if static_src.exists():
         shutil.copy2(static_src, OUTPUT_DIR / "static" / "app.js")
+    static_src = STATIC_DIR / "classifieds.js"
+    if static_src.exists():
+        shutil.copy2(static_src, OUTPUT_DIR / "static" / "classifieds.js")
     static_src = STATIC_DIR / "styles.css"
     if static_src.exists():
         shutil.copy2(static_src, OUTPUT_DIR / "static" / "styles.css")
-    print(f"  static/ — app.js, styles.css")
+    print(f"  static/ — app.js, classifieds.js, styles.css")
 
     print(f"\nDone. Output: {OUTPUT_DIR}")
 

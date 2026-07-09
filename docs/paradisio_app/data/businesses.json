@@ -66,6 +66,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": "3:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -151,6 +152,7 @@
     },
     "rating": 4.9,
     "maps_address": null,
+    "subcategory": "Heladería",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -228,6 +230,7 @@
     },
     "rating": 5.0,
     "maps_address": "M668+F7M, Limón, Cahuita",
+    "subcategory": "Hotel",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -309,6 +312,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -381,6 +385,7 @@
     },
     "rating": 4.3,
     "maps_address": null,
+    "subcategory": "Agencia de alquiler de coches",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -452,6 +457,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "Albergue",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -542,6 +548,7 @@
     },
     "rating": 4.9,
     "maps_address": null,
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": "3:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -627,6 +634,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Indicaciones",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -699,6 +707,7 @@
     },
     "rating": 4.2,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -761,6 +770,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -826,6 +836,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "Tienda de ropa de mujer",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -898,6 +909,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Esteticista",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -965,6 +977,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Área de descanso",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -1038,6 +1051,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Indicaciones",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -1111,6 +1125,7 @@
     },
     "rating": 5.0,
     "maps_address": "M752+H4 Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Estudio de tatuajes",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -1192,6 +1207,7 @@
     },
     "rating": 2.7,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": null,
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -1274,6 +1290,7 @@
     },
     "rating": 4.4,
     "maps_address": null,
+    "subcategory": "Restaurante italiano",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -1351,6 +1368,7 @@
     },
     "rating": 4.3,
     "maps_address": null,
+    "subcategory": "Alojamiento",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -1412,6 +1430,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Museo",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -1492,6 +1511,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "Atracción turística",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -1564,6 +1584,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": "Apartamento turístico",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -1650,6 +1671,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Descripción gener",
     "check_in": "3:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -1729,6 +1751,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": "Cafetería",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -1789,6 +1812,7 @@
     },
     "rating": 4.9,
     "maps_address": null,
+    "subcategory": "Atracción turística",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -1871,6 +1895,7 @@
     },
     "rating": 3.8,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -1943,6 +1968,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -2029,6 +2055,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -2100,6 +2127,7 @@
     },
     "rating": 4.3,
     "maps_address": null,
+    "subcategory": "Hotel de 4 estrellas",
     "check_in": "2:00 p.m.",
     "check_out": "12:00 p.m.",
     "amenities": [
@@ -2188,6 +2216,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Taller de reparación d",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -2265,6 +2294,7 @@
     },
     "rating": 4.9,
     "maps_address": null,
+    "subcategory": null,
     "check_in": "3:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -2347,6 +2377,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": "3:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -2434,6 +2465,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": "Indicaciones",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -2519,6 +2551,7 @@
     },
     "rating": 4.1,
     "maps_address": null,
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -2594,6 +2627,7 @@
     },
     "rating": 4.9,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -2664,6 +2698,7 @@
     },
     "rating": 2.7,
     "maps_address": null,
+    "subcategory": "Cajeros automáticos",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -2736,6 +2771,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Tienda de ropa",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -2813,6 +2849,7 @@
     },
     "rating": 4.3,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -2900,6 +2937,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": "Hotel de 4 estrellas",
     "check_in": "2:00 p.m.",
     "check_out": "12:00 p.m.",
     "amenities": [
@@ -2983,6 +3021,7 @@
     },
     "rating": 2.9,
     "maps_address": null,
+    "subcategory": "Banco",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -3055,6 +3094,7 @@
     },
     "rating": 2.7,
     "maps_address": null,
+    "subcategory": "Banco",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -3127,6 +3167,7 @@
     },
     "rating": 3.5,
     "maps_address": null,
+    "subcategory": "Banco",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -3200,6 +3241,7 @@
     },
     "rating": 4.7,
     "maps_address": "M726+MG Cocles, Limón",
+    "subcategory": "Restaurante de desayunos",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -3277,6 +3319,7 @@
     },
     "rating": 4.1,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -3364,6 +3407,7 @@
     },
     "rating": 4.8,
     "maps_address": "M726+HM Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -3436,6 +3480,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -3496,6 +3541,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Zona de senderismo",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -3573,6 +3619,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Centro de salud y bienestar",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -3644,6 +3691,7 @@
     },
     "rating": 4.9,
     "maps_address": null,
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -3716,6 +3764,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "Cerrado permanentemente",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -3788,6 +3837,7 @@
     },
     "rating": 4.1,
     "maps_address": null,
+    "subcategory": "Servicio de transp",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -3863,6 +3913,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -3931,6 +3982,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Tienda de productos",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -4013,6 +4065,7 @@
     },
     "rating": 4.7,
     "maps_address": "M742+8M Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Bed & Breakfa",
     "check_in": "3:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -4097,6 +4150,7 @@
     },
     "rating": 4.9,
     "maps_address": "M726+MJ Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Escuela de surf",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -4164,6 +4218,7 @@
     },
     "rating": 4.9,
     "maps_address": null,
+    "subcategory": "Descripc",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -4237,6 +4292,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -4318,6 +4374,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Cafetería",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -4395,6 +4452,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Posada",
     "check_in": null,
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -4478,6 +4536,7 @@
     },
     "rating": 4.3,
     "maps_address": null,
+    "subcategory": "Hotel de 4 estrellas",
     "check_in": "3:00 p.m.",
     "check_out": "12:00 p.m.",
     "amenities": [
@@ -4554,6 +4613,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -4615,6 +4675,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -4678,6 +4739,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -4745,6 +4807,7 @@
     },
     "rating": 4.0,
     "maps_address": null,
+    "subcategory": "Parque de",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -4821,6 +4884,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -4893,6 +4957,7 @@
     },
     "rating": 4.8,
     "maps_address": "M752+H7 Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -4960,6 +5025,7 @@
     },
     "rating": 4.4,
     "maps_address": null,
+    "subcategory": "Descripción gener",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -5031,6 +5097,7 @@
     },
     "rating": 5.0,
     "maps_address": "M676+56, Limón, Puerto Viejo de Talamanca",
+    "subcategory": "Atracción turística",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -5098,6 +5165,7 @@
     },
     "rating": 3.9,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -5177,6 +5245,7 @@
     },
     "rating": 4.4,
     "maps_address": null,
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": "3:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -5251,6 +5320,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -5328,6 +5398,7 @@
     },
     "rating": 4.4,
     "maps_address": "M752+56 Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -5423,6 +5494,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": "3:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -5511,6 +5583,7 @@
     },
     "rating": 4.9,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": "3:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -5595,6 +5668,7 @@
     },
     "rating": 3.4,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -5662,6 +5736,7 @@
     },
     "rating": 4.8,
     "maps_address": "M668+49 Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Hotel",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -5734,6 +5809,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Alojamiento",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -5800,6 +5876,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -5867,6 +5944,7 @@
     },
     "rating": 4.2,
     "maps_address": null,
+    "subcategory": "Hotel de 2 estrellas",
     "check_in": "1:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -5953,6 +6031,7 @@
     },
     "rating": 4.4,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -6039,6 +6118,7 @@
     },
     "rating": 4.1,
     "maps_address": "M752+87 Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": "2:00 p.m.",
     "check_out": "12:00 p.m.",
     "amenities": [
@@ -6121,6 +6201,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Hotel de 2 estrellas",
     "check_in": "1:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -6195,6 +6276,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -6266,6 +6348,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": "3:00 p.m.",
     "check_out": null,
     "amenities": [
@@ -6347,6 +6430,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -6420,6 +6504,7 @@
     },
     "rating": 4.2,
     "maps_address": null,
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": "2:00 p.m.",
     "check_out": null,
     "amenities": [
@@ -6497,6 +6582,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -6584,6 +6670,7 @@
     },
     "rating": 4.3,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -6671,6 +6758,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -6739,6 +6827,7 @@
     },
     "rating": 4.8,
     "maps_address": "M668+49 Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Hotel",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -6806,6 +6895,7 @@
     },
     "rating": 4.8,
     "maps_address": "M668+49 Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Hotel",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -6883,6 +6973,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Alojamiento",
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -6946,6 +7037,7 @@
     },
     "rating": 4.8,
     "maps_address": "M668+49 Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Hotel",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -7019,6 +7111,7 @@
     },
     "rating": 4.2,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -7086,6 +7179,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": "Hotel de 2 estrellas",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -7179,6 +7273,7 @@
     },
     "rating": 4.3,
     "maps_address": null,
+    "subcategory": "(119)",
     "check_in": "3:00 p.m.",
     "check_out": null,
     "amenities": [
@@ -7270,6 +7365,7 @@
     },
     "rating": 4.0,
     "maps_address": null,
+    "subcategory": "Alojamiento",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -7356,6 +7452,7 @@
     },
     "rating": 4.4,
     "maps_address": "M752+38 Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Hotel",
     "check_in": "3:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -7442,6 +7539,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -7514,6 +7612,7 @@
     },
     "rating": 4.4,
     "maps_address": null,
+    "subcategory": "Alojamiento",
     "check_in": null,
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -7600,6 +7699,7 @@
     },
     "rating": 4.3,
     "maps_address": null,
+    "subcategory": "Alojamiento",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -7678,6 +7778,7 @@
     },
     "rating": 4.6,
     "maps_address": "M752+Q9M, Limón, Puerto Viejo de Talamanca",
+    "subcategory": "Cerrado permanentemente",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -7753,6 +7854,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -7827,6 +7929,7 @@
     },
     "rating": 4.0,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": "2:00 p.m.",
     "check_out": "11:30 a.m.",
     "amenities": [
@@ -7906,6 +8009,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": "2:00 p.m.",
     "check_out": null,
     "amenities": [
@@ -7977,6 +8081,7 @@
     },
     "rating": 3.9,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -8065,6 +8170,7 @@
     },
     "rating": 4.1,
     "maps_address": "M752+87 Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": "2:00 p.m.",
     "check_out": "12:00 p.m.",
     "amenities": [
@@ -8142,6 +8248,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -8210,6 +8317,7 @@
     },
     "rating": 4.0,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -8281,6 +8389,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": "Hotel de 2 estrellas",
     "check_in": "3:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -8358,6 +8467,7 @@
     },
     "rating": 4.3,
     "maps_address": null,
+    "subcategory": "Casa rural",
     "check_in": null,
     "check_out": "12:00 p.m.",
     "amenities": [
@@ -8441,6 +8551,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -8522,6 +8633,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Atracción turística",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -8608,6 +8720,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "Cafetería",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -8693,6 +8806,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -8768,6 +8882,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "(114)",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -8832,6 +8947,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -8893,6 +9009,7 @@
     },
     "rating": 4.9,
     "maps_address": null,
+    "subcategory": "Cafetería",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -8978,6 +9095,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "Cafetería",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -9044,6 +9162,7 @@
     },
     "rating": 3.1,
     "maps_address": null,
+    "subcategory": "Estación de autobuses",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -9115,6 +9234,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -9198,6 +9318,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": "2:00 p.m.",
     "check_out": "12:00 p.m.",
     "amenities": [
@@ -9275,6 +9396,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -9337,6 +9459,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Cafetería",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -9401,6 +9524,7 @@
     },
     "rating": 1.3,
     "maps_address": null,
+    "subcategory": "Tienda de artículos para el hogar",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -9472,6 +9596,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Alojamiento",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -9547,6 +9672,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Alojamiento con servicio",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -9619,6 +9745,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -9690,6 +9817,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -9778,6 +9906,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Hotel de 2 estrellas",
     "check_in": "2:00 p.m.",
     "check_out": null,
     "amenities": [
@@ -9865,6 +9994,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Indicaciones",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -9942,6 +10072,7 @@
     },
     "rating": 4.2,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": "3:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -10025,6 +10156,7 @@
     },
     "rating": 4.9,
     "maps_address": null,
+    "subcategory": "Clínica",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -10106,6 +10238,7 @@
     },
     "rating": 4.2,
     "maps_address": null,
+    "subcategory": "Agencia de viajes",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -10182,6 +10315,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Servicio de paseo a caballo",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -10259,6 +10393,7 @@
     },
     "rating": 4.9,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -10340,6 +10475,7 @@
     },
     "rating": 4.2,
     "maps_address": null,
+    "subcategory": "Servicio de transp",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -10417,6 +10553,7 @@
     },
     "rating": 4.0,
     "maps_address": null,
+    "subcategory": "Cerrado permanentement",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -10498,6 +10635,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Hotel de 3 e",
     "check_in": "3:00 p.m.",
     "check_out": "9:00 p.m.",
     "amenities": [
@@ -10596,6 +10734,7 @@
     },
     "rating": 4.6,
     "maps_address": "M735+FH Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Cafetería",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -10672,6 +10811,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -10759,6 +10899,7 @@
     },
     "rating": 4.2,
     "maps_address": "M726+37 Cocles, Limón",
+    "subcategory": null,
     "check_in": "3:00 p.m.",
     "check_out": "12:00 p.m.",
     "amenities": [
@@ -10849,6 +10990,7 @@
     },
     "rating": 3.5,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -10931,6 +11073,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -10992,6 +11135,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Apartamento turístico",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -11053,6 +11197,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Apartamento turístico",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -11139,6 +11284,7 @@
     },
     "rating": 4.2,
     "maps_address": null,
+    "subcategory": "Alojamiento",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -11220,6 +11366,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Centro de meditación",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -11287,6 +11434,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -11368,6 +11516,7 @@
     },
     "rating": 5.0,
     "maps_address": "M742+Q2 Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Apartamento turístico",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -11435,6 +11584,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -11512,6 +11662,7 @@
     },
     "rating": 4.4,
     "maps_address": "M734+V5 Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Alojamiento con servicio",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -11588,6 +11739,7 @@
     },
     "rating": 5.0,
     "maps_address": "M742+MQ Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Indicaciones",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -11665,6 +11817,7 @@
     },
     "rating": 4.9,
     "maps_address": "M733+MX Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Alojamiento con servicio",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -11738,6 +11891,7 @@
     },
     "rating": 4.7,
     "maps_address": "M752+5C Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Bed & Breakfast",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -11813,6 +11967,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": null,
     "check_in": "3:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -11889,6 +12044,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": "Indicaciones",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -11959,6 +12115,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -12024,6 +12181,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Descripción general",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -12105,6 +12263,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": "1:00 p.m.",
     "check_out": "12:00 a.m.",
     "amenities": [
@@ -12193,6 +12352,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Hotel de 2 estrellas",
     "check_in": null,
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -12274,6 +12434,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": "Centro cultural",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -12340,6 +12501,7 @@
     },
     "rating": 4.9,
     "maps_address": null,
+    "subcategory": "Alojamiento",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -12405,6 +12567,7 @@
     },
     "rating": 4.2,
     "maps_address": null,
+    "subcategory": "Alojamiento",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -12470,6 +12633,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -12556,6 +12720,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Hotel de 2 estrellas",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -12635,6 +12800,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -12702,6 +12868,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -12770,6 +12937,7 @@
     },
     "rating": 3.9,
     "maps_address": "M688+RHF Playa Negra, Limón, Puerto Viejo de Talamanca",
+    "subcategory": "Alojamiento",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -12844,6 +13012,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Holiday apartment rental",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -12917,6 +13086,7 @@
     },
     "rating": 5.0,
     "maps_address": "M669+G6 Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Indicaciones",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -12994,6 +13164,7 @@
     },
     "rating": 5.0,
     "maps_address": "M742+WG Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Descripción general",
     "check_in": "2:00 p.m.",
     "check_out": null,
     "amenities": [
@@ -13059,6 +13230,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": "Indicaciones",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -13120,6 +13292,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": "Casa de recreo",
     "check_in": "3:00 p.m.",
     "check_out": "10:00 a.m.",
     "amenities": [
@@ -13202,6 +13375,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "Bed & Breakfast",
     "check_in": "3:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -13278,6 +13452,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": "(11)",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -13341,6 +13516,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -13404,6 +13580,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -13494,6 +13671,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Tienda de recuerdos",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -13565,6 +13743,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -13664,6 +13843,7 @@
     },
     "rating": 3.6,
     "maps_address": null,
+    "subcategory": "Villa",
     "check_in": null,
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -13738,6 +13918,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -13814,6 +13995,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Alojamiento",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -13895,6 +14077,7 @@
     },
     "rating": 4.4,
     "maps_address": null,
+    "subcategory": "Hotel de",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -13973,6 +14156,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "Bed & Breakfast",
     "check_in": "3:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -14040,6 +14224,7 @@
     },
     "rating": null,
     "maps_address": "M722+Q8, Limón, Puerto Viejo de Talamanca",
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -14118,6 +14303,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -14199,6 +14385,7 @@
     },
     "rating": 4.4,
     "maps_address": null,
+    "subcategory": "Edificio de apartamentos",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -14266,6 +14453,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Alojamiento con servicio",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -14331,6 +14519,7 @@
     },
     "rating": 5.0,
     "maps_address": "M659+CQ Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Pensión",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -14398,6 +14587,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Casa de vacaciones para no fumadores",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -14475,6 +14665,7 @@
     },
     "rating": 4.0,
     "maps_address": null,
+    "subcategory": "Indicaciones",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -14541,6 +14732,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Cámara",
     "check_in": "1:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -14613,6 +14805,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Cámara",
     "check_in": "1:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -14685,6 +14878,7 @@
     },
     "rating": 4.3,
     "maps_address": null,
+    "subcategory": "Empresa de alojamiento web",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -14751,6 +14945,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Cámara",
     "check_in": "1:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -14834,6 +15029,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -14909,6 +15105,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -14990,6 +15187,7 @@
     },
     "rating": 5.0,
     "maps_address": "M629+9P, Limón, Puerto Viejo de Talamanca",
+    "subcategory": "Alojamiento con servicio",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -15051,6 +15249,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -15125,6 +15324,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -15192,6 +15392,7 @@
     },
     "rating": 4.9,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -15263,6 +15464,7 @@
     },
     "rating": 5.0,
     "maps_address": "M742+PM Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Cerrado permanentemente",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -15330,6 +15532,7 @@
     },
     "rating": 5.0,
     "maps_address": "M742+GF Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Alojamiento",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -15397,6 +15600,7 @@
     },
     "rating": 3.0,
     "maps_address": "M754+34 Puerto Viejo de Talamanca, Limón",
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -15464,6 +15668,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Casa de vacaciones para no fum",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -15542,6 +15747,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": null,
     "check_in": "3:00 p.m.",
     "check_out": "12:00 p.m.",
     "amenities": [
@@ -15615,6 +15821,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": "Indicaciones",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -15697,6 +15904,7 @@
     },
     "rating": 4.3,
     "maps_address": null,
+    "subcategory": "Albergue",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -15776,6 +15984,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -15838,6 +16047,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -15911,6 +16121,7 @@
     },
     "rating": 4.9,
     "maps_address": null,
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -15976,6 +16187,7 @@
     },
     "rating": 4.3,
     "maps_address": null,
+    "subcategory": "Holiday apartment re",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -16042,6 +16254,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Indicaciones",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -16103,6 +16316,7 @@
     },
     "rating": 4.1,
     "maps_address": null,
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -16179,6 +16393,7 @@
     },
     "rating": 3.9,
     "maps_address": null,
+    "subcategory": "Holiday apartment rental",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -16233,6 +16448,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -16315,6 +16531,7 @@
     },
     "rating": 3.2,
     "maps_address": null,
+    "subcategory": "Condominio",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -16396,6 +16613,7 @@
     },
     "rating": 4.7,
     "maps_address": "M753+4J Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Hotel",
     "check_in": "1:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -16490,6 +16708,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -16580,6 +16799,7 @@
     },
     "rating": 4.2,
     "maps_address": null,
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -16654,6 +16874,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -16735,6 +16956,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": null,
     "check_in": "3:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -16817,6 +17039,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -16889,6 +17112,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "Carnicería",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -16965,6 +17189,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -17040,6 +17265,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -17113,6 +17339,7 @@
     },
     "rating": 4.3,
     "maps_address": null,
+    "subcategory": "Centro médico",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -17186,6 +17413,7 @@
     },
     "rating": 4.3,
     "maps_address": null,
+    "subcategory": "Agencia",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -17258,6 +17486,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "Indicaciones",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -17335,6 +17564,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Fábrica de cerveza",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -17404,6 +17634,7 @@
     },
     "rating": 4.4,
     "maps_address": null,
+    "subcategory": "Bar restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -17481,6 +17712,7 @@
     },
     "rating": 4.2,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -17556,6 +17788,7 @@
     },
     "rating": 4.1,
     "maps_address": null,
+    "subcategory": "Bar restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -17636,6 +17869,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -17703,6 +17937,7 @@
     },
     "rating": 4.1,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -17784,6 +18019,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -17860,6 +18096,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -17941,6 +18178,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "Descripción general",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -18022,6 +18260,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": "3:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -18098,6 +18337,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Alojamiento",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -18165,6 +18405,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -18233,6 +18474,7 @@
     },
     "rating": 3.9,
     "maps_address": null,
+    "subcategory": "Servicio de alquiler de bicicl",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -18310,6 +18552,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Atracción turíst",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -18385,6 +18628,7 @@
     },
     "rating": 4.3,
     "maps_address": null,
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": "3:00 p.m.",
     "check_out": "12:00 p.m.",
     "amenities": [
@@ -18462,6 +18706,7 @@
     },
     "rating": 3.0,
     "maps_address": null,
+    "subcategory": "Bar restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -18532,6 +18777,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -18604,6 +18850,7 @@
     },
     "rating": 4.9,
     "maps_address": "M622+VX Cahuita, Limón",
+    "subcategory": "Veterina",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -18680,6 +18927,7 @@
     },
     "rating": 3.8,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -18751,6 +18999,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -18827,6 +19076,7 @@
     },
     "rating": 3.0,
     "maps_address": "M743+FHF, Limón, Puerto Viejo de Talamanca",
+    "subcategory": "Médico",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -18903,6 +19153,7 @@
     },
     "rating": 4.4,
     "maps_address": null,
+    "subcategory": "Vete",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -18970,6 +19221,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -19051,6 +19303,7 @@
     },
     "rating": 4.3,
     "maps_address": "M752+G6 Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Edificio de apar",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -19128,6 +19381,7 @@
     },
     "rating": 5.0,
     "maps_address": "M752+C7 Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Agencia de bienes inmu",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -19201,6 +19455,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Descripción general",
     "check_in": "3:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -19284,6 +19539,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": "Descripción general",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -19373,6 +19629,7 @@
     },
     "rating": 4.9,
     "maps_address": null,
+    "subcategory": null,
     "check_in": "3:00 p.m.",
     "check_out": "12:00 p.m.",
     "amenities": [
@@ -19463,6 +19720,7 @@
     },
     "rating": 3.8,
     "maps_address": "M633+M8 Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Tienda de materiales para la con",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -19538,6 +19796,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -19635,6 +19894,7 @@
     },
     "rating": 4.8,
     "maps_address": "M752+F8 Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -19721,6 +19981,7 @@
     },
     "rating": 4.4,
     "maps_address": null,
+    "subcategory": "Cafetería",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -19801,6 +20062,7 @@
     },
     "rating": 4.9,
     "maps_address": "M743+JQ Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Hotel",
     "check_in": "3:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -19893,6 +20155,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": "2:00 p.m.",
     "check_out": "10:00 a.m.",
     "amenities": [
@@ -19977,6 +20240,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": null,
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -20048,6 +20312,7 @@
     },
     "rating": 4.4,
     "maps_address": null,
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -20123,6 +20388,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "Veterinario",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -20193,6 +20459,7 @@
     },
     "rating": 2.6,
     "maps_address": null,
+    "subcategory": "Oficina de correos",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -20270,6 +20537,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Tienda de pier",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -20346,6 +20614,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Emergency care",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -20407,6 +20676,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -20493,6 +20763,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -20570,6 +20841,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -20642,6 +20914,7 @@
     },
     "rating": 4.0,
     "maps_address": "M736+257, Limón, Cocles",
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -20712,6 +20985,7 @@
     },
     "rating": 3.9,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -20798,6 +21072,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Panadería",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -20870,6 +21145,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "Tienda de surf",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -20936,6 +21212,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Atracción turíst",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -21003,6 +21280,7 @@
     },
     "rating": 4.0,
     "maps_address": null,
+    "subcategory": null,
     "check_in": "3:00 p.m.",
     "check_out": "12:00 p.m.",
     "amenities": [
@@ -21086,6 +21364,7 @@
     },
     "rating": 4.0,
     "maps_address": null,
+    "subcategory": null,
     "check_in": "3:00 p.m.",
     "check_out": "12:00 p.m.",
     "amenities": [
@@ -21174,6 +21453,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": null,
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -21255,6 +21535,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -21321,6 +21602,7 @@
     },
     "rating": 3.8,
     "maps_address": null,
+    "subcategory": "Servicio de lavado de co",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -21403,6 +21685,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -21465,6 +21748,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -21534,6 +21818,7 @@
     },
     "rating": 4.9,
     "maps_address": "M727+45 Cocles, Limón",
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -21601,6 +21886,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": "Indicaciones",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -21668,6 +21954,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": "Indicaciones",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -21746,6 +22033,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "Albergue",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -21817,6 +22105,7 @@
     },
     "rating": 4.3,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -21892,6 +22181,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -21960,6 +22250,7 @@
     },
     "rating": 4.0,
     "maps_address": null,
+    "subcategory": "Tienda de delicatessen",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -22036,6 +22327,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -22110,6 +22402,7 @@
     },
     "rating": 4.3,
     "maps_address": null,
+    "subcategory": "Supermercado",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -22181,6 +22474,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "Alojamiento",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -22274,6 +22568,7 @@
     },
     "rating": 4.1,
     "maps_address": null,
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": "3:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -22367,6 +22662,7 @@
     },
     "rating": 4.4,
     "maps_address": null,
+    "subcategory": "Indicaciones",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -22438,6 +22734,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": "3:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -22519,6 +22816,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": "Parrilla",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -22600,6 +22898,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Organización de voluntaria",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -22685,6 +22984,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -22771,6 +23071,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Restaurante argentino",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -22838,6 +23139,7 @@
     },
     "rating": 3.6,
     "maps_address": null,
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -22917,6 +23219,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Restaurante caribeño",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -22994,6 +23297,7 @@
     },
     "rating": 4.7,
     "maps_address": "M727+63 Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -23072,6 +23376,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -23159,6 +23464,7 @@
     },
     "rating": 3.0,
     "maps_address": null,
+    "subcategory": "Tienda de artículos para el hogar",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -23232,6 +23538,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Estudio de fotografía",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -23318,6 +23625,7 @@
     },
     "rating": 4.5,
     "maps_address": "M752+9M Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -23400,6 +23708,7 @@
     },
     "rating": 5.0,
     "maps_address": "M666+G8 Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Hotel",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -23477,6 +23786,7 @@
     },
     "rating": 4.2,
     "maps_address": null,
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -23564,6 +23874,7 @@
     },
     "rating": 5.0,
     "maps_address": "M666+CH, Limón, Puerto Viejo de Talamanca",
+    "subcategory": "Complejo hotelero",
     "check_in": "3:00 p.m.",
     "check_out": null,
     "amenities": [
@@ -23647,6 +23958,7 @@
     },
     "rating": 3.9,
     "maps_address": "M752+F4 Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Hotel de 2 estrellas",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -23732,6 +24044,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": null,
     "check_in": "3:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -23813,6 +24126,7 @@
     },
     "rating": 4.0,
     "maps_address": "M637+R9 Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Alojamiento con servicio",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -23889,6 +24203,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Agencia de viajes",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -23956,6 +24271,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Academia de idiomas",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -24031,6 +24347,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": null,
     "check_in": "3:00 p.m.",
     "check_out": null,
     "amenities": [
@@ -24123,6 +24440,7 @@
     },
     "rating": 4.0,
     "maps_address": null,
+    "subcategory": "Complejo hotelero",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -24199,6 +24517,7 @@
     },
     "rating": 4.3,
     "maps_address": null,
+    "subcategory": "Farmacia",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -24276,6 +24595,7 @@
     },
     "rating": 3.8,
     "maps_address": null,
+    "subcategory": "Farmacia",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -24347,6 +24667,7 @@
     },
     "rating": 2.8,
     "maps_address": null,
+    "subcategory": "Farmacia",
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -24414,6 +24735,7 @@
     },
     "rating": 3.8,
     "maps_address": null,
+    "subcategory": "Farmacia",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -24486,6 +24808,7 @@
     },
     "rating": 4.2,
     "maps_address": null,
+    "subcategory": "Tienda de herramientas",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -24547,6 +24870,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -24623,6 +24947,7 @@
     },
     "rating": 4.2,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -24703,6 +25028,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -24770,6 +25096,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -24855,6 +25182,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Institución educ",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -24928,6 +25256,7 @@
     },
     "rating": 4.8,
     "maps_address": "J798+P5 Cocles, Limón",
+    "subcategory": "Bed & Breakfast",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -25005,6 +25334,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Fisioterapeuta",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -25074,6 +25404,7 @@
     },
     "rating": 4.3,
     "maps_address": null,
+    "subcategory": "Supermercado c",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -25150,6 +25481,7 @@
     },
     "rating": 4.7,
     "maps_address": "M727+63 Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -25222,6 +25554,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "Indicaciones",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -25293,6 +25626,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -25368,6 +25702,7 @@
     },
     "rating": 3.5,
     "maps_address": null,
+    "subcategory": "Agencia de visitas turísticas",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -25453,6 +25788,7 @@
     },
     "rating": 4.2,
     "maps_address": null,
+    "subcategory": "Agencia de viajes",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -25535,6 +25871,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": "3:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -25628,6 +25965,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": "Heladería",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -25704,6 +26042,7 @@
     },
     "rating": 4.1,
     "maps_address": null,
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -25781,6 +26120,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -25844,6 +26184,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -25901,6 +26242,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -25972,6 +26314,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Hotel de 3 es",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -26045,6 +26388,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -26115,6 +26459,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Pub irlandés",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -26195,6 +26540,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": null,
     "check_in": "3:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -26276,6 +26622,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Descripción general",
     "check_in": null,
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -26355,6 +26702,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -26435,6 +26783,7 @@
     },
     "rating": 4.4,
     "maps_address": null,
+    "subcategory": "Tienda de deportes al aire libre",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -26507,6 +26856,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Restaurante vegetariano",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -26577,6 +26927,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Cafetería",
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -26655,6 +27006,7 @@
     },
     "rating": 3.6,
     "maps_address": null,
+    "subcategory": "Villa",
     "check_in": null,
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -26734,6 +27086,7 @@
     },
     "rating": 4.4,
     "maps_address": null,
+    "subcategory": "Albergue",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -26816,6 +27169,7 @@
     },
     "rating": 2.0,
     "maps_address": null,
+    "subcategory": "Agencia de alquiler de alojamientos para vacaciones",
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -26889,6 +27243,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -26962,6 +27317,7 @@
     },
     "rating": 5.0,
     "maps_address": "M726+J4 Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Massagezentrum",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -27043,6 +27399,7 @@
     },
     "rating": 4.3,
     "maps_address": "M733+JFH, 256, Limón, Puerto Viejo de Talamanca",
+    "subcategory": "Centro de salud y bienestar",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -27130,6 +27487,7 @@
     },
     "rating": 4.2,
     "maps_address": null,
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -27206,6 +27564,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Atracción turística",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -27278,6 +27637,7 @@
     },
     "rating": 3.6,
     "maps_address": "M632+6H Patino, Limón, Hone Creek",
+    "subcategory": "Hospital",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -27332,6 +27692,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -27409,6 +27770,7 @@
     },
     "rating": 4.1,
     "maps_address": "M743+W9 Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Albergue",
     "check_in": "2:00 p.m.",
     "check_out": null,
     "amenities": [
@@ -27504,6 +27866,7 @@
     },
     "rating": 4.4,
     "maps_address": null,
+    "subcategory": "Bar restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -27594,6 +27957,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": null,
     "check_in": "2:00 a.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -27681,6 +28045,7 @@
     },
     "rating": 4.1,
     "maps_address": "M744+MG Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Descripción general",
     "check_in": "3:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -27763,6 +28128,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": "3:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -27856,6 +28222,7 @@
     },
     "rating": 4.3,
     "maps_address": null,
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": "2:00 p.m.",
     "check_out": "12:00 p.m.",
     "amenities": [
@@ -27935,6 +28302,7 @@
     },
     "rating": 4.8,
     "maps_address": "Q427+VV Cahuita, Limón",
+    "subcategory": null,
     "check_in": "2:00 p.m.",
     "check_out": "10:00 a.m.",
     "amenities": [
@@ -28022,6 +28390,7 @@
     },
     "rating": 4.2,
     "maps_address": "M726+37 Cocles, Limón",
+    "subcategory": null,
     "check_in": "3:00 p.m.",
     "check_out": "12:00 p.m.",
     "amenities": [
@@ -28116,6 +28485,7 @@
     },
     "rating": 5.0,
     "maps_address": "M743+XRR, Limón, Puerto Viejo de Talamanca",
+    "subcategory": "(30)",
     "check_in": "3:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -28198,6 +28568,7 @@
     },
     "rating": 3.6,
     "maps_address": null,
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": null,
     "check_out": "12:00 p.m.",
     "amenities": [
@@ -28275,6 +28646,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": "3:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -28356,6 +28728,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -28423,6 +28796,7 @@
     },
     "rating": 4.4,
     "maps_address": null,
+    "subcategory": "Bed & Breakfast",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -28506,6 +28880,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Hotel de 4 e",
     "check_in": "2:00 p.m.",
     "check_out": null,
     "amenities": [
@@ -28593,6 +28968,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -28674,6 +29050,7 @@
     },
     "rating": 3.3,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": null,
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -28761,6 +29138,7 @@
     },
     "rating": 4.2,
     "maps_address": null,
+    "subcategory": "Hotel de 2 estrellas",
     "check_in": null,
     "check_out": "12:00 p.m.",
     "amenities": [
@@ -28842,6 +29220,7 @@
     },
     "rating": 4.2,
     "maps_address": null,
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -28928,6 +29307,7 @@
     },
     "rating": 4.0,
     "maps_address": null,
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": "1:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -29021,6 +29401,7 @@
     },
     "rating": 4.4,
     "maps_address": null,
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -29098,6 +29479,7 @@
     },
     "rating": 4.3,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -29175,6 +29557,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": "2:00 p.m.",
     "check_out": "12:00 p.m.",
     "amenities": [
@@ -29268,6 +29651,7 @@
     },
     "rating": 4.4,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -29359,6 +29743,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -29439,6 +29824,7 @@
     },
     "rating": 3.9,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -29503,6 +29889,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -29580,6 +29967,7 @@
     },
     "rating": 3.9,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": "3:00 p.m.",
     "check_out": "10:00 a.m.",
     "amenities": [
@@ -29664,6 +30052,7 @@
     },
     "rating": 4.1,
     "maps_address": "M726+CQ Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Restaurante italiano",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -29741,6 +30130,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Hotel de 2 estrellas",
     "check_in": "3:00 p.m.",
     "check_out": null,
     "amenities": [
@@ -29835,6 +30225,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -29902,6 +30293,7 @@
     },
     "rating": 3.6,
     "maps_address": null,
+    "subcategory": "Tienda de recuerdos",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -29969,6 +30361,7 @@
     },
     "rating": 4.0,
     "maps_address": null,
+    "subcategory": "Servicio de transporte",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -30042,6 +30435,7 @@
     },
     "rating": 4.4,
     "maps_address": null,
+    "subcategory": "Cafetería",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -30112,6 +30506,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -30182,6 +30577,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Servicio de paseo a caballo",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -30263,6 +30659,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "Apartamento turístico",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -30340,6 +30737,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Servicio de rehabilitación",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -30411,6 +30809,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Restaurante familiar",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -30497,6 +30896,7 @@
     },
     "rating": 4.4,
     "maps_address": null,
+    "subcategory": "Bar",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -30569,6 +30969,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Tienda de zumos",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -30629,6 +31030,7 @@
     },
     "rating": null,
     "maps_address": "M669+285 Playa Negra, Limón, Puerto Viejo de Talamanca, 70403",
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -30690,6 +31092,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Indicaciones",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -30762,6 +31165,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "Indicaciones",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -30839,6 +31243,7 @@
     },
     "rating": 4.2,
     "maps_address": null,
+    "subcategory": "Agencia de viaje",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -30905,6 +31310,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -30978,6 +31384,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": "Hotel de 5 estrellas",
     "check_in": "3:00 p.m.",
     "check_out": "12:00 p.m.",
     "amenities": [
@@ -31073,6 +31480,7 @@
     },
     "rating": 4.3,
     "maps_address": null,
+    "subcategory": "Alojamiento con servicio",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -31151,6 +31559,7 @@
     },
     "rating": 4.9,
     "maps_address": "M724+GX2, Cocles, Puerto Viejo, Limón, Talamanca",
+    "subcategory": "Centro cultural",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -31232,6 +31641,7 @@
     },
     "rating": 3.8,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -31313,6 +31723,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": "3:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -31401,6 +31812,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": "2:00 a.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -31486,6 +31898,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Estancia en granjas",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -31572,6 +31985,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -31645,6 +32059,7 @@
     },
     "rating": 4.9,
     "maps_address": "M727+39 Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Centro de yoga",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -31706,6 +32121,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Indica",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -31773,6 +32189,7 @@
     },
     "rating": 4.4,
     "maps_address": null,
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -31845,6 +32262,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -31922,6 +32340,7 @@
     },
     "rating": 4.2,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": "2:00 p.m.",
     "check_out": "12:00 p.m.",
     "amenities": [
@@ -32001,6 +32420,7 @@
     },
     "rating": 5.0,
     "maps_address": "M735+CH Cocles, Limón",
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -32076,6 +32496,7 @@
     },
     "rating": 4.9,
     "maps_address": null,
+    "subcategory": "Indicaciones",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -32146,6 +32567,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": null,
     "check_out": "12:00 p.m.",
     "amenities": [
@@ -32236,6 +32658,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -32311,6 +32734,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -32374,6 +32798,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -32455,6 +32880,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": "2:00 p.m.",
     "check_out": "12:00 p.m.",
     "amenities": [
@@ -32544,6 +32970,7 @@
     },
     "rating": 4.3,
     "maps_address": null,
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -32626,6 +33053,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": "2:00 p.m.",
     "check_out": "12:00 p.m.",
     "amenities": [
@@ -32709,6 +33137,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -32778,6 +33207,7 @@
     },
     "rating": 3.9,
     "maps_address": "M726+QCP In front of Cocles Beach in, Limón, Puerto Viejo de Talamanca, 70403",
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": "2:00 p.m.",
     "check_out": "12:00 p.m.",
     "amenities": [
@@ -32857,6 +33287,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -32939,6 +33370,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -33026,6 +33458,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "Pizzería",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -33090,6 +33523,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -33171,6 +33605,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -33261,6 +33696,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Restaurante caribeño",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -33328,6 +33764,7 @@
     },
     "rating": 4.9,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -33400,6 +33837,7 @@
     },
     "rating": 4.3,
     "maps_address": null,
+    "subcategory": "Tienda de regalos",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -33481,6 +33919,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Descripción g",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -33567,6 +34006,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "Restaurante italiano",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -33644,6 +34084,7 @@
     },
     "rating": 4.2,
     "maps_address": "M735+45 Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": "3:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -33722,6 +34163,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Galería de arte",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -33797,6 +34239,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -33886,6 +34329,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": "2:00 p.m.",
     "check_out": "10:00 a.m.",
     "amenities": [
@@ -33975,6 +34419,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Restaurante de comida rápida",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -34057,6 +34502,7 @@
     },
     "rating": 4.6,
     "maps_address": "M753+33 Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Albergue",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -34135,6 +34581,7 @@
     },
     "rating": 3.7,
     "maps_address": null,
+    "subcategory": "Atracción turística",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -34215,6 +34662,7 @@
     },
     "rating": 4.6,
     "maps_address": "P578+2W Comadre, Limón",
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": null,
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -34309,6 +34757,7 @@
     },
     "rating": 4.8,
     "maps_address": "M742+CX7 Cabinas, 800 Metros Sur, Limón Province, Puerto Viejo de Talamanca, 70403",
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": "2:30 a.m.",
     "check_out": "11:30 a.m.",
     "amenities": [
@@ -34399,6 +34848,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -34477,6 +34927,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": null,
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -34558,6 +35009,7 @@
     },
     "rating": 3.9,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -34634,6 +35086,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Laboratorio de a",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -34701,6 +35154,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Descripción general",
     "check_in": null,
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -34786,6 +35240,7 @@
     },
     "rating": 4.4,
     "maps_address": null,
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": "2:00 p.m.",
     "check_out": "12:00 p.m.",
     "amenities": [
@@ -34870,6 +35325,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -34925,6 +35381,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -35007,6 +35464,7 @@
     },
     "rating": 4.0,
     "maps_address": null,
+    "subcategory": null,
     "check_in": "3:00 p.m.",
     "check_out": "12:00 p.m.",
     "amenities": [
@@ -35095,6 +35553,7 @@
     },
     "rating": 4.0,
     "maps_address": null,
+    "subcategory": "Villa",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -35185,6 +35644,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": null,
     "check_in": "3:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -35267,6 +35727,7 @@
     },
     "rating": 4.1,
     "maps_address": "M743+X9 Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Lavandería de autoserv",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -35349,6 +35810,7 @@
     },
     "rating": 4.3,
     "maps_address": null,
+    "subcategory": "Hotel de 4 estrellas",
     "check_in": "3:00 p.m.",
     "check_out": "12:00 p.m.",
     "amenities": [
@@ -35445,6 +35907,7 @@
     },
     "rating": 4.3,
     "maps_address": null,
+    "subcategory": "Hotel de 4 estrellas",
     "check_in": "3:00 p.m.",
     "check_out": "12:00 p.m.",
     "amenities": [
@@ -35531,6 +35994,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "Tienda de material de oficina",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -35612,6 +36076,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -35681,6 +36146,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Indicaciones",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -35762,6 +36228,7 @@
     },
     "rating": 3.7,
     "maps_address": null,
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": "3:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -35842,6 +36309,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Restaurante caribeño",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -35926,6 +36394,7 @@
     },
     "rating": 4.2,
     "maps_address": "M726+37 Cocles, Limón",
+    "subcategory": null,
     "check_in": "3:00 p.m.",
     "check_out": "12:00 p.m.",
     "amenities": [
@@ -36016,6 +36485,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -36089,6 +36559,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -36161,6 +36632,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Indicaciones",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -36241,6 +36713,7 @@
     },
     "rating": 4.2,
     "maps_address": null,
+    "subcategory": "Hotel de 2 estrellas",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -36316,6 +36789,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "Tienda de ropa",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -36399,6 +36873,7 @@
     },
     "rating": 4.2,
     "maps_address": null,
+    "subcategory": "Albergue",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -36495,6 +36970,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -36576,6 +37052,7 @@
     },
     "rating": 4.9,
     "maps_address": null,
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -36645,6 +37122,7 @@
     },
     "rating": 2.8,
     "maps_address": null,
+    "subcategory": "Estación",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -36720,6 +37198,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Complejo hotelero",
     "check_in": "3:00 p.m.",
     "check_out": "12:00 p.m.",
     "amenities": [
@@ -36812,6 +37291,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -36889,6 +37369,7 @@
     },
     "rating": 4.9,
     "maps_address": null,
+    "subcategory": "Tienda de ropa",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -36956,6 +37437,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": "(85)",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -37047,6 +37529,7 @@
     },
     "rating": 4.2,
     "maps_address": null,
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -37124,6 +37607,7 @@
     },
     "rating": 4.3,
     "maps_address": null,
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": "3:00 p.m.",
     "check_out": "12:00 p.m.",
     "amenities": [
@@ -37207,6 +37691,7 @@
     },
     "rating": 4.0,
     "maps_address": null,
+    "subcategory": "Restaurant",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -37280,6 +37765,7 @@
     },
     "rating": 4.1,
     "maps_address": null,
+    "subcategory": "Aparcamiento público",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -37341,6 +37827,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Restaurante caribeño",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -37412,6 +37899,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Lodge",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -37488,6 +37976,7 @@
     },
     "rating": 3.9,
     "maps_address": null,
+    "subcategory": "Supermercado",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -37560,6 +38049,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Barbería",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -37633,6 +38123,7 @@
     },
     "rating": 3.3,
     "maps_address": null,
+    "subcategory": "Frutería",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -37705,6 +38196,7 @@
     },
     "rating": 3.4,
     "maps_address": "M735+8P Cocles, Limón",
+    "subcategory": "Alojamiento",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -37781,6 +38273,7 @@
     },
     "rating": 4.8,
     "maps_address": "M638+V4 Hone Creek, Limón",
+    "subcategory": "Hotel",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -37851,6 +38344,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Bar restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -37922,6 +38416,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -37997,6 +38492,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Tienda de ropa",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -38058,6 +38554,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": "Hotel de 5 estrellas",
     "check_in": "3:00 p.m.",
     "check_out": "12:00 p.m.",
     "amenities": [
@@ -38154,6 +38651,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": "Hotel de 5 estrellas",
     "check_in": "3:00 p.m.",
     "check_out": "12:00 p.m.",
     "amenities": [
@@ -38250,6 +38748,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -38335,6 +38834,7 @@
     },
     "rating": 4.9,
     "maps_address": null,
+    "subcategory": "Come",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -38402,6 +38902,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Indicaciones",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -38475,6 +38976,7 @@
     },
     "rating": 4.4,
     "maps_address": null,
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -38547,6 +39049,7 @@
     },
     "rating": 5.0,
     "maps_address": "M734+G3 Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Indicaciones",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -38624,6 +39127,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Tienda de ropa de playa",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -38699,6 +39203,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -38757,6 +39262,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -38815,6 +39321,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -38889,6 +39396,7 @@
     },
     "rating": 4.0,
     "maps_address": "M752+PC Puerto Viejo de Talamanca, Limón",
+    "subcategory": null,
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -38970,6 +39478,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -39063,6 +39572,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Hote",
     "check_in": "2:00 p.m.",
     "check_out": null,
     "amenities": [
@@ -39147,6 +39657,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Heladería",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -39217,6 +39728,7 @@
     },
     "rating": 4.9,
     "maps_address": null,
+    "subcategory": "Centro de estética",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -39293,6 +39805,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -39358,6 +39871,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": "Gimnasio",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -39433,6 +39947,7 @@
     },
     "rating": 4.3,
     "maps_address": null,
+    "subcategory": "Supermercado",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -39512,6 +40027,7 @@
     },
     "rating": 4.4,
     "maps_address": null,
+    "subcategory": "Hotel de 2 estrellas",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -39594,6 +40110,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": "3:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -39685,6 +40202,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": null,
     "check_in": "3:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -39773,6 +40291,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Alojamiento",
     "check_in": null,
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -39850,6 +40369,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "Cerrado permanentemente",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -39926,6 +40446,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": "Alojamiento",
     "check_in": null,
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -40011,6 +40532,7 @@
     },
     "rating": 4.4,
     "maps_address": null,
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -40103,6 +40625,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": "Albergue",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -40189,6 +40712,7 @@
     },
     "rating": 3.8,
     "maps_address": "M642+7R Limón",
+    "subcategory": "Supermercado",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -40261,6 +40785,7 @@
     },
     "rating": 4.9,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -40342,6 +40867,7 @@
     },
     "rating": 4.3,
     "maps_address": null,
+    "subcategory": "Panadería",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -40418,6 +40944,7 @@
     },
     "rating": 4.3,
     "maps_address": null,
+    "subcategory": "Panadería",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -40483,6 +41010,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -40550,6 +41078,7 @@
     },
     "rating": 4.6,
     "maps_address": "P568+WG Cahuita, Limón",
+    "subcategory": "Hotel",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -40623,6 +41152,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -40700,6 +41230,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Atracción turíst",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -40761,6 +41292,7 @@
     },
     "rating": 5.0,
     "maps_address": "M689+62 Hone Creek, Limón",
+    "subcategory": "Centro comunitario",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -40832,6 +41364,7 @@
     },
     "rating": 4.9,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -40907,6 +41440,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": null,
     "check_in": "3:00 p.m.",
     "check_out": null,
     "amenities": [
@@ -40988,6 +41522,7 @@
     },
     "rating": 3.7,
     "maps_address": null,
+    "subcategory": "Tienda de recuerdos",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -41065,6 +41600,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "Albergue",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -41145,6 +41681,7 @@
     },
     "rating": 3.4,
     "maps_address": null,
+    "subcategory": "Servicio de informática",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -41222,6 +41759,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "Restaurante italiano",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -41304,6 +41842,7 @@
     },
     "rating": 3.8,
     "maps_address": null,
+    "subcategory": null,
     "check_in": "2:00 p.m.",
     "check_out": "12:00 p.m.",
     "amenities": [
@@ -41389,6 +41928,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": null,
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -41465,6 +42005,7 @@
     },
     "rating": 4.9,
     "maps_address": null,
+    "subcategory": "Cerrado permanentemente",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -41541,6 +42082,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -41602,6 +42144,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Atracción turística",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -41669,6 +42212,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -41755,6 +42299,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Restaurante italiano",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -41829,6 +42374,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "(466)",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -41917,6 +42463,7 @@
     },
     "rating": 4.4,
     "maps_address": null,
+    "subcategory": null,
     "check_in": "2:30 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -41992,6 +42539,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "(4)",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -42063,6 +42611,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Hotel de 3",
     "check_in": "2:00 p.m.",
     "check_out": "10:00 a.m.",
     "amenities": [
@@ -42157,6 +42706,7 @@
     },
     "rating": 3.8,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -42237,6 +42787,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -42315,6 +42866,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -42389,6 +42941,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -42471,6 +43024,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -42544,6 +43098,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Servicio de alqu",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -42619,6 +43174,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": "3:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -42708,6 +43264,7 @@
     },
     "rating": 5.0,
     "maps_address": "M743+9R Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Parque para perros",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -42785,6 +43342,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": "Mercado de p",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -42867,6 +43425,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -42928,6 +43487,7 @@
     },
     "rating": 4.0,
     "maps_address": null,
+    "subcategory": "Centro comercial",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -42995,6 +43555,7 @@
     },
     "rating": 3.8,
     "maps_address": null,
+    "subcategory": "Farmacia",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -43062,6 +43623,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -43127,6 +43689,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -43212,6 +43775,7 @@
     },
     "rating": 4.4,
     "maps_address": null,
+    "subcategory": "Tienda de submarinismo",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -43282,6 +43846,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": "Alojamiento",
     "check_in": null,
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -43372,6 +43937,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -43449,6 +44015,7 @@
     },
     "rating": 4.1,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -43510,6 +44077,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": "1:30 p.m.",
     "check_out": null,
     "amenities": [
@@ -43606,6 +44174,7 @@
     },
     "rating": 4.8,
     "maps_address": "M743+XH Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Spa y gimnasio",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -43672,6 +44241,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Masajista",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -43744,6 +44314,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -43830,6 +44401,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "Restaurante argentino",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -43895,6 +44467,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Indicaciones",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -43972,6 +44545,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": "Alojamiento con servicio",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -44044,6 +44618,7 @@
     },
     "rating": 4.9,
     "maps_address": null,
+    "subcategory": "Tienda de alimentaci",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -44115,6 +44690,7 @@
     },
     "rating": 4.9,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -44201,6 +44777,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Servicio de rehabilitación",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -44266,6 +44843,7 @@
     },
     "rating": 4.3,
     "maps_address": null,
+    "subcategory": "Bar",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -44346,6 +44924,7 @@
     },
     "rating": 3.8,
     "maps_address": "M736+33F, 256, Limón, Cocles",
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -44418,6 +44997,7 @@
     },
     "rating": 4.4,
     "maps_address": null,
+    "subcategory": "Indicaciones",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -44500,6 +45080,7 @@
     },
     "rating": 4.9,
     "maps_address": null,
+    "subcategory": null,
     "check_in": "2:00 p.m.",
     "check_out": "12:00 p.m.",
     "amenities": [
@@ -44593,6 +45174,7 @@
     },
     "rating": 4.1,
     "maps_address": null,
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -44660,6 +45242,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -44737,6 +45320,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Bar restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -44813,6 +45397,7 @@
     },
     "rating": 4.3,
     "maps_address": "M725+7M Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Restaurant",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -44892,6 +45477,7 @@
     },
     "rating": 4.0,
     "maps_address": null,
+    "subcategory": "Bar",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -44978,6 +45564,7 @@
     },
     "rating": 4.4,
     "maps_address": null,
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -45052,6 +45639,7 @@
     },
     "rating": 4.3,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -45117,6 +45705,7 @@
     },
     "rating": 3.5,
     "maps_address": null,
+    "subcategory": "Hotel de 2 estrellas",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -45195,6 +45784,7 @@
     },
     "rating": 4.6,
     "maps_address": "M666+QH Hone Creek, Limón",
+    "subcategory": "(10)",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -45277,6 +45867,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Servicio de paseo a caballo",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -45350,6 +45941,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -45427,6 +46019,7 @@
     },
     "rating": 4.9,
     "maps_address": null,
+    "subcategory": "Agencia de bienes inmuebles comerciales",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -45499,6 +46092,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Gimnasio",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -45562,6 +46156,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -45619,6 +46214,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": "Restau",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -45702,6 +46298,7 @@
     },
     "rating": 4.0,
     "maps_address": "M753+7F Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Albergue",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -45788,6 +46385,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Restaurante caribeño",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -45862,6 +46460,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": null,
     "check_in": "3:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -45940,6 +46539,7 @@
     },
     "rating": 4.3,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -46013,6 +46613,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -46094,6 +46695,7 @@
     },
     "rating": 4.1,
     "maps_address": null,
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -46174,6 +46776,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -46247,6 +46850,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": "Tienda de ropa",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -46333,6 +46937,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Restaurante japonés",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -46411,6 +47016,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Hotel de 2 estrellas",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -46511,6 +47117,7 @@
     },
     "rating": 4.9,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": "3:00 p.m.",
     "check_out": "10:00 a.m.",
     "amenities": [
@@ -46589,6 +47196,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -46660,6 +47268,7 @@
     },
     "rating": 3.7,
     "maps_address": null,
+    "subcategory": "Atracción turística",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -46722,6 +47331,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -46793,6 +47403,7 @@
     },
     "rating": 4.4,
     "maps_address": null,
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -46856,6 +47467,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -46929,6 +47541,7 @@
     },
     "rating": 4.1,
     "maps_address": null,
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": "3:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -47017,6 +47630,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -47077,6 +47691,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -47147,6 +47762,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": "1:30 p.m.",
     "check_out": "12:00 p.m.",
     "amenities": [
@@ -47225,6 +47841,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Centro de retiro",
     "check_in": null,
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -47290,6 +47907,7 @@
     },
     "rating": 5.0,
     "maps_address": "M676+56, Limón, Puerto Viejo de Talamanca",
+    "subcategory": "Atracción turística",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -47362,6 +47980,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -47433,6 +48052,7 @@
     },
     "rating": 5.0,
     "maps_address": "M744+HJ Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Indicaciones",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -47508,6 +48128,7 @@
     },
     "rating": 4.3,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -47581,6 +48202,7 @@
     },
     "rating": 4.9,
     "maps_address": null,
+    "subcategory": "Alojamiento con servicio",
     "check_in": "2:00 p.m.",
     "check_out": null,
     "amenities": [
@@ -47657,6 +48279,7 @@
     },
     "rating": 4.2,
     "maps_address": null,
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -47743,6 +48366,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Restaurante latinoamericano",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -47804,6 +48428,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -47873,6 +48498,7 @@
     },
     "rating": 4.4,
     "maps_address": null,
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -47940,6 +48566,7 @@
     },
     "rating": 3.9,
     "maps_address": null,
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -48018,6 +48645,7 @@
     },
     "rating": 3.2,
     "maps_address": null,
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -48090,6 +48718,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -48171,6 +48800,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -48243,6 +48873,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "(197)",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -48305,6 +48936,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -48382,6 +49014,7 @@
     },
     "rating": 4.7,
     "maps_address": "M657+94 Puerto Viejo de Talamanca, Limón",
+    "subcategory": null,
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -48473,6 +49106,7 @@
     },
     "rating": 3.9,
     "maps_address": null,
+    "subcategory": "Descripció",
     "check_in": "3:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -48564,6 +49198,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -48640,6 +49275,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -48716,6 +49352,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Academia de idioma",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -48798,6 +49435,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -48859,6 +49497,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Servicio de transporte",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -48934,6 +49573,7 @@
     },
     "rating": 4.0,
     "maps_address": null,
+    "subcategory": "Gimnasio",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -49021,6 +49661,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -49103,6 +49744,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "Hotel de 4 est",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -49178,6 +49820,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -49255,6 +49898,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": "2:00 p.m.",
     "check_out": "12:00 p.m.",
     "amenities": [
@@ -49331,6 +49975,7 @@
     },
     "rating": 4.4,
     "maps_address": null,
+    "subcategory": "Tienda de al",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -49396,6 +50041,7 @@
     },
     "rating": 4.5,
     "maps_address": null,
+    "subcategory": "Tienda de alimentación",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -49457,6 +50103,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "Supermercado",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -49522,6 +50169,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "Supermercado",
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -49588,6 +50236,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -49653,6 +50302,7 @@
     },
     "rating": 4.3,
     "maps_address": null,
+    "subcategory": "Supermercado",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -49725,6 +50375,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Supermercado",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -49786,6 +50437,7 @@
     },
     "rating": 3.5,
     "maps_address": null,
+    "subcategory": "Supermercado",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -49863,6 +50515,7 @@
     },
     "rating": 4.8,
     "maps_address": "M726+JJJ, Limón, Cocles",
+    "subcategory": "(47)",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -49944,6 +50597,7 @@
     },
     "rating": 4.9,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -50016,6 +50670,7 @@
     },
     "rating": 5.0,
     "maps_address": "M726+68 Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Spa y gimnasio",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -50089,6 +50744,7 @@
     },
     "rating": 4.5,
     "maps_address": "M726+MH Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Pub restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -50170,6 +50826,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Descripción general",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -50251,6 +50908,7 @@
     },
     "rating": 4.0,
     "maps_address": null,
+    "subcategory": "Heladería",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -50326,6 +50984,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -50393,6 +51052,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -50454,6 +51114,7 @@
     },
     "rating": 4.7,
     "maps_address": "M745+JG5, 256, Limón, Puerto Viejo de Talamanca, 70403",
+    "subcategory": "Atracción turística",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -50524,6 +51185,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -50602,6 +51264,7 @@
     },
     "rating": 4.2,
     "maps_address": "M735+7H Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Albergue",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -50696,6 +51359,7 @@
     },
     "rating": 4.6,
     "maps_address": "M735+9M Cocles, Limón",
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -50757,6 +51421,7 @@
     },
     "rating": 5.0,
     "maps_address": "M745+38 Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Estudio de tatuajes",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -50818,6 +51483,7 @@
     },
     "rating": 3.6,
     "maps_address": null,
+    "subcategory": "Estación de auto",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -50900,6 +51566,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": null,
     "check_in": "3:00 p.m.",
     "check_out": "12:00 p.m.",
     "amenities": [
@@ -50989,6 +51656,7 @@
     },
     "rating": 5.0,
     "maps_address": "M723+V2 Puerto Viejo de Talamanca, Limón",
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -51043,6 +51711,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -51106,6 +51775,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Atracción turíst",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -51173,6 +51843,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Atracción turíst",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -51243,6 +51914,7 @@
     },
     "rating": 4.2,
     "maps_address": "M668+2W5, Limón, Cahuita",
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -51320,6 +51992,7 @@
     },
     "rating": 4.9,
     "maps_address": null,
+    "subcategory": "Hamburguesería",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -51396,6 +52069,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Fotógraf",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -51463,6 +52137,7 @@
     },
     "rating": 4.2,
     "maps_address": null,
+    "subcategory": "Bed & Breakfast",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -51536,6 +52211,7 @@
     },
     "rating": 4.4,
     "maps_address": "M727+53 Cocles, Limón",
+    "subcategory": "Tienda de surf",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -51609,6 +52285,7 @@
     },
     "rating": 2.8,
     "maps_address": null,
+    "subcategory": "Tienda de ropa",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -51682,6 +52359,7 @@
     },
     "rating": 4.3,
     "maps_address": null,
+    "subcategory": "Tienda de regalos",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -51764,6 +52442,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "Centro de retiro de yoga",
     "check_in": "3:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -51842,6 +52521,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -51915,6 +52595,7 @@
     },
     "rating": 4.7,
     "maps_address": "M753+5H Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Restaurante",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -51981,6 +52662,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -52049,6 +52731,7 @@
     },
     "rating": 4.2,
     "maps_address": "M726+HH Cocles, Limón",
+    "subcategory": "Cerrado permanentemente",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -52109,6 +52792,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -52190,6 +52874,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Descripción general",
     "check_in": "2:00 p.m.",
     "check_out": "12:00 p.m.",
     "amenities": [
@@ -52275,6 +52960,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Indicaciones",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -52345,6 +53031,7 @@
     },
     "rating": 4.9,
     "maps_address": null,
+    "subcategory": "Descripción general",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -52422,6 +53109,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "Alojamiento con servicio",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -52493,6 +53181,7 @@
     },
     "rating": 5.0,
     "maps_address": "M743+97 Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Gimnasio",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -52555,6 +53244,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Vill",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -52616,6 +53306,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -52677,6 +53368,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Alojamiento",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -52742,6 +53434,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Bed & Breakfast",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -52823,6 +53516,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Hotel de 5 estr",
     "check_in": "3:00 p.m.",
     "check_out": "12:00 p.m.",
     "amenities": [
@@ -52919,6 +53613,7 @@
     },
     "rating": 4.9,
     "maps_address": null,
+    "subcategory": "Pensión",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -53006,6 +53701,7 @@
     },
     "rating": 4.0,
     "maps_address": null,
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": "3:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -53091,6 +53787,7 @@
     },
     "rating": 3.6,
     "maps_address": null,
+    "subcategory": "Supermercado",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -53167,6 +53864,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -53244,6 +53942,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": "3:00 p.m.",
     "check_out": "10:00 a.m.",
     "amenities": [
@@ -53320,6 +54019,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "Villa",
     "check_in": null,
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -53395,6 +54095,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Indicaciones",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -53467,6 +54168,7 @@
     },
     "rating": 4.3,
     "maps_address": null,
+    "subcategory": "Indicaciones",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -53537,6 +54239,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Villa",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -53618,6 +54321,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -53685,6 +54389,7 @@
     },
     "rating": 4.0,
     "maps_address": null,
+    "subcategory": "Holiday home",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -53771,6 +54476,7 @@
     },
     "rating": 4.0,
     "maps_address": null,
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": "3:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -53855,6 +54561,7 @@
     },
     "rating": 4.9,
     "maps_address": null,
+    "subcategory": null,
     "check_in": "3:00 p.m.",
     "check_out": "10:00 a.m.",
     "amenities": [
@@ -53940,6 +54647,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Vill",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -54017,6 +54725,7 @@
     },
     "rating": 4.9,
     "maps_address": "M733+VW Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Apartamento turístico",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -54078,6 +54787,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -54155,6 +54865,7 @@
     },
     "rating": 4.0,
     "maps_address": null,
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": "3:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -54229,6 +54940,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -54299,6 +55011,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [],
@@ -54372,6 +55085,7 @@
     },
     "rating": 4.9,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -54447,6 +55161,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": "3:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -54520,6 +55235,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -54593,6 +55309,7 @@
     },
     "rating": 4.4,
     "maps_address": null,
+    "subcategory": "(17)",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -54654,6 +55371,7 @@
     },
     "rating": null,
     "maps_address": "M722+Q8, Limón, Puerto Viejo de Talamanca",
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -54724,6 +55442,7 @@
     },
     "rating": 4.4,
     "maps_address": "M629+Q5V, Calle Cacao, Limón, Talamanca",
+    "subcategory": "Indicaciones",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -54810,6 +55529,7 @@
     },
     "rating": 4.4,
     "maps_address": null,
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -54900,6 +55620,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Alojamiento con servicio",
     "check_in": "3:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -54997,6 +55718,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -55058,6 +55780,7 @@
     },
     "rating": 4.5,
     "maps_address": "M646+WQP, Calle Playa Negra, Limón, Cahuita",
+    "subcategory": "Indicaciones",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -55129,6 +55852,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -55216,6 +55940,7 @@
     },
     "rating": 4.3,
     "maps_address": null,
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": "3:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -55312,6 +56037,7 @@
     },
     "rating": 4.4,
     "maps_address": null,
+    "subcategory": "Descripción general",
     "check_in": "3:00 p.m.",
     "check_out": null,
     "amenities": [
@@ -55397,6 +56123,7 @@
     },
     "rating": 4.4,
     "maps_address": null,
+    "subcategory": null,
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -55480,6 +56207,7 @@
     },
     "rating": 4.9,
     "maps_address": "M733+VW Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Apartamento turístico",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -55558,6 +56286,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "Cerrado permanenteme",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -55636,6 +56365,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": null,
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -55729,6 +56459,7 @@
     },
     "rating": 4.9,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": "3:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -55801,6 +56532,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -55887,6 +56619,7 @@
     },
     "rating": 4.9,
     "maps_address": null,
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": "2:00 p.m.",
     "check_out": "12:00 p.m.",
     "amenities": [
@@ -55975,6 +56708,7 @@
     },
     "rating": 5.0,
     "maps_address": null,
+    "subcategory": "Des",
     "check_in": null,
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -56061,6 +56795,7 @@
     },
     "rating": 5.0,
     "maps_address": "M657+Q5 Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Descripción general",
     "check_in": "2:00 p.m.",
     "check_out": "12:00 p.m.",
     "amenities": [
@@ -56140,6 +56875,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": "3:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -56211,6 +56947,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -56283,6 +57020,7 @@
     },
     "rating": 4.3,
     "maps_address": null,
+    "subcategory": "Hotel de 4 estrellas",
     "check_in": "3:00 p.m.",
     "check_out": "12:00 p.m.",
     "amenities": [
@@ -56369,6 +57107,7 @@
     },
     "rating": 4.9,
     "maps_address": null,
+    "subcategory": "Escuela de ballet",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -56446,6 +57185,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "Holiday apartment rental",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -56516,6 +57256,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "Tienda de ropa",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -56589,6 +57330,7 @@
     },
     "rating": 4.6,
     "maps_address": "M752+CJ Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Lavandería",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -56667,6 +57409,7 @@
     },
     "rating": 4.9,
     "maps_address": null,
+    "subcategory": "Cafetería",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -56747,6 +57490,7 @@
     },
     "rating": 4.6,
     "maps_address": "M752+CJ Puerto Viejo de Talamanca, Limón",
+    "subcategory": "Lavandería",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -56817,6 +57561,7 @@
     },
     "rating": 4.7,
     "maps_address": null,
+    "subcategory": "Hotel",
     "check_in": "2:00 p.m.",
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -56899,6 +57644,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Cafetería",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -56975,6 +57721,7 @@
     },
     "rating": 4.6,
     "maps_address": null,
+    "subcategory": "Indicaciones",
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -57052,6 +57799,7 @@
     },
     "rating": 4.4,
     "maps_address": null,
+    "subcategory": "Hotel de 3 estrellas",
     "check_in": null,
     "check_out": "11:00 a.m.",
     "amenities": [
@@ -57140,6 +57888,7 @@
     },
     "rating": null,
     "maps_address": null,
+    "subcategory": null,
     "check_in": null,
     "check_out": null,
     "amenities": [
@@ -57212,6 +57961,7 @@
     },
     "rating": 4.8,
     "maps_address": null,
+    "subcategory": "Restaurante indio",
     "check_in": null,
     "check_out": null,
     "amenities": [

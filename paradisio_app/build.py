@@ -320,6 +320,7 @@ def build_business(row):
         "claim": {"status": "unclaimed"},
         "rating": enrich.get("rating"),
         "maps_address": enrich.get("address"),
+        "subcategory": enrich.get("subcategory"),
         "check_in": enrich.get("check_in"),
         "check_out": enrich.get("check_out"),
         "amenities": enrich.get("amenities", []),
@@ -582,6 +583,7 @@ document.addEventListener('DOMContentLoaded', function() {{
 <h1>{biz["name"]}</h1>
 <div class="biz-meta">
 <span class="biz-category">{biz["category"].title()}</span>
+{biz.get("subcategory") and f'<span class="biz-category">{biz["subcategory"]}</span>' or ''}
 <span class="biz-area">{biz["area"]}</span>
 <span class="biz-status status-{biz["status"]}">{biz["status"].title()}</span>
 </div>

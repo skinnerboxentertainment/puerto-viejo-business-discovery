@@ -1,11 +1,12 @@
-# Puerto Viejo Business Discovery — codename Paradisio
+# Paradisio — Puerto Viejo Business Board
 
 **750 businesses within 5 km of Puerto Viejo de Talamanca, Costa Rica.**  
-A verified, multi-source local business directory with Instagram handles, phone numbers, WhatsApp, Booking.com links, Facebook pages, Google Maps CIDs, and geographic coordinates.
+A verified, multi-source local business directory with Instagram handles, phone numbers, WhatsApp, Booking.com links, Facebook pages, Google Maps CIDs, coordinates, star ratings, amenities, and classifieds.
 
-👉 **[Browse the Interactive Directory](https://skinnerboxentertainment.github.io/puerto-viejo-business-discovery/directory.html)** — search, filter, and explore every business on a map
-🗺️ **[Gap Scanner Map](https://skinnerboxentertainment.github.io/puerto-viejo-business-discovery/gapmap.html)** — visual grid analysis of coverage by zone
-📊 **[Full Report](https://skinnerboxentertainment.github.io/puerto-viejo-business-discovery/report.html)** — aggregate stats, charts, and enrichment breakdown
+👉 **[Open Paradisio App](https://skinnerboxentertainment.github.io/mekatelyu/paradisio_app/)** — search, filter, map, WhatsApp contact, classifieds board
+📋 **[Interactive Directory](https://skinnerboxentertainment.github.io/mekatelyu/directory.html)** — classic map + list view
+🗺️ **[Gap Scanner Map](https://skinnerboxentertainment.github.io/mekatelyu/gapmap.html)** — visual grid analysis of coverage
+📊 **[Full Report](https://skinnerboxentertainment.github.io/mekatelyu/report.html)** — aggregate stats, charts, enrichment breakdown
 
 ---
 
@@ -138,29 +139,30 @@ A verified, multi-source local business directory with Instagram handles, phone 
 ## Repository Structure
 
 ```
+paradisio_app/              — Static web app generator (build.py, CSS, JS)
 pv_master_unified.csv       — Master dataset (750 records, 34 cols)
 pvscraper/                  — Reusable Python crawl + parse module
 stealth_search.py           — Maps-direct CID/coords/phone resolver
 website_crawl.py            — Business website social link extractor
 codex_bridge.py             — Thin wrapper for Codex CLI delegation
-deep_crawl_results.csv      — Deeper website crawl findings
 CODEX_ENDPOINT/             — IPC hub for Codex task delegation
 docs/                       — GitHub Pages site
-  index.html                — Landing page
-  directory.html            — Interactive directory with map + detail drawer
+  paradisio_app/            — Generated static app (750 business pages + classifieds)
+  index.html                — Landing page (redirects to app)
+  directory.html            — Classic interactive directory
   report.html               — Analytical report
   gapmap.html               — Grid-based gap scanner
-  businesses.json           — 750 records as JSON
-  businesses.geojson        — GeoJSON for My Maps / QGIS
-  dataset.csv               — Latest dataset copy
+  audit.html                — Data audit dashboard
 ```
 
 ### GitHub Pages
 
-- **Directory:** `https://skinnerboxentertainment.github.io/puerto-viejo-business-discovery/directory.html`
-- **Report:** `https://skinnerboxentertainment.github.io/puerto-viejo-business-discovery/report.html`
-- **Gap Map:** `https://skinnerboxentertainment.github.io/puerto-viejo-business-discovery/gapmap.html`
-- **GeoJSON:** `https://skinnerboxentertainment.github.io/puerto-viejo-business-discovery/businesses.geojson`
+- **App:** `https://skinnerboxentertainment.github.io/mekatelyu/paradisio_app/` ← main entry
+- **Directory:** `https://skinnerboxentertainment.github.io/mekatelyu/directory.html`
+- **Report:** `https://skinnerboxentertainment.github.io/mekatelyu/report.html`
+- **Gap Map:** `https://skinnerboxentertainment.github.io/mekatelyu/gapmap.html`
+- **Audit:** `https://skinnerboxentertainment.github.io/mekatelyu/audit.html`
+- **QR Codes (print):** `https://skinnerboxentertainment.github.io/mekatelyu/paradisio_app/qr/index.html`
 
 ### Key Scripts
 
@@ -175,16 +177,20 @@ docs/                       — GitHub Pages site
 
 ---
 
-## v2.0 Release
+## v3.0 — Paradisio App
 
-Built on the v1.0 PV Satellite foundation with extensive enrichment through Maps-direct stealth search, website crawling, and social link extraction. Data accurate as of 2026-07-07.
+The Paradisio app (`paradisio_app/`) is a static, mobile-friendly web application that turns the dataset into a usable directory. Key features:
 
-### What's Next
+- **750 business pages** with contact routing (WhatsApp > phone > Instagram > website > map)
+- **Search, filters, paginated results** — category, area, contact channel, text search
+- **Interactive cluster map** — toggle between list and map views
+- **Star ratings, hours, amenities** — enriched from Google Maps CID crawl
+- **Print-ready QR codes** for every business — download or print for stickers
+- **Classifieds board** — rooms for rent, jobs, gigs, for sale, services, events, rideshare
+- **Mobile-first responsive** — works on any device
+- **GoatCounter analytics** — pageview tracking
 
-- Instagram guessing for ~365 businesses still missing handles
-- Deeper website crawl (follow internal links for social pages)
-- Booking.com / TripAdvisor enrichment for lodging records
-- Potential Google-search enrichment via burner account (paced)
+Built with pure Python (stdlib) and vanilla HTML/CSS/JS. No frameworks, no database, no server. Runs entirely on GitHub Pages.
 
 ---
 

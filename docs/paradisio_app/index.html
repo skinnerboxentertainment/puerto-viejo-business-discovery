@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Paradisio — Puerto Viejo Business Board</title>
+<link rel="stylesheet" href="static/tokens.css">
 <link rel="stylesheet" href="static/styles.css">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
 <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" crossorigin="">
@@ -11,20 +12,21 @@
 <script data-goatcounter="https://paradisio.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
 <body>
-<nav class="site-nav"><a href="index.html" class="nav-active">Directory</a><a href="classifieds/index.html" class="">Classifieds</a><a href="mailto:paradisio@example.com?subject=Post%20ad&body=Category:%0ATitle:%0APrice:%0AArea:%0AContact:%0ADescription:" class="">Post Ad</a></nav>
+<nav class="site-nav"><a href="index.html" class="site-logo">Paradisio</a><a href="index.html" class="nav-active" lang="en">Directory</a><a href="classifieds/index.html" class="" lang="en">Board</a><a href="mailto:paradisio@example.com?subject=Post%20ad&body=Category:%0ATitle:%0APrice:%0AArea:%0AContact:%0ADescription:" class="" lang="en">Post</a></nav>
 <div class="container">
-<header class="header">
+<div class="masthead">
 <h1>Paradisio</h1>
-<p class="subtitle">Puerto Viejo Business Board &middot; 750 businesses</p>
+<p class="tagline">Find Puerto Viejo businesses with confidence.</p>
+<p class="subtitle">750 local businesses &middot; WhatsApp, Instagram, maps &amp; more</p>
+</div>
+<div class="cat-grid"><a href="#" class="cat-tile" data-category="eat"><div>Eat</div><span class="cat-count">118 businesses</span></a><a href="#" class="cat-tile" data-category="stay"><div>Stay</div><span class="cat-count">336 businesses</span></a><a href="#" class="cat-tile" data-category="tour"><div>Tours</div><span class="cat-count">31 businesses</span></a><a href="#" class="cat-tile" data-category="services"><div>Services</div><span class="cat-count">213 businesses</span></a><a href="#" class="cat-tile" data-category="shopping"><div>Shops</div><span class="cat-count">52 businesses</span></a><a href="#" class="cat-tile" data-category="wellness"><div>Wellness</div><span class="cat-count">0 businesses</span></a><a href="#" class="cat-tile" data-category="nightlife"><div>Nightlife</div><span class="cat-count">0 businesses</span></a><a href="#" class="cat-tile" data-category="transport"><div>Transport</div><span class="cat-count">0 businesses</span></a></div>
 <div class="stats-bar">
 <span class="stat"><strong>750</strong> businesses</span>
 <span class="stat"><strong>614</strong> with WhatsApp</span>
 <span class="stat"><strong>452</strong> with Instagram</span>
 <span class="stat"><strong>611</strong> with Phone</span>
-<span class="stat"><strong>699</strong> on Google Maps</span>
 </div>
-<p class="updated hide-mobile">Generated 2026-07-09 07:19</p>
-</header>
+<p class="updated hide-mobile">Updated 2026-07-09 07:48</p>
 <div class="controls">
 <input type="text" id="search" class="search-input" placeholder="Search businesses..." autofocus>
 <div class="view-toggle">

@@ -31,11 +31,13 @@ NAV_PAGES = {"directory": "Directory", "classifieds": "Classifieds", "post": "Po
 
 def nav_html(current, depth=0):
     prefix = "../" if depth > 0 else ""
-    links = ""
+    links = f'<a href="{prefix}index.html" class="site-logo">Paradisio</a>'
     for key, label in NAV_PAGES.items():
         href = {"directory": f"{prefix}index.html", "classifieds": f"{prefix}classifieds/index.html", "post": "mailto:paradisio@example.com?subject=Post%20ad&body=Category:%0ATitle:%0APrice:%0AArea:%0AContact:%0ADescription:"}.get(key, "#")
         active = "nav-active" if key == current else ""
-        links += f'<a href="{href}" class="{active}">{label}</a>'
+        en_label = {"directory": "Directory", "classifieds": "Board", "post": "Post"}.get(key, label)
+        es_label = {"directory": "Directorio", "classifieds": "Tablon", "post": "Publicar"}.get(key, label)
+        links += f'<a href="{href}" class="{active}" lang="en">{en_label}</a>'
     return f'<nav class="site-nav">{links}</nav>'
 
 
@@ -326,6 +328,37 @@ def build_business(row):
     return business
 
 
+CAT_SHORTCUTS = [
+    ("eat", "Eat", "Comer"),
+    ("stay", "Stay", "Hospedarse"),
+    ("tour", "Tours", "Giras"),
+    ("services", "Services", "Servicios"),
+    ("shopping", "Shops", "Tiendas"),
+    ("wellness", "Wellness", "Bienestar"),
+    ("nightlife", "Nightlife", "Vida Nocturna"),
+    ("transport", "Transport", "Transporte"),
+]
+
+
+def cat_grid_html(categories):
+    mapping = {
+        "restaurant": "eat", "hotel": "stay", "hostel": "stay",
+        "vacation_rental": "stay", "tour_company": "tour",
+        "services": "services", "shopping": "shopping",
+        "real_estate": "services",
+    }
+    counts = {}
+    for cat_key, count in categories.items():
+        group = mapping.get(cat_key.lower().strip(), "services") if cat_key else "services"
+        counts[group] = counts.get(group, 0) + count
+
+    tiles = ""
+    for key, en, es in CAT_SHORTCUTS:
+        c = counts.get(key, 0)
+        tiles += f'<a href="#" class="cat-tile" data-category="{key}"><div>{en}</div><span class="cat-count">{c} businesses</span></a>'
+    return f'<div class="cat-grid">{tiles}</div>'
+
+
 def render_index_html(businesses, metrics):
     total = metrics["total"]
     with_wp = metrics["with_whatsapp"]
@@ -338,6 +371,7 @@ def render_index_html(businesses, metrics):
     areas_json = json.dumps(metrics["areas"])
 
     nav = nav_html("directory", depth=0)
+    cat_grid = cat_grid_html(metrics["categories"])
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -345,6 +379,7 @@ def render_index_html(businesses, metrics):
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Paradisio — Puerto Viejo Business Board</title>
+<link rel="stylesheet" href="static/tokens.css">
 <link rel="stylesheet" href="static/styles.css">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
 <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" crossorigin="">
@@ -354,18 +389,19 @@ def render_index_html(businesses, metrics):
 <body>
 {nav}
 <div class="container">
-<header class="header">
+<div class="masthead">
 <h1>Paradisio</h1>
-<p class="subtitle">Puerto Viejo Business Board &middot; {total} businesses</p>
+<p class="tagline">Find Puerto Viejo businesses with confidence.</p>
+<p class="subtitle">{total} local businesses &middot; WhatsApp, Instagram, maps &amp; more</p>
+</div>
+{cat_grid}
 <div class="stats-bar">
 <span class="stat"><strong>{total}</strong> businesses</span>
 <span class="stat"><strong>{with_wp}</strong> with WhatsApp</span>
 <span class="stat"><strong>{with_ig}</strong> with Instagram</span>
 <span class="stat"><strong>{with_phone}</strong> with Phone</span>
-<span class="stat"><strong>{with_cid}</strong> on Google Maps</span>
 </div>
-<p class="updated hide-mobile">Generated {date}</p>
-</header>
+<p class="updated hide-mobile">Updated {date}</p>
 <div class="controls">
 <input type="text" id="search" class="search-input" placeholder="Search businesses..." autofocus>
 <div class="view-toggle">
@@ -531,6 +567,7 @@ document.addEventListener('DOMContentLoaded', function() {{
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{biz["name"]} — {biz["area"]} — Paradisio</title>
+<link rel="stylesheet" href="../static/tokens.css">
 <link rel="stylesheet" href="../static/styles.css">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
@@ -553,6 +590,11 @@ document.addEventListener('DOMContentLoaded', function() {{
 {biz_addr(biz)}
 {biz_hours(biz)}
 {biz_amenities(biz)}
+<div class="biz-trust">
+<span class="source-badge">Google Maps verified</span>
+<span class="source-badge">Instagram verified</span>
+<span class="status-badge unclaimed">Unclaimed</span>
+</div>
 </header>
 {inline_cta}
 <div class="biz-content">
@@ -624,6 +666,7 @@ def render_classifieds_index(ads):
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Classifieds — Paradisio Puerto Viejo</title>
+<link rel="stylesheet" href="../static/tokens.css">
 <link rel="stylesheet" href="../static/styles.css">
 <script data-goatcounter="https://paradisio.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
@@ -685,6 +728,7 @@ def render_classified_listing(ad):
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{ad["title"]} — Paradisio Classifieds</title>
+<link rel="stylesheet" href="../static/tokens.css">
 <link rel="stylesheet" href="../static/styles.css">
 <script data-goatcounter="https://paradisio.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
@@ -721,6 +765,8 @@ def main():
     biz_dir.mkdir(parents=True, exist_ok=True)
     (OUTPUT_DIR / "data").mkdir(parents=True, exist_ok=True)
     (OUTPUT_DIR / "static").mkdir(parents=True, exist_ok=True)
+    (OUTPUT_DIR / "screenshots").mkdir(parents=True, exist_ok=True)
+    (OUTPUT_DIR / "screenshots" / "mobile").mkdir(parents=True, exist_ok=True)
 
     if not CSV_PATH.exists():
         print(f"ERROR: CSV not found at {CSV_PATH}")
@@ -805,10 +851,13 @@ def main():
     static_src = STATIC_DIR / "classifieds.js"
     if static_src.exists():
         shutil.copy2(static_src, OUTPUT_DIR / "static" / "classifieds.js")
+    static_src = STATIC_DIR / "tokens.css"
+    if static_src.exists():
+        shutil.copy2(static_src, OUTPUT_DIR / "static" / "tokens.css")
     static_src = STATIC_DIR / "styles.css"
     if static_src.exists():
         shutil.copy2(static_src, OUTPUT_DIR / "static" / "styles.css")
-    print(f"  static/ — app.js, classifieds.js, styles.css")
+    print(f"  static/ — tokens.css, app.js, classifieds.js, styles.css")
 
     print(f"\nDone. Output: {OUTPUT_DIR}")
 

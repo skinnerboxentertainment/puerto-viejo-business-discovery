@@ -138,6 +138,18 @@
             rating = '<div class="card-rating">' + "&#9733;".repeat(full) + half + " " + b.rating + "</div>";
         }
 
+        var contactLabel = "";
+        if (b.scores) {
+            var cs = b.scores.contactability;
+            var label = "Limited";
+            if (cs >= 80) label = "Verified";
+            else if (cs >= 60) label = "Strong";
+            else if (cs >= 40) label = "Partial";
+            else if (cs >= 20) label = "Limited";
+            else label = "Missing";
+            contactLabel = '<span class="contact-label ' + label.toLowerCase() + '">' + label + '</span>';
+        }
+
         return '<a href="businesses/' + b.slug + '.html" class="result-card">' +
             '<div class="result-name">' + esc(b.name) + "</div>" +
             rating +
@@ -145,9 +157,9 @@
             '<span>' + esc(b.category || "Uncategorized") + "</span>" +
             '<span>' + esc(b.area || "Unknown") + "</span>" +
             (b.distance_km ? '<span>' + b.distance_km + " km</span>" : "") +
+            contactLabel +
             "</div>" +
             (badges ? '<div class="result-channels">' + badges + "</div>" : "") +
-            scores +
             '<div class="result-cta">' + (b.primary_contact ? esc(b.primary_contact.label) : "View") + " &rarr;</div>" +
             "</a>";
     }
@@ -274,6 +286,22 @@
     // View toggle
     viewList.addEventListener("click", function () { switchView("list"); });
     viewMap.addEventListener("click", function () { switchView("map"); });
+
+    // Category shortcut tiles
+    document.querySelectorAll(".cat-tile").forEach(function (tile) {
+        tile.addEventListener("click", function (e) {
+            e.preventDefault();
+            var cat = this.getAttribute("data-category");
+            var mapping = { "eat": "restaurant", "stay": "hotel", "tour": "tour_company", "shopping": "shopping", "wellness": "services", "nightlife": "restaurant", "transport": "services" };
+            var mapped = mapping[cat] || cat;
+            if (catFilter) { catFilter.value = mapped; }
+            displayCount = PAGE_SIZE;
+            if (currentView === "map") { updateMap(); } else { renderList(); }
+            var target = document.getElementById("category-filter");
+            if (target) { target.value = mapped; target.dispatchEvent(new Event("change")); }
+            document.querySelector(".controls").scrollIntoView({ behavior: "smooth" });
+        });
+    });
 
     searchInput.addEventListener("input", resetAndRender);
     catFilter.addEventListener("change", resetAndRender);

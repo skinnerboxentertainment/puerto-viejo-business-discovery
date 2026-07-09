@@ -89,9 +89,7 @@
             var label = channelFilter.options[channelFilter.selectedIndex].text;
             chips.push('<span class="filter-chip">' + esc(label) + ' <span class="chip-close" data-clear="channel">&times;</span></span>');
         }
-        if (chips.length > 1) {
-            chips.push('<span class="filter-chip clear-all" id="clear-all-filters">Clear all</span>');
-        }
+        chips.push('<span class="filter-chip clear-all" id="clear-all-filters">Clear all</span>');
         chipsDiv.innerHTML = chips.join("");
 
         document.querySelectorAll("[data-clear]").forEach(function (el) {
@@ -195,7 +193,21 @@
         var shown = filtered.slice(0, displayCount);
         var html = shown.map(renderCard).join("");
         resultsDiv.innerHTML = html;
-        statsLine.textContent = Math.min(displayCount, total) + " of " + total + " results";
+        var hasFilter = catFilter.value || areaFilter.value || channelFilter.value;
+        if (hasFilter) {
+            statsLine.innerHTML = Math.min(displayCount, total) + " of " + total + ' results &middot; <a href="#" id="clear-stats" style="color:var(--coral-600);text-decoration:none;">Clear filter</a>';
+            var clearStats = document.getElementById("clear-stats");
+            if (clearStats) {
+                clearStats.addEventListener("click", function (e) {
+                    e.preventDefault();
+                    catFilter.value = ""; areaFilter.value = ""; channelFilter.value = "";
+                    displayCount = PAGE_SIZE;
+                    render();
+                });
+            }
+        } else {
+            statsLine.textContent = Math.min(displayCount, total) + " of " + total + " results";
+        }
         renderLoadMore(total);
     }
 
@@ -296,12 +308,29 @@
             var mapped = mapping[cat] || cat;
             if (catFilter) { catFilter.value = mapped; }
             displayCount = PAGE_SIZE;
-            if (currentView === "map") { updateMap(); } else { renderList(); }
-            var target = document.getElementById("category-filter");
-            if (target) { target.value = mapped; target.dispatchEvent(new Event("change")); }
+            catFilter.dispatchEvent(new Event("change"));
             document.querySelector(".controls").scrollIntoView({ behavior: "smooth" });
         });
     });
+
+    // Highlight active category tile when filter changes
+    function updateActiveTile() {
+        var active = catFilter ? catFilter.value : "";
+        document.querySelectorAll(".cat-tile").forEach(function (t) {
+            var mapping = { "eat": "restaurant", "stay": "hotel", "tour": "tour_company", "shopping": "shopping", "wellness": "services", "nightlife": "restaurant", "transport": "services" };
+            var cat = t.getAttribute("data-category");
+            var mapped = mapping[cat] || cat;
+            if (active && mapped === active) {
+                t.style.borderColor = "var(--coral-600, #ed744f)";
+                t.style.background = "#fff5f0";
+            } else {
+                t.style.borderColor = "";
+                t.style.background = "";
+            }
+        });
+    }
+    catFilter.addEventListener("change", updateActiveTile);
+    updateActiveTile();
 
     searchInput.addEventListener("input", resetAndRender);
     catFilter.addEventListener("change", resetAndRender);

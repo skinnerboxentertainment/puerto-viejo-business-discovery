@@ -24,9 +24,9 @@ TARGETS = BASE / "stealth_targets.csv"
 
 CDP_PORT = 9222
 
-MIN_DELAY = 15
-MAX_DELAY = 25
-SESSION_MAX = 250
+MIN_DELAY = 8
+MAX_DELAY = 15
+SESSION_MAX = 10
 REST_MINUTES = 1
 
 
@@ -330,3 +330,4 @@ if __name__ == "__main__":
         except Exception as e:
             log(f"FATAL: post-session check failed: {e}")
             time.sleep(60)
+

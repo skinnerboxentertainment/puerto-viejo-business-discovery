@@ -1888,3 +1888,126 @@ OSError: [Errno 22] Invalid argument
 [10:42:45] Remaining: 0
 [10:42:45] Disconnected from Chrome. Your Chrome window stays open.
 [10:42:45] All targets complete!
+[10:54:00] Loaded checkpoint: 0 done, 0 sessions
+[10:54:00] Targets: 5 total, 0 done, 5 remaining (session 1)
+[10:54:00] This session: 5 searches
+[10:54:00] Connecting to Chrome on CDP port 9222...
+[10:54:01] Connected. Your browsing is unaffected — script uses its own tab.
+
+[10:54:01] [1/5] Selina Puerto Viejo
+[10:54:01]   Searching Maps: Selina Puerto Viejo
+[10:54:10]   Search results page — trying first result
+[10:54:14]   CID: 13867796991600133037  @9.7354202,-82.8452377  [low]
+[10:54:14]   Waiting 8s...
+[10:54:22] [2/5] Hotel Puerto Viejo
+[10:54:22]   Searching Maps: Hotel Puerto Viejo
+[10:54:33]   Search results page — trying first result
+[10:54:40]   CID: 15942771352384167456  @9.637077,-82.691963  [low]
+[10:54:40]   Waiting 8s...
+[10:54:48] [3/5] Cariblue Beach and Jungle Resort
+[10:54:48]   Searching Maps: Cariblue Beach and Jungle Resort
+[10:55:00]   CID: 14658668036585456092  @9.6501905,-82.7392681  [high]
+[10:55:00]   Waiting 14s...
+[10:55:14] [4/5] La Pecora Nera Ristorante
+[10:55:14]   Searching Maps: La Pecora Nera Ristorante
+[10:55:21]   CID: 16671506007035121722  @9.6435375,-82.7294006  [high]
+[10:55:21]   Waiting 10s...
+[10:55:31] [5/5] Lapalapa Beach Front Hotel
+[10:55:31]   Searching Maps: Lapalapa Beach Front Hotel
+[10:55:39]   Search results page — trying first result
+[10:55:46]   CID: 9639892766267705924  @9.74151,-82.850286  [low]
+[10:55:46] 
+--- Session 1 complete ---
+[10:55:46] Attempted: 5
+[10:55:46] Successful: 5
+[10:55:46] With CID:   5
+[10:55:46] Session complete. Rest 1 min before next.
+[10:55:46] Remaining: 0
+[10:55:46] Disconnected from Chrome. Your Chrome window stays open.
+[10:55:46] All targets complete!
+[10:58:08] Loaded checkpoint: 0 done, 0 sessions
+[10:58:08] Targets: 30 total, 0 done, 30 remaining (session 1)
+[10:58:08] This session: 10 searches
+[10:58:08] Connecting to Chrome on CDP port 9222...
+[10:58:08] Connected. Your browsing is unaffected — script uses its own tab.
+
+[10:58:08] [1/10] Abba Home
+[10:58:08]   Searching Maps: Abba Home
+[10:58:16]   CID: 4461576710289322066  @9.661169,-82.7844491  [high]
+[10:58:16]   Waiting 14s...
+[10:58:30] [2/10] ALMA Masajes
+[10:58:30]   Searching Maps: ALMA Masajes
+[10:58:37]   CID: 1952261552637324801  @9.6515636,-82.754872  [high]
+[10:58:37]   Waiting 14s...
+[10:58:51] [3/10] Alojamiento kon-tiky
+[10:58:51]   Searching Maps: Alojamiento kon-tiky
+[10:59:01]   CID: 2436293331676785956  @9.6486768,-82.7617116  [high]
+[10:59:01]   Waiting 14s...
+[10:59:15] [4/10] Api-Rescate
+[10:59:15]   Searching Maps: Api-Rescate
+[10:59:24]   CID: 12888475778927218100  @9.63182,-82.7330943  [high]
+[10:59:24]   Waiting 8s...
+[10:59:32] [5/10] Ariel Apartment's
+[10:59:32]   Searching Maps: Ariel Apartment's
+[10:59:41]   CID: 13949908967524151461  @9.64799,-82.7410782  [high]
+[10:59:41]   Waiting 9s...
+[10:59:50] [6/10] Arrecife El Chino
+[10:59:50]   Searching Maps: Arrecife El Chino
+[10:59:59]   CID: 17999916450116929174  @9.6582325,-82.7560996  [high]
+[10:59:59]   Waiting 11s...
+[11:00:40] Loaded checkpoint: 0 done, 0 sessions
+[11:00:40] Targets: 10 total, 0 done, 10 remaining (session 1)
+[11:00:40] This session: 10 searches
+[11:00:40] Connecting to Chrome on CDP port 9222...
+[11:00:41] Connected. Your browsing is unaffected — script uses its own tab.
+
+[11:00:41] [1/10] Almonds and Corals Boutique Hotel
+[11:00:41]   Searching Maps: Almonds and Corals Boutique Hotel
+[11:00:51]   CID: 11188266454666848277  @9.6321651,-82.6727735  [low]
+[11:00:51]   Waiting 10s...
+[11:01:01] [2/10] Big Tree Wildlife Refuge
+[11:01:01]   Searching Maps: Big Tree Wildlife Refuge
+[11:01:08]   CID: 5233367816302543964  @9.6304418,-82.6879437  [low]
+[11:01:08]   Waiting 15s...
+[11:01:23] [3/10] Boca Chica Bar Restaurante y Piscina
+[11:01:23]   Searching Maps: Boca Chica Bar Restaurante y Piscina
+[11:01:34]   Search results page — trying first result
+[11:01:40]   CID: 94575443808973745  @9.6576264,-82.752566  [high]
+[11:01:40]   Waiting 9s...
+[11:01:49] [4/10] Bohemian Monkey
+[11:01:49]   Searching Maps: Bohemian Monkey
+[11:01:55]   Search results page — trying first result
+[11:02:01]   CID: 341392252528028287  @9.7382011,-82.8480148  [low]
+[11:02:01]   Waiting 8s...
+[11:02:09] [5/10] Bungalows Ache
+[11:02:09]   Searching Maps: Bungalows Ache
+[11:02:19]   CID: 15520883439481237827  @9.7351324,-82.8393077  [low]
+[11:02:19]   Waiting 13s...
+[11:02:32] [6/10] Cabinas Algebra
+[11:02:32]   Searching Maps: Cabinas Algebra
+[11:02:40]   CID: 17217032978777865192  @9.7497803,-82.8604018  [low]
+[11:02:40]   Waiting 11s...
+[11:02:51] [7/10] Cabinas El Imperio
+[11:02:51]   Searching Maps: Cabinas El Imperio
+[11:02:58]   CID: 11746108272448529029  @9.5097873,-82.6209511  [low]
+[11:02:58]   Waiting 10s...
+[11:03:08] [8/10] Cabinas El Rinconcito
+[11:03:08]   Searching Maps: Cabinas El Rinconcito
+[11:03:14]   CID: 15910047007271410898  @9.5945266,-82.6067032  [low]
+[11:03:14]   Waiting 8s...
+[11:03:22] [9/10] Cabinas Jenny
+[11:03:22]   Searching Maps: Cabinas Jenny
+[11:03:31]   CID: 17682239826356444978  @9.7390003,-82.8396835  [low]
+[11:03:31]   Waiting 13s...
+[11:03:44] [10/10] Cabinas Palmer Makanda
+[11:03:44]   Searching Maps: Cabinas Palmer Makanda
+[11:03:54]   CID: 12496997589843324576  @9.7382481,-82.8401478  [low]
+[11:03:54] 
+--- Session 1 complete ---
+[11:03:54] Attempted: 10
+[11:03:54] Successful: 10
+[11:03:54] With CID:   10
+[11:03:54] Session complete. Rest 1 min before next.
+[11:03:54] Remaining: 0
+[11:03:54] Disconnected from Chrome. Your Chrome window stays open.
+[11:03:54] All targets complete!

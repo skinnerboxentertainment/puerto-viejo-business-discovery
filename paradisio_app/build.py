@@ -387,6 +387,7 @@ def cat_grid_html(categories):
         "vacation_rental": "stay", "tour_company": "tour",
         "services": "services", "shopping": "shopping",
         "real_estate": "services",
+        "wellness": "wellness", "nightlife": "nightlife", "transport": "transport",
     }
     counts = {}
     for cat_key, count in categories.items():
@@ -957,11 +958,42 @@ def main():
     businesses.sort(key=lambda b: b["name"].lower())
     businesses = dedup_slugs(businesses)
 
+    # Load enrichment subcategories to split services into wellness/nightlife/transport
+    enrich_lookup = {}
+    enrich_path = OUTPUT_DIR / "data" / "maps_parsed_v3.json"
+    if enrich_path.exists():
+        with open(enrich_path, encoding="utf-8") as f:
+            for rec in json.load(f):
+                cid = rec.get("cid", "")
+                if cid:
+                    fields = rec.get("fields", {})
+                    sc = fields.get("subcategory", {})
+                    if isinstance(sc, dict):
+                        enrich_lookup[cid] = sc.get("value", "").lower()
+                    elif isinstance(sc, str):
+                        enrich_lookup[cid] = sc.lower()
+
+    SUBCAT_TO_GROUP = {
+        "massage": "wellness", "masajes": "wellness", "yoga": "wellness",
+        "spa": "wellness", "fitness": "wellness", "gym": "wellness",
+        "bar": "nightlife", "cocktail": "nightlife", "brewery": "nightlife",
+        "taxi": "transport", "shuttle": "transport", "transport": "transport",
+        "alquiler": "transport", "rental": "transport",
+    }
+
     categories = {}
     areas = {}
     for b in businesses:
         cat = b["category"] or "Uncategorized"
         ar = b["area"] or "Unknown"
+        # Check subcategory enrichment to split services
+        if cat.lower() == "services":
+            cid = b["channels"].get("google_maps_cid", "")
+            subcat = enrich_lookup.get(cid, "")
+            for kw, group in SUBCAT_TO_GROUP.items():
+                if kw in subcat:
+                    cat = group.title()
+                    break
         categories[cat] = categories.get(cat, 0) + 1
         areas[ar] = areas.get(ar, 0) + 1
 

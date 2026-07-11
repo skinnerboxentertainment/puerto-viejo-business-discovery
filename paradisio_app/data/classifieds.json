@@ -14,7 +14,12 @@
       "whatsapp": "+50655550101"
     },
     "posted_date": "2026-07-01",
-    "tags": ["furnished", "wifi", "pool", "short-term"]
+    "tags": [
+      "furnished",
+      "wifi",
+      "pool",
+      "short-term"
+    ]
   },
   {
     "id": "ad_002",
@@ -31,7 +36,11 @@
       "whatsapp": "+50655550202"
     },
     "posted_date": "2026-07-03",
-    "tags": ["surfboard", "fish", "lost"]
+    "tags": [
+      "surfboard",
+      "fish",
+      "lost"
+    ]
   },
   {
     "id": "ad_003",
@@ -47,7 +56,11 @@
       "phone": "+506 5555 0303"
     },
     "posted_date": "2026-07-05",
-    "tags": ["surf", "instructor", "seasonal"]
+    "tags": [
+      "surf",
+      "instructor",
+      "seasonal"
+    ]
   },
   {
     "id": "ad_004",
@@ -63,7 +76,11 @@
       "phone": "+506 5555 2222"
     },
     "posted_date": "2026-07-04",
-    "tags": ["retail", "cashier", "part-time"]
+    "tags": [
+      "retail",
+      "cashier",
+      "part-time"
+    ]
   },
   {
     "id": "ad_005",
@@ -80,7 +97,12 @@
       "whatsapp": "+50655550404"
     },
     "posted_date": "2026-07-02",
-    "tags": ["dance", "salsa", "bachata", "lessons"]
+    "tags": [
+      "dance",
+      "salsa",
+      "bachata",
+      "lessons"
+    ]
   },
   {
     "id": "ad_006",
@@ -96,7 +118,12 @@
       "whatsapp": "+50655550505"
     },
     "posted_date": "2026-07-06",
-    "tags": ["party", "full-moon", "fire", "dj"]
+    "tags": [
+      "party",
+      "full-moon",
+      "fire",
+      "dj"
+    ]
   },
   {
     "id": "ad_007",
@@ -112,7 +139,11 @@
       "whatsapp": "+50655550606"
     },
     "posted_date": "2026-07-07",
-    "tags": ["ride", "san jose", "shared"]
+    "tags": [
+      "ride",
+      "san jose",
+      "shared"
+    ]
   },
   {
     "id": "ad_008",
@@ -128,7 +159,11 @@
       "phone": "+506 5555 0707"
     },
     "posted_date": "2026-07-06",
-    "tags": ["lost", "backpack", "osprey"]
+    "tags": [
+      "lost",
+      "backpack",
+      "osprey"
+    ]
   },
   {
     "id": "ad_009",
@@ -145,7 +180,11 @@
       "instagram": "bikeshoppv"
     },
     "posted_date": "2026-07-05",
-    "tags": ["bike", "mountain", "trek"]
+    "tags": [
+      "bike",
+      "mountain",
+      "trek"
+    ]
   },
   {
     "id": "ad_010",
@@ -161,7 +200,11 @@
       "whatsapp": "+50655550909"
     },
     "posted_date": "2026-07-07",
-    "tags": ["roommate", "house", "shared"]
+    "tags": [
+      "roommate",
+      "house",
+      "shared"
+    ]
   },
   {
     "id": "ad_011",
@@ -178,7 +221,11 @@
       "instagram": "elenamasajecr"
     },
     "posted_date": "2026-07-04",
-    "tags": ["massage", "wellness", "mobile"]
+    "tags": [
+      "massage",
+      "wellness",
+      "mobile"
+    ]
   },
   {
     "id": "ad_012",
@@ -194,7 +241,11 @@
       "instagram": "selinapuertoviejo"
     },
     "posted_date": "2026-07-06",
-    "tags": ["pool", "tournament", "social"]
+    "tags": [
+      "pool",
+      "tournament",
+      "social"
+    ]
   },
   {
     "id": "ad_013",
@@ -210,7 +261,11 @@
       "phone": "+506 5555 1111"
     },
     "posted_date": "2026-07-05",
-    "tags": ["teaching", "english", "volunteer"]
+    "tags": [
+      "teaching",
+      "english",
+      "volunteer"
+    ]
   },
   {
     "id": "ad_014",
@@ -225,7 +280,11 @@
       "phone": "+506 5555 1212"
     },
     "posted_date": "2026-07-07",
-    "tags": ["found", "gopro", "cahuita"]
+    "tags": [
+      "found",
+      "gopro",
+      "cahuita"
+    ]
   },
   {
     "id": "ad_015",
@@ -241,6 +300,34 @@
       "whatsapp": "+50655551313"
     },
     "posted_date": "2026-07-01",
-    "tags": ["commute", "daily", "beach-hop"]
+    "tags": [
+      "commute",
+      "daily",
+      "beach-hop"
+    ]
+  },
+  {
+    "id": "ad_016",
+    "slug": "festival-internacional-calypso-2026",
+    "status": "active",
+    "category": "events",
+    "title": "Festival Internacional de Calypso Walter Ferguson 2026",
+    "area": "Cahuita",
+    "price": "Free — see flyer for details",
+    "summary": "Banco Popular presents the Walter Ferguson International Calypso Festival 2026 — a celebration of Afro-Caribbean music, identity, and local talent that enriches Cahuita and its communities. Live Calypso music, cultural events, and community gathering. July 10-12 in Cahuita.",
+    "description": "Sponsored by Banco Popular. The Festival Internacional de Calypso Walter Ferguson is an annual event honoring the legendary Calypso musician Walter Ferguson. The festival celebrates Afro-Caribbean music, cultural identity, and local talent while promoting the well-being of Cahuita and surrounding communities.",
+    "contact": {
+      "name": "Banco Popular / Festival Info"
+    },
+    "posted_date": "2026-07-11",
+    "tags": [
+      "calypso",
+      "music",
+      "festival",
+      "culture",
+      "afro-caribbean",
+      "cahuita",
+      "walter-ferguson"
+    ]
   }
 ]

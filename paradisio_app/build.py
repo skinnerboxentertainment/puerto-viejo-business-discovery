@@ -12,7 +12,7 @@ TEMPLATES_DIR = BASE_DIR / "templates"
 STATIC_DIR = BASE_DIR / "static"
 OUTPUT_DIR = Path(__file__).resolve().parent.parent / "docs" / "paradisio_app"
 CSV_PATH = BASE_DIR.parent / "pv_master_unified.csv"
-MAPS_ENRICH_PATH = OUTPUT_DIR / "data" / "maps_enrich_v2.json"
+MAPS_ENRICH_PATH = OUTPUT_DIR / "data" / "maps_parsed_v3.json"
 CLASSIFIEDS_PATH = BASE_DIR / "data" / "classifieds.json"
 LOCALES_DIR = BASE_DIR / "data" / "locales"
 
@@ -65,8 +65,25 @@ def load_maps_enrich():
         records = json.load(f)
     lookup = {}
     for r in records:
-        if r["success"] and r["data"]:
-            cid = r["cid"]
+        cid = r.get("cid", "")
+        if not cid:
+            continue
+        # v3 format: fields keyed with value/confidence wrappers
+        if "fields" in r and r["fields"]:
+            flat = {}
+            for field, data in r["fields"].items():
+                if isinstance(data, dict) and "value" in data:
+                    flat[field] = data["value"]
+                elif not isinstance(data, dict):
+                    flat[field] = data
+                else:
+                    flat[field] = data.get("value", "")
+            # Extract plus_code from address if present
+            if "address" in flat and isinstance(r["fields"].get("address"), dict):
+                flat["plus_code"] = r["fields"]["address"].get("plus_code", "")
+            lookup[cid] = flat
+        # v2 format: direct data object
+        elif r.get("success") and r.get("data"):
             lookup[cid] = r["data"]
     return lookup
 
@@ -343,6 +360,8 @@ def build_business(row):
         "prices": enrich.get("prices", [])[:3],
         "open_status": enrich.get("open_status"),
         "hours": enrich.get("hours"),
+        "plus_code": enrich.get("plus_code", ""),
+        "cuisine": enrich.get("cuisine", ""),
     }
     return business
 
@@ -488,23 +507,40 @@ def rating_html(biz):
 
 
 def biz_addr(biz):
+    parts = []
     a = biz.get("maps_address")
-    return f'<div class="biz-addr">{a}</div>' if a else ""
+    if a and not a.startswith(("M", "F", "C")):
+        parts.append(a)
+    pc = biz.get("plus_code")
+    if pc:
+        parts.append(f'<span class="plus-code">{pc}</span>')
+    if not parts and a:
+        parts.append(a)
+    return f'<div class="biz-addr">{" · ".join(parts)}</div>' if parts else ""
 
 
 def clean_time(t):
     return t.replace("?", "").replace("\u202f", " ") if t else ""
 
 def biz_hours(biz):
+    parts = []
+    os = biz.get("open_status")
+    if os:
+        clean = os.replace("\u202f", " ").replace("\u00a0", " ").strip()
+        cls = "biz-open" if "abierto" in clean.lower() or "open" in clean.lower() else "biz-closed"
+        parts.append(f'<span class="{cls}">{clean}</span>')
+    hr = biz.get("hours")
+    if hr:
+        parts.append(f'<span class="biz-hours-line">{hr}</span>')
     ci = clean_time(biz.get("check_in"))
     co = clean_time(biz.get("check_out"))
     if ci and co:
-        return f'<div class="biz-hours">Check-in {ci} / Check-out {co}</div>'
-    if ci:
-        return f'<div class="biz-hours">Check-in {ci}</div>'
-    if co:
-        return f'<div class="biz-hours">Check-out {co}</div>'
-    return ""
+        parts.append(f'<span class="biz-check">In {ci} / Out {co}</span>')
+    elif ci:
+        parts.append(f'<span class="biz-check">In {ci}</span>')
+    elif co:
+        parts.append(f'<span class="biz-check">Out {co}</span>')
+    return f'<div class="biz-hours">{", ".join(parts)}</div>' if parts else ""
 
 
 def biz_amenities(biz):
@@ -526,6 +562,21 @@ def biz_amenities(biz):
         return ""
     chips = " ".join(f'<span class="amenity-chip">{a}</span>' for a in filtered[:6])
     return f'<div class="amenities">{chips}</div>'
+
+
+def biz_prices(biz):
+    prices = biz.get("prices", [])
+    if not prices:
+        return ""
+    items = " ".join(f'<span class="price-chip">{p}</span>' for p in prices[:3])
+    return f'<div class="biz-prices">{items}</div>'
+
+
+def biz_freshness(biz):
+    vd = biz.get("verified_date", "")
+    if not vd:
+        return ""
+    return f'<div class="biz-freshness">Data captured {vd[:10]}</div>'
 
 
 def render_business_html(biz):
@@ -618,11 +669,13 @@ const LOCALE_DATA = {json.dumps(LOCALES, ensure_ascii=False)};
 {biz_addr(biz)}
 {biz_hours(biz)}
 {biz_amenities(biz)}
+{biz_prices(biz)}
 <div class="biz-trust">
 <span class="source-badge">Google Maps verified</span>
 <span class="source-badge">Instagram verified</span>
 <span class="status-badge unclaimed">Unclaimed</span>
 </div>
+{biz_freshness(biz)}
 </header>
 {inline_cta}
 <div class="biz-content">

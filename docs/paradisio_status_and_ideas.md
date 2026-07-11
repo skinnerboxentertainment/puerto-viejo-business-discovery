@@ -24,6 +24,7 @@
 | Addresses on biz pages | Done | Maps address on ~100 pages |
 | Hours on biz pages | Done | Check-in/out + open_status field added |
 | OSM candidates merged | Done | 418 scanned → 22 validated new businesses added |
+| Phase 1 enrichment upgrades | Done | V3 parser: subcategory (431), cuisine (452), phone (573). Open/hours/prices/cuisine surfaced on pages. 124 blank categories fixed. |
 | Classifieds board | Done | 15 seed listings, 8 categories, search, detail pages |
 | Multi-language | Done | EN/ES/DE with client-side switcher, locale JSON files |
 | GitHub Discussions | Done | Forum + issue templates (bugs, ideas, classifieds) |
@@ -48,9 +49,11 @@
 | Booking.com | 171 | 22% |
 | Email | 75 | 10% |
 | Coordinates | 628 | 81% |
-| **Rating (v2 enrich)** | **689** | **89%** |
-| **Address (v2 enrich)** | **TBD** | **—** |
-| **Hours/Open status** | **New** | **v2 field** |
+| **Rating (v3)** | **689** | **89%** |
+| **Address (v3)** | **176** | **23%** |
+| **Open status (v3)** | **279** | **36%** |
+| **Subcategory (v3)** | **431** | **56%** |
+| **Cuisine (v3)** | **452** | **59%** |
 | WhatsApp | 614 | — |
 | Phone | 611 | ~855 |
 | Instagram | 452 | — |
@@ -69,7 +72,7 @@
 
 | # | Idea | What's needed |
 |---|------|--------------|
-| 1 | Frontend: surface open_status/hours on biz pages | New v2 fields captured but not yet displayed in HTML |
+| 1 | Phase 1 complete | Open/closed, hours, prices, cuisine on biz pages. 124 blank categories fixed. V3 re-parser with confidence scoring live. |
 | 2 | Classifieds posting flow | Web3Forms + WhatsApp-first submission form |
 | 3 | Premium listings ($100/$200) | Payments (SINPE), analytics, featured placement logic |
 | 4 | QR affiliate network | Affiliate tracking, commission payouts, sales materials |

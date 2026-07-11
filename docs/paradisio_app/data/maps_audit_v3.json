@@ -1,0 +1,40 @@
+{
+  "run_at": "2026-07-10T19:58:35.380560",
+  "total": 715,
+  "extracted": 715,
+  "by_category": {
+    "hotel": 173,
+    "restaurant": 233,
+    "tour_company": 32,
+    "vacation_rental": 123,
+    "shopping": 53,
+    "services": 73,
+    "real_estate": 5,
+    "hostel": 22,
+    "unknown": 1
+  },
+  "field_coverage": {
+    "rating": 689,
+    "phone": 573,
+    "website": 441,
+    "amenities": 711,
+    "subcategory": 431,
+    "check_in": 156,
+    "check_out": 165,
+    "open_status": 279,
+    "hours": 58,
+    "cuisine": 452,
+    "address": 176
+  },
+  "inferred_categories": {
+    "restaurant": 114,
+    "hotel": 25,
+    "unknown": 1
+  },
+  "warnings": [
+    "No fields extracted from text",
+    "No fields extracted from text",
+    "No fields extracted from text",
+    "No fields extracted from text"
+  ]
+}

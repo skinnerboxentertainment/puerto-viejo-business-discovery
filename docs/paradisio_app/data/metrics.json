@@ -10,14 +10,14 @@
   "with_booking": 171,
   "with_email": 76,
   "categories": {
-    "hotel": 179,
+    "restaurant": 224,
+    "hotel": 202,
     "vacation_rental": 145,
-    "Uncategorized": 131,
-    "restaurant": 123,
     "services": 81,
     "shopping": 53,
     "tour_company": 32,
     "hostel": 23,
+    "Uncategorized": 7,
     "real_estate": 5
   },
   "areas": {
@@ -34,5 +34,5 @@
     "Sixaola": 7,
     "Gandoca": 6
   },
-  "generated": "2026-07-10 19:36"
+  "generated": "2026-07-10 19:59"
 }

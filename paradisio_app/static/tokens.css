@@ -77,3 +77,19 @@
   --max-width: 1100px;
   --nav-height: 48px;
 }
+
+/* Open/Closed status */
+.biz-open { color: var(--success); font-weight: 600; }
+.biz-closed { color: var(--danger); }
+.biz-hours-line { color: var(--muted); font-size: 0.9em; }
+.biz-check { color: var(--muted); font-size: 0.85em; }
+
+/* Prices */
+.biz-prices { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 4px; }
+.price-chip { background: var(--sand-100); color: var(--ink); padding: 2px 8px; border-radius: 4px; font-size: 0.85em; }
+
+/* Freshness */
+.biz-freshness { font-size: 0.75em; color: var(--faint); margin-top: 2px; }
+
+/* Plus code */
+.plus-code { font-family: monospace; font-size: 0.85em; color: var(--faint); }

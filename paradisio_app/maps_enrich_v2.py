@@ -228,6 +228,7 @@ async def main():
     log(f"Connecting to Chrome on CDP port {CDP_PORT}...")
     p = async_playwright()
     p_obj = await p.start()
+    ctx = None
     try:
         browser = await p_obj.chromium.connect_over_cdp(f"http://localhost:{CDP_PORT}")
         ctx = await browser.new_context(
@@ -275,7 +276,15 @@ async def main():
 
         await ctx.close()
 
+    except Exception as e:
+        log(f"ERROR: {e}")
+        import traceback
+        log(traceback.format_exc()[-500:])
     finally:
+        try:
+            await ctx.close()
+        except:
+            pass
         await p_obj.stop()
         log("Disconnected from Chrome. Your browser stays open.")
 

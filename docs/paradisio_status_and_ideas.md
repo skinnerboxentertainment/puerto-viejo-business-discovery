@@ -18,11 +18,12 @@
 | Subcategory/cuisine | Done | Extracted from Maps + business names |
 | QR generator | Done | 750 print-ready PNGs + redirect pages + gallery |
 | QR on business pages | Done | Preview image + download link per business |
-| Maps enrichment crawl | Done | 699 CIDs scanned — 640 ratings, 544 phones, 414 websites, 203 check-in/out, 215 amenities, 105 addresses |
-| Ratings on biz pages | Done | Star ratings displayed on 640 pages |
-| Amenities on biz pages | Done | Filtered, deduplicated chips on 215 pages |
-| Addresses on biz pages | Done | Maps address on 105 pages |
-| Hours on biz pages | Done | Check-in/out on 203 pages |
+| Maps enrichment v2 (authenticated) | Done | 715 CIDs — full text capture, 689 ratings |
+| Ratings on biz pages | Done | Star ratings on 689 pages |
+| Amenities on biz pages | Done | Filtered chips on 200+ pages |
+| Addresses on biz pages | Done | Maps address on ~100 pages |
+| Hours on biz pages | Done | Check-in/out + open_status field added |
+| OSM candidates merged | Done | 418 scanned → 22 validated new businesses added |
 | Classifieds board | Done | 15 seed listings, 8 categories, search, detail pages |
 | Multi-language | Done | EN/ES/DE with client-side switcher, locale JSON files |
 | GitHub Discussions | Done | Forum + issue templates (bugs, ideas, classifieds) |
@@ -33,11 +34,23 @@
 
 ## Coverage (from the data)
 
-*750 master records + 418 OSM candidates pending merge*
+*772 master records (750 original + 22 validated OSM additions)*
 
-| Channel | Current (750) | After OSM merge |
-|---------|:-------------:|:---------------:|
-| Google Maps CID | 699 | ~1,100 |
+| Channel | Count | % of 772 |
+|---------|:-----:|:--------:|
+| Google Maps CID | 721 | 93% |
+| WhatsApp | 614 | 80% |
+| Phone | 611 | 79% |
+| Instagram | 452 | 59% |
+| Instagram (verified) | 223 | 29% |
+| Facebook | 361 | 47% |
+| Website | 191 | 25% |
+| Booking.com | 171 | 22% |
+| Email | 75 | 10% |
+| Coordinates | 628 | 81% |
+| **Rating (v2 enrich)** | **689** | **89%** |
+| **Address (v2 enrich)** | **TBD** | **—** |
+| **Hours/Open status** | **New** | **v2 field** |
 | WhatsApp | 614 | — |
 | Phone | 611 | ~855 |
 | Instagram | 452 | — |
@@ -56,7 +69,7 @@
 
 | # | Idea | What's needed |
 |---|------|--------------|
-| 1 | Merge OSM candidates + deep enrichment | ~200-250 validated new businesses to merge into master, then run maps_enrich.py for ratings/addresses/hours, rebuild app |
+| 1 | Frontend: surface open_status/hours on biz pages | New v2 fields captured but not yet displayed in HTML |
 | 2 | Classifieds posting flow | Web3Forms + WhatsApp-first submission form |
 | 3 | Premium listings ($100/$200) | Payments (SINPE), analytics, featured placement logic |
 | 4 | QR affiliate network | Affiliate tracking, commission payouts, sales materials |

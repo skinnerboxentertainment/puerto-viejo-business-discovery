@@ -12,7 +12,7 @@ TEMPLATES_DIR = BASE_DIR / "templates"
 STATIC_DIR = BASE_DIR / "static"
 OUTPUT_DIR = Path(__file__).resolve().parent.parent / "docs" / "paradisio_app"
 CSV_PATH = BASE_DIR.parent / "pv_master_unified.csv"
-MAPS_ENRICH_PATH = OUTPUT_DIR / "data" / "maps_enrich.json"
+MAPS_ENRICH_PATH = OUTPUT_DIR / "data" / "maps_enrich_v2.json"
 CLASSIFIEDS_PATH = BASE_DIR / "data" / "classifieds.json"
 LOCALES_DIR = BASE_DIR / "data" / "locales"
 
@@ -341,6 +341,8 @@ def build_business(row):
         "check_out": enrich.get("check_out"),
         "amenities": enrich.get("amenities", []),
         "prices": enrich.get("prices", [])[:3],
+        "open_status": enrich.get("open_status"),
+        "hours": enrich.get("hours"),
     }
     return business
 

@@ -1,28 +1,28 @@
 {
-  "total": 750,
-  "with_whatsapp": 614,
+  "total": 772,
+  "with_whatsapp": 629,
   "with_instagram": 452,
   "with_instagram_verified": 223,
-  "with_phone": 611,
-  "with_website": 191,
-  "with_cid": 699,
+  "with_phone": 626,
+  "with_website": 199,
+  "with_cid": 721,
   "with_facebook": 361,
   "with_booking": 171,
-  "with_email": 75,
+  "with_email": 76,
   "categories": {
-    "hotel": 169,
+    "hotel": 179,
     "vacation_rental": 145,
     "Uncategorized": 131,
-    "restaurant": 118,
-    "services": 77,
-    "shopping": 52,
-    "tour_company": 31,
-    "hostel": 22,
+    "restaurant": 123,
+    "services": 81,
+    "shopping": 53,
+    "tour_company": 32,
+    "hostel": 23,
     "real_estate": 5
   },
   "areas": {
     "Puerto Viejo": 218,
-    "Unknown": 131,
+    "Unknown": 153,
     "Cahuita": 94,
     "Cocles": 94,
     "Playa Negra": 70,
@@ -34,5 +34,5 @@
     "Sixaola": 7,
     "Gandoca": 6
   },
-  "generated": "2026-07-09 13:58"
+  "generated": "2026-07-10 19:36"
 }

@@ -35,7 +35,7 @@
 | # | Priority | What | Effort | Why |
 |--|----------|------|--------|-----|
 | 1 | 🔴 P0 | **Multi-language AI audit** — run EN/ES/DE locales through Codex for quality + add FR, PT locale files | 2 hrs | Every page, immediate polish |
-| 2 | 🔴 P0 | **Claim/correction form** — business owners can claim page, update hours/contact/offers | 4 hrs | Unlocks monetization, freshens data |
+| 2 | ✅ DONE | **Claim/correction form** — `claim.html` with Web3Forms, linked from every biz page and footer. Configure `CLAIM_EMAIL` in build.py. | Done | Owners can submit updates |
 | 3 | 🟡 P1 | **Open-now filter** — search by "open now" from normalized weekly hours | 3 hrs | Top tourist request |
 | 4 | 🟡 P1 | **Capture links+images** — update maps_enrich_v2.py to save links/images/JSON-LD per methodology | 2 hrs | Missing routing data (menus, booking, reservations) |
 | 5 | ✅ DONE | **Business descriptions** — generated for all 295 businesses without them via template pipeline. Category-aware, varied by type. `paradisio_app/generate_descriptions.py` for re-use. | Done | Every page now has a description |
@@ -64,4 +64,28 @@
 
 ---
 
-*Generated 2026-07-11 — reflecting full session*
+*Generated 2026-07-11 — end of session*
+
+## Session notes (2026-07-11)
+
+### Completed today
+- OSM CID search (418 candidates → 407 CIDs) + 22 new businesses merged into master
+- v2 Maps enrichment (715 CIDs, full text saved, 689 ratings)
+- v3 re-parser with confidence scoring — subcategory (564), cuisine (151), amenities (437)
+- Parser noise reduction: subcategory noise 66%→0%, cuisine/amenities cleaned
+- 124 blank categories fixed in master CSV
+- Open/closed (279), hours (58), prices, cuisine surfaced on biz pages
+- `home.cat_count` and `home.subtitle` i18n template bug fixed (real numbers showing)
+- Live `watch_status.ps1` dashboard
+- Codex strategic advisory session (ping-pong v2)
+- Business descriptions generated for all 295 businesses without them
+- Claim/correction form (`claim.html`) with Web3Forms submission
+- Phase 2 parser quality pass complete
+
+### Ready to pick up tomorrow
+1. **CLAIM_EMAIL config** — edit `paradisio_app/build.py` line ~66, replace placeholder with real email, rebuild, push
+2. **Multi-language AI audit** — generate FR/PT locales, audit EN/ES/DE via Codex
+3. **Open-now filter** — normalize weekly hours, add "open now" search filter
+4. **Capture links+images** — update maps capture to save routing data
+5. **Address coverage boost** — fix 23% address parser
+6. **Classifieds posting flow** — Web3Forms for community submissions

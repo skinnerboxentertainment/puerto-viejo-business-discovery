@@ -45,6 +45,11 @@ NAV_PAGES = {"directory": "Directory", "classifieds": "Classifieds", "post": "Po
 # Configure your email here for the claim form
 CLAIM_EMAIL = "skinnerboxentertainment@gmail.com"
 
+# SINPE Móvil payment config — Costa Rica's national mobile payment system
+SINPE_PHONE = "+506 8888 8888"  # TODO: replace with your SINPE Móvil phone number
+SINPE_BANK = "BAC Credomatic"   # Your bank (display only)
+SINPE_NAME = "Oscar Aird / SkinnerBox Entertainment"  # Your name as registered in SINPE
+
 
 def nav_html(current, depth=0):
     prefix = "../" if depth > 0 else ""
@@ -481,7 +486,7 @@ def render_index_html(businesses, metrics):
 <div id="load-more" class="load-more"></div>
 <div id="map-container" class="map-view"></div>
 <footer class="footer">
-<p>A Paradisio project &middot; Data from Puerto Viejo Satellite, OSM, Google Maps, Instagram &middot; <a href="claim.html">Claim your business</a> &middot; <a href="classifieds/index.html">Classifieds</a></p>
+<p>A Paradisio project &middot; Data from Puerto Viejo Satellite, OSM, Google Maps, Instagram &middot; <a href="claim.html">Claim</a> &middot; <a href="premium.html">Premium</a> &middot; <a href="classifieds/index.html">Classifieds</a></p>
 </footer>
 </div>
 <script>
@@ -581,6 +586,78 @@ def biz_freshness(biz):
     if not vd:
         return ""
     return f'<div class="biz-freshness">Data captured {vd[:10]}</div>'
+
+
+def render_premium_page():
+    nav = nav_html("directory", depth=0)
+    email = CLAIM_EMAIL
+    sinpe = SINPE_PHONE
+    bank = SINPE_BANK
+    name = SINPE_NAME
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Premium Listings — Paradisio</title>
+<link rel="stylesheet" href="static/tokens.css">
+<link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+{nav}
+<div class="container premium-page">
+<h1>Premium Listings</h1>
+<p class="subtitle">Get more visibility, more calls, more bookings. SINPE Móvil payment — no credit card needed.</p>
+
+<div class="premium-tiers">
+  <div class="tier">
+    <h2>Featured</h2>
+    <div class="tier-price">$100 / year</div>
+    <ul>
+      <li>Featured placement in search results</li>
+      <li>Priority listing in your category</li>
+      <li>Monthly page view analytics</li>
+      <li>Outbound click tracking</li>
+      <li>"Premium" badge on your page</li>
+      <li>Email support</li>
+    </ul>
+    <a href="#pay" class="primary-cta">Upgrade to Featured</a>
+  </div>
+  <div class="tier tier-pro">
+    <h2>Pro</h2>
+    <div class="tier-price">$200 / year</div>
+    <ul>
+      <li>Everything in Featured</li>
+      <li>Custom QR sticker pack (10 stickers)</li>
+      <li>WhatsApp auto-reply setup</li>
+      <li>Instagram profile link on your page</li>
+      <li>Featured in monthly email newsletter</li>
+      <li>Priority support via WhatsApp</li>
+    </ul>
+    <a href="#pay" class="primary-cta">Upgrade to Pro</a>
+  </div>
+</div>
+
+<div id="pay" class="payment-section">
+<h2>Pay via SINPE Móvil</h2>
+<p>Send the amount to the following SINPE Móvil account, then notify us so we can activate your listing.</p>
+
+<div class="sinpe-details">
+  <div class="sinpe-info">
+    <strong>Recipient:</strong> {name}<br>
+    <strong>Bank:</strong> {bank}<br>
+    <strong>SINPE Móvil:</strong> <span class="sinpe-number">{sinpe}</span>
+  </div>
+</div>
+
+<p class="payment-note">After sending payment, please <a href="claim.html?subject=Premium%20Payment">contact us</a> with your business name, the amount sent, and the date so we can activate your premium features within 24 hours.</p>
+</div>
+</div>
+<footer class="footer">
+<p><a href="index.html">&larr; Back to directory</a></p>
+</footer>
+</body>
+</html>"""
 
 
 def render_claim_page():
@@ -761,6 +838,7 @@ const LOCALE_DATA = {json.dumps(LOCALES, ensure_ascii=False)};
 <span class="source-badge">Google Maps verified</span>
 <span class="source-badge">Instagram verified</span>
 <span class="status-badge unclaimed">Unclaimed</span>
+<a href="../premium.html" class="premium-link">Upgrade to Premium &rarr;</a>
 </div>
 {biz_freshness(biz)}
 </header>
@@ -1041,6 +1119,11 @@ def main():
     with open(OUTPUT_DIR / "claim.html", "w", encoding="utf-8") as f:
         f.write(claim_html)
     print(f"  claim.html — business claim/correction form")
+
+    premium_html = render_premium_page()
+    with open(OUTPUT_DIR / "premium.html", "w", encoding="utf-8") as f:
+        f.write(premium_html)
+    print(f"  premium.html — premium listing tiers with SINPE payment")
 
     # Classifieds
     classifieds = load_classifieds()

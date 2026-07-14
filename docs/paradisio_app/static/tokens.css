@@ -93,3 +93,21 @@
 
 /* Plus code */
 .plus-code { font-family: monospace; font-size: 0.85em; color: var(--faint); }
+
+/* Premium page */
+.premium-page h1 { margin-top: 0; }
+.premium-page .subtitle { font-size: 1.1em; color: var(--muted); margin-bottom: 2em; }
+.premium-tiers { display: flex; gap: 2em; margin: 2em 0; flex-wrap: wrap; }
+.tier { flex: 1; min-width: 260px; background: var(--surface-raised); border: 1px solid var(--sand-100); border-radius: 8px; padding: 1.5em; }
+.tier-pro { border-color: var(--coral-500); box-shadow: 0 2px 12px rgba(237, 116, 79, 0.15); }
+.tier h2 { margin: 0 0 0.3em 0; font-size: 1.4em; }
+.tier-price { font-size: 1.8em; font-weight: 700; color: var(--jungle-700); margin-bottom: 0.8em; }
+.tier ul { list-style: none; padding: 0; margin: 0 0 1.5em 0; }
+.tier ul li { padding: 0.4em 0; border-bottom: 1px solid var(--sand-50); }
+.tier ul li:before { content: "✓ "; color: var(--success); }
+.payment-section { margin-top: 3em; padding-top: 2em; }
+.sinpe-details { background: var(--sand-50); border-radius: 8px; padding: 1.5em; margin: 1em 0; }
+.sinpe-number { font-size: 1.3em; font-weight: 700; letter-spacing: 1px; }
+.payment-note { font-size: 0.9em; color: var(--muted); }
+.premium-link { display: inline-block; font-size: 0.85em; color: var(--coral-500); margin-top: 2px; text-decoration: none; }
+.premium-link:hover { text-decoration: underline; }

@@ -1125,6 +1125,16 @@ def main():
         f.write(premium_html)
     print(f"  premium.html — premium listing tiers with SINPE payment")
 
+    # Generate invoice pages
+    inv_path = BASE_DIR.parent / "paradisio_app" / "invoicing.py"
+    if inv_path.exists():
+        try:
+            import subprocess as _sp
+            _sp.run([sys.executable, str(inv_path), "build"],
+                    cwd=str(BASE_DIR.parent), capture_output=True, timeout=30)
+        except Exception:
+            pass
+
     # Classifieds
     classifieds = load_classifieds()
     if classifieds:

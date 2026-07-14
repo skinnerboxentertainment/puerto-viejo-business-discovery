@@ -500,6 +500,7 @@ const LOCALE_DATA = {json.dumps(LOCALES, ensure_ascii=False)};
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
 <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js" crossorigin=""></script>
 <script src="static/i18n.js"></script>
+<script src="static/modes.js"></script>
 <script src="static/app.js"></script>
 </body>
 </html>"""
@@ -743,6 +744,133 @@ def render_claim_page():
 </html>"""
 
 
+def render_admin_page():
+    """God's Eye dashboard — invoice tracking, revenue, system status."""
+    nav = nav_html("directory", depth=0)
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin Dashboard — Paradisio</title>
+<link rel="stylesheet" href="static/tokens.css">
+<link rel="stylesheet" href="static/styles.css">
+<script>
+const LOCALE_DATA = {json.dumps(LOCALES, ensure_ascii=False)};
+</script>
+<script src="static/i18n.js"></script>
+<script src="static/modes.js"></script>
+<script>
+(function(){{ try {{ if(window.setParadisioMode) setParadisioMode('god'); }} catch(e){{ }} }})();
+</script>
+</head>
+<body data-mode="god">
+{nav}
+<div class="container">
+<h1>Admin Dashboard</h1>
+<p class="subtitle">God's Eye view — revenue, invoices, system status.</p>
+<p>Data is loaded from <code>data/invoices.json</code> and <code>data/metrics.json</code>.</p>
+<div id="admin-content">
+  <div class="loading">Loading admin data...</div>
+</div>
+</div>
+<footer class="footer">
+<p><a href="index.html">&larr; Back to directory</a></p>
+</footer>
+<script>
+fetch('data/metrics.json').then(function(r){{ return r.json(); }}).then(function(m) {{
+  document.getElementById('admin-content').innerHTML =
+    '<div class="admin-grid">' +
+    '<div class="admin-card"><h3>Total Businesses</h3><div class="admin-stat">' + m.total + '</div></div>' +
+    '<div class="admin-card"><h3>With WhatsApp</h3><div class="admin-stat">' + m.with_whatsapp + '</div></div>' +
+    '<div class="admin-card"><h3>With Instagram</h3><div class="admin-stat">' + m.with_instagram + '</div></div>' +
+    '<div class="admin-card"><h3>With CID</h3><div class="admin-stat">' + m.with_cid + '</div></div>' +
+    '<div class="admin-card"><h3>With Phone</h3><div class="admin-stat">' + m.with_phone + '</div></div>' +
+    '<div class="admin-card"><h3>With Website</h3><div class="admin-stat">' + m.with_website + '</div></div>' +
+    '<div class="admin-card"><h3>Last Build</h3><div class="admin-stat" style="font-size:0.7em">' + m.generated + '</div></div>' +
+    '</div>' +
+    '<h2>Invoice Status</h2><div id="invoice-table">Loading invoices...</div>';
+  fetch('data/invoices.json').then(function(r){{ return r.json(); }}).then(function(invs) {{
+    var html = '<table class="admin-table"><tr><th>Invoice</th><th>Business</th><th>Tier</th><th>Amount</th><th>Status</th><th>Paid</th></tr>';
+    invs.forEach(function(i) {{
+      var statusClass = i.status === 'paid' ? 'admin-paid' : (i.status === 'pending' ? 'admin-pending' : 'admin-cancelled');
+      html += '<tr><td><a href="invoices/' + i.invoice_id + '.html">' + i.invoice_id + '</a></td><td>' + i.business_name + '</td><td>' + i.tier + '</td><td>$' + i.amount_usd + '</td><td class="' + statusClass + '">' + i.status + '</td><td>' + (i.paid_date || '-') + '</td></tr>';
+    }});
+    document.getElementById('invoice-table').innerHTML = html;
+  }}).catch(function(){{ document.getElementById('invoice-table').innerHTML = 'No invoices yet.'; }});
+}}).catch(function(){{ document.getElementById('admin-content').innerHTML = 'Error loading metrics.'; }});
+</script>
+</body>
+</html>"""
+
+
+def render_biz_dashboard_page(businesses):
+    """Business owner dashboard — view your listing, analytics, premium status."""
+    nav = nav_html("directory", depth=0)
+    # Build biz data JSON safely outside f-string
+    biz_data = json.dumps([{
+        "name": b["name"], "slug": b["slug"], "category": b["category"],
+        "area": b["area"], "rating": b.get("rating"),
+        "phone": b["channels"]["phone"], "whatsapp": b["channels"]["whatsapp"],
+        "instagram": b["channels"]["instagram"], "website": b["channels"]["website"],
+    } for b in businesses], ensure_ascii=False)
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Business Dashboard — Paradisio</title>
+<link rel="stylesheet" href="static/tokens.css">
+<link rel="stylesheet" href="static/styles.css">
+<script>
+const LOCALE_DATA = {json.dumps(LOCALES, ensure_ascii=False)};
+</script>
+<script src="static/i18n.js"></script>
+<script src="static/modes.js"></script>
+</head>
+<body>
+{nav}
+<div class="container">
+<h1>Business Dashboard</h1>
+<p class="subtitle">View and manage your business listing on Paradisio.</p>
+<div class="biz-dashboard-search">
+<input type="text" id="biz-search" placeholder="Find your business by name..." style="width:100%;padding:10px;font-size:1.1em;border:1px solid var(--sand-100);border-radius:6px;">
+</div>
+<div id="biz-dashboard-results">
+  <p>Type your business name above to find your listing.</p>
+</div>
+</div>
+<footer class="footer">
+<p><a href="index.html">&larr; Back to directory</a></p>
+</footer>
+<script>
+window.__bizData = {biz_data};
+document.getElementById('biz-search').addEventListener('input', function(e) {{
+  var q = e.target.value.toLowerCase();
+  var results = document.getElementById('biz-dashboard-results');
+  if (!q) {{ results.innerHTML = '<p>Type your business name above to find your listing.</p>'; return; }}
+  var matches = window.__bizData.filter(function(b) {{ return b.name.toLowerCase().includes(q); }});
+  if (!matches.length) {{ results.innerHTML = '<p>No matches found. Try a different name.</p>'; return; }}
+  var html = '';
+  matches.forEach(function(b) {{
+    html += '<div class="result-card" style="padding:1em;margin-bottom:0.5em">' +
+      '<div class="result-name"><a href="businesses/' + b.slug + '.html">' + b.name + '</a></div>' +
+      '<div class="result-meta">' + (b.category||'') + ' · ' + (b.area||'') + (b.rating ? ' · â­ ' + b.rating : '') + '</div>' +
+      '<div class="result-channels">' +
+      (b.phone ? '<span>Phone: ' + b.phone + '</span> ' : '') +
+      (b.whatsapp ? '<span>WA: ' + b.whatsapp + '</span> ' : '') +
+      (b.instagram ? '<span>IG: @' + b.instagram + '</span>' : '') +
+      '</div>' +
+      '<div style="margin-top:0.5em"><a href="claim.html?biz=' + b.slug + '" class="claim-link">Claim or correct this page â†’</a></div>' +
+      '</div>';
+  }});
+  results.innerHTML = html;
+}});
+</script>
+</body>
+</html>"""
+
+
 def render_business_html(biz):
     nav = nav_html("directory", depth=1)
     pc = biz["primary_contact"]
@@ -814,6 +942,7 @@ document.addEventListener('DOMContentLoaded', function() {{
 const LOCALE_DATA = {json.dumps(LOCALES, ensure_ascii=False)};
 </script>
 <script src="../static/i18n.js"></script>
+<script src="../static/modes.js"></script>
 <script data-goatcounter="https://paradisio.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
 <body>
@@ -918,6 +1047,7 @@ def render_classifieds_index(ads):
 const LOCALE_DATA = {json.dumps(LOCALES, ensure_ascii=False)};
 </script>
 <script src="../static/i18n.js"></script>
+<script src="../static/modes.js"></script>
 <script data-goatcounter="https://paradisio.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
 <body>
@@ -1125,6 +1255,16 @@ def main():
         f.write(premium_html)
     print(f"  premium.html — premium listing tiers with SINPE payment")
 
+    admin_html = render_admin_page()
+    with open(OUTPUT_DIR / "admin.html", "w", encoding="utf-8") as f:
+        f.write(admin_html)
+    print(f"  admin.html — admin dashboard (God's Eye mode)")
+
+    biz_dash_html = render_biz_dashboard_page(businesses)
+    with open(OUTPUT_DIR / "dashboard.html", "w", encoding="utf-8") as f:
+        f.write(biz_dash_html)
+    print(f"  dashboard.html — business owner dashboard")
+
     # Generate invoice pages
     inv_path = BASE_DIR.parent / "paradisio_app" / "invoicing.py"
     if inv_path.exists():
@@ -1163,10 +1303,13 @@ def main():
     static_src = STATIC_DIR / "i18n.js"
     if static_src.exists():
         shutil.copy2(static_src, OUTPUT_DIR / "static" / "i18n.js")
+    static_src = STATIC_DIR / "modes.js"
+    if static_src.exists():
+        shutil.copy2(static_src, OUTPUT_DIR / "static" / "modes.js")
     static_src = STATIC_DIR / "styles.css"
     if static_src.exists():
         shutil.copy2(static_src, OUTPUT_DIR / "static" / "styles.css")
-    print(f"  static/ — tokens.css, i18n.js, app.js, classifieds.js, styles.css")
+    print(f"  static/ — tokens.css, i18n.js, modes.js, app.js, classifieds.js, styles.css")
 
     print(f"\nDone. Output: {OUTPUT_DIR}")
 

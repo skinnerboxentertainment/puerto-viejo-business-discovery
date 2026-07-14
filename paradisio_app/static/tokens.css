@@ -94,6 +94,19 @@
 /* Plus code */
 .plus-code { font-family: monospace; font-size: 0.85em; color: var(--faint); }
 
+/* View Modes — Tourist (default), Biz, Premium, God's Eye */
+[data-mode="biz"] .biz-header { border-left: 3px solid var(--sun-500); padding-left: 12px; }
+[data-mode="premium"] .biz-header { border-left: 3px solid var(--coral-500); padding-left: 12px; }
+[data-mode="premium"] .biz-header h1:after { content: " ⭐"; font-size: 0.6em; vertical-align: super; }
+[data-mode="god"] { --ink: #e0e0e0; --surface: #1a1a2e; --surface-raised: #16213e; --sand-50: #1a1a2e; --sand-100: #2a2a4a; --faint: #888; }
+[data-mode="god"] body { background: #0f0f23; }
+[data-mode="god"] .biz-header { border-left: 3px solid #00ff88; padding-left: 12px; }
+[data-mode="god"] .result-card { border-color: #2a2a4a; }
+[data-mode="god"] .masthead h1 { color: #00ff88; }
+
+/* Mode visibility helpers */
+[data-show-mode] { transition: opacity 0.2s; }
+
 /* Premium page */
 .premium-page h1 { margin-top: 0; }
 .premium-page .subtitle { font-size: 1.1em; color: var(--muted); margin-bottom: 2em; }

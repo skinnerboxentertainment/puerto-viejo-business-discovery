@@ -24,5 +24,19 @@
     "sinpe_reference": null,
     "valid_until": null,
     "notes": ""
+  },
+  {
+    "invoice_id": "INV-2026-0003",
+    "business_name": "Casa Testing",
+    "tier": "featured",
+    "amount_usd": 100,
+    "amount_crc": 52500,
+    "issued_date": "2026-07-14",
+    "status": "paid",
+    "paid_date": "2026-07-14",
+    "payment_method": "cash",
+    "payment_ref": null,
+    "valid_until": "2027-07-14",
+    "notes": ""
   }
 ]

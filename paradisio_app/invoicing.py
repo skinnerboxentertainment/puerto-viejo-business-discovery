@@ -1,13 +1,13 @@
 """
-Paradisio Invoicing — SINPE Móvil payment tracking, invoice generation, revenue reports.
+Paradisio Invoicing — SINPE Móvil + Cash payment tracking, invoice generation, revenue reports.
 
 Usage:
-  python invoicing.py create "Business Name" featured|pro    Create invoice
-  python invoicing.py list                                    List all invoices
-  python invoicing.py pay INV-2026-0001 --ref "SINPE1234"    Mark paid
-  python invoicing.py cancel INV-2026-0001                   Cancel invoice
-  python invoicing.py report                                  Revenue summary
-  python invoicing.py build                                   Generate invoice HTML pages
+  python invoicing.py create "Business Name" featured|pro         Create invoice
+  python invoicing.py list                                         List all invoices
+  python invoicing.py pay INV-2026-0001 [--sinpe "REF"] [--cash]  Mark paid via SINPE or cash
+  python invoicing.py cancel INV-2026-0001                        Cancel invoice
+  python invoicing.py report                                       Revenue summary
+  python invoicing.py build                                        Generate invoice HTML pages
 """
 import json
 import sys
@@ -24,6 +24,7 @@ TIERS = {
 }
 
 CRC_PER_USD = 525
+METHODS = {"sinpe": "SINPE Móvil", "cash": "Cash (CRC)"}
 
 
 def load():
@@ -61,7 +62,8 @@ def cmd_create(args):
         "issued_date": date.today().isoformat(),
         "status": "pending",
         "paid_date": None,
-        "sinpe_reference": None,
+        "payment_method": None,
+        "payment_ref": None,
         "valid_until": None,
         "notes": "",
     }
@@ -70,6 +72,7 @@ def cmd_create(args):
     print(f"Created {inv['invoice_id']} — {name} ({TIERS[tier]['label']})")
     print(f"  Amount: ${inv['amount_usd']} USD / ₡{inv['amount_crc']:,} CRC")
     print(f"  Status: {inv['status']}")
+    print(f"  Payment options: SINPE Móvil or Cash (CRC)")
     print(f"  Invoice page: invoices/{inv['invoice_id']}.html")
 
 
@@ -78,12 +81,13 @@ def cmd_list(args):
     if not invoices:
         print("No invoices found.")
         return
-    print(f"{'ID':20s} {'Business':35s} {'Tier':12s} {'Amount':10s} {'Status':10s} {'Paid':12s}")
-    print("-" * 100)
+    print(f"{'ID':20s} {'Business':35s} {'Tier':12s} {'Amount':10s} {'Status':10s} {'Method':12s} {'Paid':12s}")
+    print("-" * 110)
     for i in invoices:
         paid = i.get("paid_date", "") or ""
+        method = METHODS.get(i.get("payment_method", ""), i.get("payment_method", "")) if i.get("payment_method") else ""
         amt = f"${i['amount_usd']}"
-        print(f"{i['invoice_id']:20s} {i['business_name'][:35]:35s} {i['tier']:12s} {amt:10s} {i['status']:10s} {paid:12s}")
+        print(f"{i['invoice_id']:20s} {i['business_name'][:35]:35s} {i['tier']:12s} {amt:10s} {i['status']:10s} {method:12s} {paid:12s}")
 
 
 def cmd_pay(args):
@@ -92,13 +96,20 @@ def cmd_pay(args):
         if i["invoice_id"] == args.invoice_id:
             i["status"] = "paid"
             i["paid_date"] = date.today().isoformat()
-            if args.ref:
-                i["sinpe_reference"] = args.ref
-            # Valid for 1 year from issue
+            if args.sinpe:
+                i["payment_method"] = "sinpe"
+                i["payment_ref"] = args.sinpe
+            elif args.cash:
+                i["payment_method"] = "cash"
+                i["payment_ref"] = args.cash if args.cash != "cash" else None
+            else:
+                i["payment_method"] = "sinpe"
+                i["payment_ref"] = args.sinpe or ""
             issued = datetime.strptime(i["issued_date"], "%Y-%m-%d").date()
             i["valid_until"] = date(issued.year + 1, issued.month, issued.day).isoformat()
             save(invoices)
-            print(f"Marked {args.invoice_id} as PAID")
+            method_label = METHODS.get(i["payment_method"], i["payment_method"])
+            print(f"Marked {args.invoice_id} as PAID via {method_label}")
             print(f"  Valid until: {i['valid_until']}")
             return
     print(f"Invoice {args.invoice_id} not found")
@@ -122,6 +133,8 @@ def cmd_report(args):
     total_cancelled = sum(i["amount_usd"] for i in invoices if i["status"] == "cancelled")
     paid_count = sum(1 for i in invoices if i["status"] == "paid")
     pending_count = sum(1 for i in invoices if i["status"] == "pending")
+    sinpe_count = sum(1 for i in invoices if i["status"] == "paid" and i.get("payment_method") == "sinpe")
+    cash_count = sum(1 for i in invoices if i["status"] == "paid" and i.get("payment_method") == "cash")
 
     print(f"\n{'='*50}")
     print(f"  PARADISIO — REVENUE REPORT")
@@ -129,6 +142,7 @@ def cmd_report(args):
     print(f"  Date:     {date.today().isoformat()}")
     print(f"  Total invoices:  {len(invoices)}")
     print(f"  Paid:     {paid_count}  (${total_paid:,} USD / ₡{total_paid * CRC_PER_USD:,} CRC)")
+    print(f"    via SINPE: {sinpe_count}  via Cash: {cash_count}")
     print(f"  Pending:  {pending_count}  (${total_pending:,} USD / ₡{total_pending * CRC_PER_USD:,} CRC)")
     print(f"  Cancelled:{sum(1 for i in invoices if i['status']=='cancelled')}  (${total_cancelled:,} USD)")
     print()
@@ -137,7 +151,40 @@ def cmd_report(args):
         print("  Paid invoices:")
         for i in invoices:
             if i["status"] == "paid":
-                print(f"    {i['invoice_id']:20s} {i['business_name'][:35]:35s} ${i['amount_usd']:>4d}  {i.get('paid_date',''):12s} ref={i.get('sinpe_reference','') or '-'}")
+                method = METHODS.get(i.get("payment_method", ""), i.get("payment_method", "?"))
+                ref = i.get("payment_ref", "") or "-"
+                print(f"    {i['invoice_id']:20s} {i['business_name'][:35]:35s} ${i['amount_usd']:>4d}  {i.get('paid_date',''):12s} {method:12s} ref={ref}")
+
+
+def payment_section(inv):
+    if inv["status"] == "paid":
+        method = METHODS.get(inv.get("payment_method", ""), "")
+        ref = inv.get("payment_ref", "")
+        if inv.get("payment_method") == "cash":
+            return f"""<div class="sinpe-section" style="border-left:3px solid var(--success);">
+    <p><strong>Payment received ✓</strong></p>
+    <p>Method: Cash (CRC)<br>
+       Amount: ₡{inv['amount_crc']:,}<br>
+       {f"Reference: {ref}" if ref else ""}</p>
+  </div>"""
+        else:
+            return f"""<div class="sinpe-section" style="border-left:3px solid var(--success);">
+    <p><strong>Payment received via SINPE ✓</strong></p>
+    <p>{f"Reference: {ref}" if ref else "Paid via SINPE Móvil"}</p>
+  </div>"""
+    if inv.get("status") == "cancelled":
+        return ""
+    # Pending: show payment options
+    return f"""<div class="sinpe-section">
+    <p><strong>Pay via SINPE Móvil or Cash</strong></p>
+    <p>Option 1 — <strong>SINPE Móvil:</strong><br>
+       Recipient: Oscar Aird / SkinnerBox Entertainment<br>
+       SINPE: +506 8888 8888<br>
+       Bank: BAC Credomatic<br>
+       Reference: {inv['invoice_id']}</p>
+    <p>Option 2 — <strong>Cash (CRC):</strong><br>
+       Contact us to arrange cash payment. Amount: ₡{inv['amount_crc']:,}</p>
+  </div>"""
 
 
 def cmd_build(args):
@@ -194,16 +241,12 @@ def cmd_build(args):
     <tr><td>Issued</td><td>{inv['issued_date']}</td></tr>
     {f"<tr><td>Paid</td><td>{inv.get('paid_date','')}</td></tr>" if inv.get('paid_date') else ""}
     {f"<tr><td>Valid until</td><td>{inv.get('valid_until','')}</td></tr>" if inv.get('valid_until') else ""}
-    {f"<tr><td>SINPE ref</td><td>{inv.get('sinpe_reference','')}</td></tr>" if inv.get('sinpe_reference') else ""}
+    {f"<tr><td>Payment method</td><td>{METHODS[inv.get('payment_method','sinpe')] if inv.get('payment_method') else 'Pending'}</td></tr>" if inv.get('status') == 'paid' else ""}
+    {f"<tr><td>Payment ref</td><td>{inv.get('payment_ref','')}</td></tr>" if inv.get('payment_ref') else ""}
   </table>
 
-  <div class="sinpe-section">
-    <p><strong>SINPE Móvil payment details:</strong></p>
-    <p>Recipient: Oscar Aird / SkinnerBox Entertainment<br>
-       SINPE: +506 8888 8888<br>
-       Bank: BAC Credomatic</p>
-    <p style="font-size:0.85em;color:var(--muted)">Reference: {inv['invoice_id']}</p>
-  </div>
+  {payment_section(inv)}
+
 
   <p class="no-print" style="margin-top:2em"><a href="../premium.html">&larr; Premium page</a></p>
 </div>
@@ -228,7 +271,8 @@ if __name__ == "__main__":
 
     p_pay = sub.add_parser("pay", help="Mark invoice paid")
     p_pay.add_argument("invoice_id")
-    p_pay.add_argument("--ref", help="SINPE reference number")
+    p_pay.add_argument("--sinpe", help="SINPE Móvil reference number")
+    p_pay.add_argument("--cash", help="Cash payment note (optional)", nargs="?", const="cash")
 
     p_cancel = sub.add_parser("cancel", help="Cancel invoice")
     p_cancel.add_argument("invoice_id")
